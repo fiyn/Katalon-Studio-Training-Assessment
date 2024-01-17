@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>TC_006_ValidUserName</name>
+   <tag>search, users, positive</tag>
+   <comment></comment>
+   <testCaseGuid>38852c70-c85a-478b-ac00-88a3b7a1fd8f</testCaseGuid>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>15f6ff45-3618-4940-be3d-cdd9c4e29576</variableId>
+   </variableLinks>
+   <variable>
+      <defaultValue>'Admin'</defaultValue>
+      <description></description>
+      <id>15f6ff45-3618-4940-be3d-cdd9c4e29576</id>
+      <masked>false</masked>
+      <name>username</name>
+   </variable>
+</TestCaseEntity>

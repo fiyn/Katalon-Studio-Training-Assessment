@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>TC_007_InvalidUserName</name>
+   <tag>search, users, invalid, negative</tag>
+   <comment></comment>
+   <testCaseGuid>cee96b38-9fe1-4823-9a40-c3b2f326ed58</testCaseGuid>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>15f6ff45-3618-4940-be3d-cdd9c4e29576</variableId>
+   </variableLinks>
+   <variable>
+      <defaultValue>'ray'</defaultValue>
+      <description></description>
+      <id>15f6ff45-3618-4940-be3d-cdd9c4e29576</id>
+      <masked>false</masked>
+      <name>username</name>
+   </variable>
+</TestCaseEntity>

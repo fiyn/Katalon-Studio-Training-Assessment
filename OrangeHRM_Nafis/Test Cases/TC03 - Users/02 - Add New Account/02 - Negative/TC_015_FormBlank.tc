@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Users leave the form blank</description>
+   <name>TC_015_FormBlank</name>
+   <tag>negative, form, blank</tag>
+   <comment></comment>
+   <testCaseGuid>ee2f04cb-4569-4e00-af51-232f7f19d581</testCaseGuid>
+</TestCaseEntity>

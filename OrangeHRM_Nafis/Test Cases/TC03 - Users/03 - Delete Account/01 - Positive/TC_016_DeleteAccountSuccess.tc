@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>TC_016_DeleteAccountSuccess</name>
+   <tag>positive, delete account, success</tag>
+   <comment></comment>
+   <testCaseGuid>e0c9f1bf-4d19-4f76-9697-82661ce9c6d5</testCaseGuid>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>97c720e9-562d-4bdf-b1c2-ebb5f09e2ad9</variableId>
+   </variableLinks>
+   <variable>
+      <defaultValue>'thihan7'</defaultValue>
+      <description></description>
+      <id>97c720e9-562d-4bdf-b1c2-ebb5f09e2ad9</id>
+      <masked>false</masked>
+      <name>username</name>
+   </variable>
+</TestCaseEntity>

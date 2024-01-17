@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>TC_005_BlankInput</name>
+   <tag>negative, reset, password</tag>
+   <comment></comment>
+   <testCaseGuid>62061750-2e00-44c6-93c2-73885b9eb1b8</testCaseGuid>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>62487ccf-91c3-4206-a0d2-ac4797bf1266</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>3ba68592-28f0-4c4d-a9a6-dcdaf9c8f482</variableId>
+   </variableLinks>
+   <variable>
+      <defaultValue>null</defaultValue>
+      <description></description>
+      <id>62487ccf-91c3-4206-a0d2-ac4797bf1266</id>
+      <masked>false</masked>
+      <name>username</name>
+   </variable>
+   <variable>
+      <defaultValue>GlobalVariable.urlAddress</defaultValue>
+      <description></description>
+      <id>3ba68592-28f0-4c4d-a9a6-dcdaf9c8f482</id>
+      <masked>false</masked>
+      <name>urlAddress</name>
+   </variable>
+</TestCaseEntity>

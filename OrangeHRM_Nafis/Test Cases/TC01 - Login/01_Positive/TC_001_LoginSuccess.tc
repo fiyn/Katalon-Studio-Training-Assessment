@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Users successfully login</description>
+   <name>TC_001_LoginSuccess</name>
+   <tag>positive, login</tag>
+   <comment></comment>
+   <testCaseGuid>05968010-307e-463c-85ed-d49fc7fbc1f1</testCaseGuid>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>62487ccf-91c3-4206-a0d2-ac4797bf1266</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>b50bb020-8ca9-4c67-bf12-27c4d48e5b12</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>3ba68592-28f0-4c4d-a9a6-dcdaf9c8f482</variableId>
+   </variableLinks>
+   <variable>
+      <defaultValue>'Admin'</defaultValue>
+      <description></description>
+      <id>62487ccf-91c3-4206-a0d2-ac4797bf1266</id>
+      <masked>false</masked>
+      <name>username</name>
+   </variable>
+   <variable>
+      <defaultValue>'hUKwJTbofgPU9eVlw/CnDQ=='</defaultValue>
+      <description></description>
+      <id>b50bb020-8ca9-4c67-bf12-27c4d48e5b12</id>
+      <masked>false</masked>
+      <name>password</name>
+   </variable>
+   <variable>
+      <defaultValue>GlobalVariable.urlAddress</defaultValue>
+      <description></description>
+      <id>3ba68592-28f0-4c4d-a9a6-dcdaf9c8f482</id>
+      <masked>false</masked>
+      <name>urlAddress</name>
+   </variable>
+</TestCaseEntity>
