@@ -25,11 +25,15 @@ WebUI.click(findTestObject('Object Repository/TC03 - Users/02 - Add New Account/
 
 WebUI.click(findTestObject('Object Repository/TC03 - Users/02 - Add New Account/TC_008_AddNewUserSuccess/Page_OrangeHRM/i_-- Select User role'))
 
-WebUI.click(findTestObject('TC03 - Users/02 - Add New Account/TC_008_AddNewUserSuccess/Page_OrangeHRM/div_Admin'))
+userRole = CustomKeywords.'addNewUser.SetUserRole.setUserRole'(role)
+
+WebUI.click(findTestObject('TC03 - Users/02 - Add New Account/TC_008_AddNewUserSuccess/Page_OrangeHRM/div_Admin', [('userRole') : userRole]))
 
 WebUI.click(findTestObject('TC03 - Users/02 - Add New Account/TC_008_AddNewUserSuccess/Page_OrangeHRM/i_-- Select Status'))
 
-WebUI.click(findTestObject('TC03 - Users/02 - Add New Account/TC_008_AddNewUserSuccess/Page_OrangeHRM/div_Enabled'))
+userStatus = CustomKeywords.'addNewUser.SetUserStatus.setUserStatus'(status)
+
+WebUI.click(findTestObject('TC03 - Users/02 - Add New Account/TC_008_AddNewUserSuccess/Page_OrangeHRM/div_Enabled', [('userStatus') : userStatus]))
 
 WebUI.setText(findTestObject('TC03 - Users/02 - Add New Account/TC_008_AddNewUserSuccess/Page_OrangeHRM/input_Employee Name'), 
     employeeName)

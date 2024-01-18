@@ -1,0 +1,30 @@
+{
+  "keywordFileContentHash": "63E97201227C379274D44B1480B68704",
+  "keywordClasses": [
+    {
+      "name": "addNewUser.SetUserRole",
+      "keywordMethods": [
+        {
+          "name": "setUserRole",
+          "parameters": [
+            {
+              "name": "role",
+              "initialExpression": "",
+              "type": {
+                "fullClassName": "java.lang.String",
+                "unresolvedClassName": "String",
+                "isArray": false,
+                "isGnericsPlaceHolder": false,
+                "hasImmutableClassName": false,
+                "genericsTypes": [],
+                "errorOnParsing": false
+              }
+            }
+          ],
+          "javadoc": ""
+        }
+      ]
+    }
+  ],
+  "javadocParsed": true
+}

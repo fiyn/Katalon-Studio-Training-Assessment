@@ -1,0 +1,29 @@
+{
+  "keywordFileContentHash": "344459D37360E85A2AAF4B74B0001CB7",
+  "keywordClasses": [
+    {
+      "name": "addNewUser.SetUserStatus",
+      "keywordMethods": [
+        {
+          "name": "setUserStatus",
+          "parameters": [
+            {
+              "name": "status",
+              "initialExpression": "",
+              "type": {
+                "fullClassName": "java.lang.String",
+                "unresolvedClassName": "String",
+                "isArray": false,
+                "isGnericsPlaceHolder": false,
+                "hasImmutableClassName": false,
+                "genericsTypes": [],
+                "errorOnParsing": false
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "javadocParsed": false
+}

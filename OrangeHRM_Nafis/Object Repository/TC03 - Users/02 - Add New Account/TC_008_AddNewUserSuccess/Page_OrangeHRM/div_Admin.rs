@@ -7,14 +7,17 @@
    <selectorCollection>
       <entry>
          <key>CSS</key>
-         <value></value>
+      </entry>
+      <entry>
+         <key>BASIC</key>
+         <value>id(&quot;app&quot;)/div[@class=&quot;oxd-layout&quot;]/div[@class=&quot;oxd-layout-container&quot;]/div[@class=&quot;oxd-layout-context&quot;]/div[@class=&quot;orangehrm-background-container&quot;]/div[@class=&quot;orangehrm-card-container&quot;]/form[@class=&quot;oxd-form&quot;]/div[@class=&quot;oxd-form-row&quot;]/div[@class=&quot;oxd-grid-2 orangehrm-full-width-grid&quot;]/div[@class=&quot;oxd-grid-item oxd-grid-item--gutters&quot;]/div[@class=&quot;oxd-input-group oxd-input-field-bottom-space&quot;]/div[2]/div[@class=&quot;oxd-select-wrapper&quot;]/div[@class=&quot;oxd-select-dropdown --positon-bottom&quot;]/div[@class=&quot;oxd-select-option&quot;][count(. | //*[(text() = '${role}' or . = '${role}')]) = count(//*[(text() = '${role}' or . = '${role}')])]</value>
       </entry>
       <entry>
          <key>XPATH</key>
          <value>//div[@id='app']/div/div[2]/div[2]/div/div/form/div/div/div/div/div[2]/div/div[2]/div[2]</value>
       </entry>
    </selectorCollection>
-   <selectorMethod>XPATH</selectorMethod>
+   <selectorMethod>BASIC</selectorMethod>
    <useRalativeImagePath>true</useRalativeImagePath>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -22,7 +25,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>div</value>
-      <webElementGuid>3efa326d-654c-44ab-ab82-c06a588f82d4</webElementGuid>
+      <webElementGuid>361b8128-921e-4c6e-9cb1-e550605debee</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -30,7 +33,7 @@
       <name>role</name>
       <type>Main</type>
       <value>option</value>
-      <webElementGuid>28f02677-58aa-48c5-91a0-d9ddc4fea8db</webElementGuid>
+      <webElementGuid>693de25e-1d5a-470f-9112-e255f6eb8d49</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -38,23 +41,23 @@
       <name>class</name>
       <type>Main</type>
       <value>oxd-select-option</value>
-      <webElementGuid>3d2d10ac-35da-42c1-93c3-46eac7d67a29</webElementGuid>
+      <webElementGuid>0c228bdb-d24c-483c-a0b7-f94c2258bc81</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>text</name>
       <type>Main</type>
-      <value>Admin</value>
-      <webElementGuid>3cf8a488-a5f4-4152-97ef-7a529cdd3f4b</webElementGuid>
+      <value>${userRole}</value>
+      <webElementGuid>cc614093-5e2e-48cf-8113-de619c548f48</webElementGuid>
    </webElementProperties>
    <webElementProperties>
-      <isSelected>false</isSelected>
+      <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
       <value>id(&quot;app&quot;)/div[@class=&quot;oxd-layout&quot;]/div[@class=&quot;oxd-layout-container&quot;]/div[@class=&quot;oxd-layout-context&quot;]/div[@class=&quot;orangehrm-background-container&quot;]/div[@class=&quot;orangehrm-card-container&quot;]/form[@class=&quot;oxd-form&quot;]/div[@class=&quot;oxd-form-row&quot;]/div[@class=&quot;oxd-grid-2 orangehrm-full-width-grid&quot;]/div[@class=&quot;oxd-grid-item oxd-grid-item--gutters&quot;]/div[@class=&quot;oxd-input-group oxd-input-field-bottom-space&quot;]/div[2]/div[@class=&quot;oxd-select-wrapper&quot;]/div[@class=&quot;oxd-select-dropdown --positon-bottom&quot;]/div[@class=&quot;oxd-select-option&quot;]</value>
-      <webElementGuid>a1ef76c8-2704-4e42-a251-1437b012e530</webElementGuid>
+      <webElementGuid>2eea9cec-f94e-47fd-a46b-312d20ac36bf</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -62,7 +65,7 @@
       <name>xpath:idRelative</name>
       <type>Main</type>
       <value>//div[@id='app']/div/div[2]/div[2]/div/div/form/div/div/div/div/div[2]/div/div[2]/div[2]</value>
-      <webElementGuid>98006391-e551-42ab-9f8c-e058657f4787</webElementGuid>
+      <webElementGuid>218194ca-9ddb-4b57-bb63-628cd48a5c95</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -70,7 +73,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='-- Select --'])[1]/following::div[4]</value>
-      <webElementGuid>11e255d7-36aa-4bac-baea-16058e5ea2a1</webElementGuid>
+      <webElementGuid>dc583147-212e-48d7-82da-f767584111c9</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -78,7 +81,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='ESS'])[1]/preceding::div[1]</value>
-      <webElementGuid>663200dc-22cd-4d1e-87f3-96bdcd34b2e4</webElementGuid>
+      <webElementGuid>f0223ab2-9488-4903-8d68-93f235fa3217</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -86,7 +89,7 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//div[2]/div/div[2]/div[2]</value>
-      <webElementGuid>a894ed3c-0744-47c6-a129-bcbd99e2a97b</webElementGuid>
+      <webElementGuid>78c29994-4609-425f-ad40-66a574b66464</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -94,6 +97,6 @@
       <name>xpath:customAttributes</name>
       <type>Main</type>
       <value>//div[(text() = 'Admin' or . = 'Admin')]</value>
-      <webElementGuid>6acacbc5-216f-4e0f-ae38-d5849eb64622</webElementGuid>
+      <webElementGuid>18cb467f-d22b-413a-a649-6deb58544072</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>
