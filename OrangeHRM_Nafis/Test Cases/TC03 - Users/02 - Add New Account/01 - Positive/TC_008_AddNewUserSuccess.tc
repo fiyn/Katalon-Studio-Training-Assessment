@@ -5,40 +5,49 @@
    <tag>add, new user, positive, success</tag>
    <comment></comment>
    <testCaseGuid>debed91f-4041-40f3-b80c-ee70d889ae62</testCaseGuid>
+   <testDataLinks>
+      <combinationType>ONE</combinationType>
+      <id>12a4a616-6e82-47c9-b72c-3e26c8a92ade</id>
+      <iterationEntity>
+         <iterationType>ALL</iterationType>
+         <value></value>
+      </iterationEntity>
+      <testDataId>Data Files/02 - Add New Account/TD_001_Add New Account</testDataId>
+   </testDataLinks>
    <variableLinks>
-      <testDataLinkId></testDataLinkId>
-      <type>DEFAULT</type>
-      <value></value>
+      <testDataLinkId>12a4a616-6e82-47c9-b72c-3e26c8a92ade</testDataLinkId>
+      <type>DATA_COLUMN</type>
+      <value>employeeName</value>
       <variableId>7a4dfc2e-ab35-43c1-8fc1-2c84999ed863</variableId>
    </variableLinks>
    <variableLinks>
-      <testDataLinkId></testDataLinkId>
-      <type>DEFAULT</type>
-      <value></value>
+      <testDataLinkId>12a4a616-6e82-47c9-b72c-3e26c8a92ade</testDataLinkId>
+      <type>DATA_COLUMN</type>
+      <value>username</value>
       <variableId>97c720e9-562d-4bdf-b1c2-ebb5f09e2ad9</variableId>
    </variableLinks>
    <variableLinks>
-      <testDataLinkId></testDataLinkId>
-      <type>DEFAULT</type>
-      <value></value>
+      <testDataLinkId>12a4a616-6e82-47c9-b72c-3e26c8a92ade</testDataLinkId>
+      <type>DATA_COLUMN</type>
+      <value>password</value>
       <variableId>48d33ed9-d02e-41df-96d0-8de787b6bf6e</variableId>
    </variableLinks>
    <variableLinks>
-      <testDataLinkId></testDataLinkId>
-      <type>DEFAULT</type>
-      <value></value>
+      <testDataLinkId>12a4a616-6e82-47c9-b72c-3e26c8a92ade</testDataLinkId>
+      <type>DATA_COLUMN</type>
+      <value>passwordConfirmation</value>
       <variableId>61e36a66-7200-4f8d-9d91-ceb336d3918a</variableId>
    </variableLinks>
    <variableLinks>
-      <testDataLinkId></testDataLinkId>
-      <type>DEFAULT</type>
-      <value></value>
+      <testDataLinkId>12a4a616-6e82-47c9-b72c-3e26c8a92ade</testDataLinkId>
+      <type>DATA_COLUMN</type>
+      <value>role</value>
       <variableId>808d2646-bf01-44d3-9eb2-3b2764308657</variableId>
    </variableLinks>
    <variableLinks>
-      <testDataLinkId></testDataLinkId>
-      <type>DEFAULT</type>
-      <value></value>
+      <testDataLinkId>12a4a616-6e82-47c9-b72c-3e26c8a92ade</testDataLinkId>
+      <type>DATA_COLUMN</type>
+      <value>status</value>
       <variableId>aebf7e2d-053c-44d8-87e6-3ed6b04e5b5b</variableId>
    </variableLinks>
    <variable>
@@ -70,14 +79,14 @@
       <name>passwordConfirmation</name>
    </variable>
    <variable>
-      <defaultValue>'2'</defaultValue>
+      <defaultValue>'1'</defaultValue>
       <description></description>
       <id>808d2646-bf01-44d3-9eb2-3b2764308657</id>
       <masked>false</masked>
       <name>role</name>
    </variable>
    <variable>
-      <defaultValue>'2'</defaultValue>
+      <defaultValue>'1'</defaultValue>
       <description></description>
       <id>aebf7e2d-053c-44d8-87e6-3ed6b04e5b5b</id>
       <masked>false</masked>
