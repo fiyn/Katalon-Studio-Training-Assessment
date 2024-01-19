@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Successfully add new job title</description>
+   <name>TC_018_AddNewJobTitle</name>
+   <tag>positive, add, new, job title</tag>
+   <comment></comment>
+   <testCaseGuid>f00603bf-a371-4f32-90ed-21880a57abcb</testCaseGuid>
+   <testDataLinks>
+      <combinationType>ONE</combinationType>
+      <id>58499d4a-53fe-4d1b-b595-2c905172dfe7</id>
+      <iterationEntity>
+         <iterationType>ALL</iterationType>
+         <value></value>
+      </iterationEntity>
+      <testDataId>Data Files/TC04 - Job Titles/TD_002_Add Job Titles</testDataId>
+   </testDataLinks>
+   <variableLinks>
+      <testDataLinkId>58499d4a-53fe-4d1b-b595-2c905172dfe7</testDataLinkId>
+      <type>DATA_COLUMN</type>
+      <value>jobTitle</value>
+      <variableId>9b9e1bdd-909c-4cac-bcd1-ca7553891661</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId>58499d4a-53fe-4d1b-b595-2c905172dfe7</testDataLinkId>
+      <type>DATA_COLUMN</type>
+      <value>titleDescription</value>
+      <variableId>68c6a213-4f45-49dc-ae25-116918fb6660</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId>58499d4a-53fe-4d1b-b595-2c905172dfe7</testDataLinkId>
+      <type>DATA_COLUMN</type>
+      <value>file</value>
+      <variableId>55be1a1b-ee33-4d44-b50c-d094015d1718</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId>58499d4a-53fe-4d1b-b595-2c905172dfe7</testDataLinkId>
+      <type>DATA_COLUMN</type>
+      <value>note</value>
+      <variableId>7398ac3d-11c1-4444-8a51-500669817852</variableId>
+   </variableLinks>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>9b9e1bdd-909c-4cac-bcd1-ca7553891661</id>
+      <masked>false</masked>
+      <name>jobTitle</name>
+   </variable>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>68c6a213-4f45-49dc-ae25-116918fb6660</id>
+      <masked>false</masked>
+      <name>titleDescription</name>
+   </variable>
+   <variable>
+      <defaultValue>'C:\\Users\\Hasnul\\Katalon Studio\\Katalon-Studio-Training-Assessment\\OrangeHRM_Nafis\\File Upload Test Data\\File_test.txt'</defaultValue>
+      <description></description>
+      <id>55be1a1b-ee33-4d44-b50c-d094015d1718</id>
+      <masked>false</masked>
+      <name>file</name>
+   </variable>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>7398ac3d-11c1-4444-8a51-500669817852</id>
+      <masked>false</masked>
+      <name>note</name>
+   </variable>
+</TestCaseEntity>

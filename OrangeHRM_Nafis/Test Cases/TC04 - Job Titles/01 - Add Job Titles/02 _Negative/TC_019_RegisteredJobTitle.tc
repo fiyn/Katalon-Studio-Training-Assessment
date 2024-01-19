@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Users enter registered job title</description>
+   <name>TC_019_RegisteredJobTitle</name>
+   <tag>negative, registered, job title</tag>
+   <comment></comment>
+   <testCaseGuid>ca5faa4d-c78a-4ca3-b6a1-d409f4358b45</testCaseGuid>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>9b9e1bdd-909c-4cac-bcd1-ca7553891661</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>68c6a213-4f45-49dc-ae25-116918fb6660</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>55be1a1b-ee33-4d44-b50c-d094015d1718</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>7398ac3d-11c1-4444-8a51-500669817852</variableId>
+   </variableLinks>
+   <variable>
+      <defaultValue>'Assistant Clerk'</defaultValue>
+      <description></description>
+      <id>9b9e1bdd-909c-4cac-bcd1-ca7553891661</id>
+      <masked>false</masked>
+      <name>jobTitle</name>
+   </variable>
+   <variable>
+      <defaultValue>'Assistant to clerk'</defaultValue>
+      <description></description>
+      <id>68c6a213-4f45-49dc-ae25-116918fb6660</id>
+      <masked>false</masked>
+      <name>titleDescription</name>
+   </variable>
+   <variable>
+      <defaultValue>'C:\\Users\\Hasnul\\Katalon Studio\\Katalon-Studio-Training-Assessment\\OrangeHRM_Nafis\\File Upload Test Data\\File_test.txt'</defaultValue>
+      <description></description>
+      <id>55be1a1b-ee33-4d44-b50c-d094015d1718</id>
+      <masked>false</masked>
+      <name>file</name>
+   </variable>
+   <variable>
+      <defaultValue>'coupons'</defaultValue>
+      <description></description>
+      <id>7398ac3d-11c1-4444-8a51-500669817852</id>
+      <masked>false</masked>
+      <name>note</name>
+   </variable>
+</TestCaseEntity>

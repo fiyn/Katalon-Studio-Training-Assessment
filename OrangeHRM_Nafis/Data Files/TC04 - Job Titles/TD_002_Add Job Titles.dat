@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<DataFileEntity>
+   <description>Job Titles feature's test data</description>
+   <name>TD_002_Add Job Titles</name>
+   <tag></tag>
+   <connectionProperties/>
+   <containsHeaders>true</containsHeaders>
+   <csvSeperator></csvSeperator>
+   <dataFileGUID>30b52c8a-5e72-4b7d-9919-5d89500f5e1f</dataFileGUID>
+   <dataSourceUrl>C:\Users\Hasnul\Katalon Studio\Katalon-Studio-Training-Assessment\OrangeHRM_Nafis\Data Files\Test Data.xlsx</dataSourceUrl>
+   <driver>ExcelFile</driver>
+   <isInternalPath>false</isInternalPath>
+   <query></query>
+   <secureUserAccount>false</secureUserAccount>
+   <sheetName>Add Job Title</sheetName>
+   <usingGlobalDBSetting>false</usingGlobalDBSetting>
+</DataFileEntity>

@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Successfully delete a job title</description>
+   <name>TC_022_DeleteAJobTitle</name>
+   <tag>positive, delete, job title</tag>
+   <comment></comment>
+   <testCaseGuid>e0f60e1e-6943-4494-893c-0d570830cd8e</testCaseGuid>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>9b9e1bdd-909c-4cac-bcd1-ca7553891661</variableId>
+   </variableLinks>
+   <variable>
+      <defaultValue>'Assistant Clerk'</defaultValue>
+      <description></description>
+      <id>9b9e1bdd-909c-4cac-bcd1-ca7553891661</id>
+      <masked>false</masked>
+      <name>jobTitle</name>
+   </variable>
+</TestCaseEntity>
