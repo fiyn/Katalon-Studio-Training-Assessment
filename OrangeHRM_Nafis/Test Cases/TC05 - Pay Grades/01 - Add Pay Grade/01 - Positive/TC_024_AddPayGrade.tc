@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Successfully add new pay grade</description>
+   <name>TC_024_AddPayGrade</name>
+   <tag>positive, add, pay grade, success</tag>
+   <comment></comment>
+   <testCaseGuid>3485ab8c-ece6-4529-b504-ee8ce48962d7</testCaseGuid>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>30118b61-04c1-4d18-bbf9-f36fd5e4db46</variableId>
+   </variableLinks>
+   <variable>
+      <defaultValue>'T20'</defaultValue>
+      <description></description>
+      <id>30118b61-04c1-4d18-bbf9-f36fd5e4db46</id>
+      <masked>false</masked>
+      <name>payGradeName</name>
+   </variable>
+</TestCaseEntity>

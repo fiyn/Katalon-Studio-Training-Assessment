@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Successfully edit the amount of minimum salary</description>
+   <name>TC_031_EditMinSalary</name>
+   <tag>positive, edit, curency, minimum salary</tag>
+   <comment></comment>
+   <testCaseGuid>abccb20a-1e58-4188-9e57-a115f96be73c</testCaseGuid>
+</TestCaseEntity>

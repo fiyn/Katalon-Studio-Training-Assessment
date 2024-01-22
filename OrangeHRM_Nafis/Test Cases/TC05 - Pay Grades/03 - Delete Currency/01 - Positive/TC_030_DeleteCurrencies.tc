@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Users delete more than one currency</description>
+   <name>TC_030_DeleteCurrencies</name>
+   <tag>positive, delete, currency</tag>
+   <comment></comment>
+   <testCaseGuid>55444899-1250-4ed4-ba6e-58ac3bf1be5e</testCaseGuid>
+</TestCaseEntity>
