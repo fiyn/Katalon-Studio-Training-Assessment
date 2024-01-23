@@ -1,14 +1,14 @@
 {
-  "keywordFileContentHash": "756F22E7397C76FB643AE3ADCD02A031",
+  "keywordFileContentHash": "5AC2EF8D56DD719367F30C2A44596955",
   "keywordClasses": [
     {
-      "name": "addNewUser.SetUserRole",
+      "name": "addNewEmployee.SetEmployeeStatus",
       "keywordMethods": [
         {
-          "name": "setUserRole",
+          "name": "setEmpStatus",
           "parameters": [
             {
-              "name": "role",
+              "name": "status",
               "initialExpression": "",
               "type": {
                 "fullClassName": "java.lang.String",

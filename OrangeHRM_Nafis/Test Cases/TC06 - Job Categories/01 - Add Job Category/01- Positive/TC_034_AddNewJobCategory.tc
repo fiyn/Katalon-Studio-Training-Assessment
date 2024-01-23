@@ -12,7 +12,7 @@
          <iterationType>ALL</iterationType>
          <value></value>
       </iterationEntity>
-      <testDataId>Data Files/TC06 - Job Categories/TD_004_AddNewJobCategory</testDataId>
+      <testDataId>Data Files/TC06 - Job Categories/TD_003_AddNewJobCategory</testDataId>
    </testDataLinks>
    <variableLinks>
       <testDataLinkId>e350a3de-6490-45ad-8a90-52415f66a474</testDataLinkId>

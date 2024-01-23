@@ -1,4 +1,4 @@
-package addNewUser
+package addNewEmployee
 
 import static com.kms.katalon.core.checkpoint.CheckpointFactory.findCheckpoint
 import static com.kms.katalon.core.testcase.TestCaseFactory.findTestCase
@@ -20,24 +20,15 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 
 import internal.GlobalVariable
 
-public class SetUserRole {
+public class SetEmployeeStatus {
 
-	@Keyword (keywordObject = "User Role")
-	def setUserRole (String role) {
-		String userRoleIs = ""
+	@Keyword (keywordObject = "Employee Status")
+	def setEmpStatus (String status) {
 
-		switch(role) {
-			case "1":
-				userRoleIs = "Admin";
-				break;
-			case "2":
-				userRoleIs = "ESS";
-				break;
-			default:
-				userRoleIs = "Admin";
+		if (status == "2") {
+			WebUI.click(findTestObject('TC07 - Employee List/01 - Add Employee/TC_038_AddEmployee/Page_OrangeHRM/label_Disabled'))
+		} else {
+			WebUI.click(findTestObject('TC07 - Employee List/01 - Add Employee/TC_038_AddEmployee/Page_OrangeHRM/label_Enabled'))
 		}
-
-		println userRoleIs
-		return userRoleIs
 	}
 }
