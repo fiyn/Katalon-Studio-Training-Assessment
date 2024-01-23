@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Users enter existing job category</description>
+   <name>TC_035_EnterExistingJobCategory</name>
+   <tag>positive, job category</tag>
+   <comment></comment>
+   <testCaseGuid>2e842984-d869-4a0b-aa03-8da76a03ed73</testCaseGuid>
+   <variable>
+      <defaultValue>'IT Professional'</defaultValue>
+      <description></description>
+      <id>6cb5c99f-ea65-43f0-8d8d-d02f59b7b9ca</id>
+      <masked>false</masked>
+      <name>jobCategoryName</name>
+   </variable>
+</TestCaseEntity>

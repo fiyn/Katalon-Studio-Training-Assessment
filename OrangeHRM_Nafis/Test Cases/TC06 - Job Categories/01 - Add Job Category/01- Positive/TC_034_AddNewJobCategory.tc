@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Successfully add new job category</description>
+   <name>TC_034_AddNewJobCategory</name>
+   <tag>positive, add, new, job category</tag>
+   <comment></comment>
+   <testCaseGuid>6aebed7c-1150-4db6-a6e8-b110840eb885</testCaseGuid>
+   <testDataLinks>
+      <combinationType>ONE</combinationType>
+      <id>e350a3de-6490-45ad-8a90-52415f66a474</id>
+      <iterationEntity>
+         <iterationType>ALL</iterationType>
+         <value></value>
+      </iterationEntity>
+      <testDataId>Data Files/TC06 - Job Categories/TD_004_AddNewJobCategory</testDataId>
+   </testDataLinks>
+   <variableLinks>
+      <testDataLinkId>e350a3de-6490-45ad-8a90-52415f66a474</testDataLinkId>
+      <type>DATA_COLUMN</type>
+      <value>jobCategoryName</value>
+      <variableId>6cb5c99f-ea65-43f0-8d8d-d02f59b7b9ca</variableId>
+   </variableLinks>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>6cb5c99f-ea65-43f0-8d8d-d02f59b7b9ca</id>
+      <masked>false</masked>
+      <name>jobCategoryName</name>
+   </variable>
+</TestCaseEntity>

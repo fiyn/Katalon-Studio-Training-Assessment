@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Users delete more than one job category</description>
+   <name>TC_037_DeleteJobCategories</name>
+   <tag>positive, delete, job category, many</tag>
+   <comment></comment>
+   <testCaseGuid>0c072c73-cec5-44ca-b8e5-a98fee4211fa</testCaseGuid>
+</TestCaseEntity>
