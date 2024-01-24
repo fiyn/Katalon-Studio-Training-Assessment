@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Search employee base on employment status</description>
+   <name>TC_048_SearchByEmpStatus</name>
+   <tag>positive, search employee, status</tag>
+   <comment></comment>
+   <testCaseGuid>caa2cec0-e538-41a9-a419-411bc9a04cea</testCaseGuid>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>71c41e7d-a2a2-4c09-8ef8-a084127ee06c</variableId>
+   </variableLinks>
+   <variable>
+      <defaultValue>'Full-Time Permanent'</defaultValue>
+      <description></description>
+      <id>71c41e7d-a2a2-4c09-8ef8-a084127ee06c</id>
+      <masked>false</masked>
+      <name>empStatus</name>
+   </variable>
+</TestCaseEntity>

@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Search employee using on sub-unit</description>
+   <name>TC_051_SearchBySubUnit</name>
+   <tag>positive, search employee, sub-unit</tag>
+   <comment></comment>
+   <testCaseGuid>f8eb9d8a-a607-437d-a6af-79e0bc4d9a09</testCaseGuid>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>ae44f19e-26e8-410e-b04c-3bbc8aacebe1</variableId>
+   </variableLinks>
+   <variable>
+      <defaultValue>'Sales'</defaultValue>
+      <description></description>
+      <id>ae44f19e-26e8-410e-b04c-3bbc8aacebe1</id>
+      <masked>false</masked>
+      <name>subUnit</name>
+   </variable>
+</TestCaseEntity>

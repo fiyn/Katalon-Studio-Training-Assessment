@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Search employee using supervisor name</description>
+   <name>TC_050_SearchBySVName</name>
+   <tag>positive, search employee, supervisor name</tag>
+   <comment></comment>
+   <testCaseGuid>5a8dea2f-ec09-4754-8770-6e58097d4bb3</testCaseGuid>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>fd46c544-8415-4808-a9c9-69d3b1166310</variableId>
+   </variableLinks>
+   <variable>
+      <defaultValue>'Linda Jane Anderson'</defaultValue>
+      <description></description>
+      <id>fd46c544-8415-4808-a9c9-69d3b1166310</id>
+      <masked>false</masked>
+      <name>svName</name>
+   </variable>
+</TestCaseEntity>

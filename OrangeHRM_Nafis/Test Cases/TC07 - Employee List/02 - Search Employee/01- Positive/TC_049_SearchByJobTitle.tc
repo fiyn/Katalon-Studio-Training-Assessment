@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Search employee base on job title</description>
+   <name>TC_049_SearchByJobTitle</name>
+   <tag>positive, search employee, job title</tag>
+   <comment></comment>
+   <testCaseGuid>01ffd37d-119e-496f-b61a-f1239c047876</testCaseGuid>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>71c41e7d-a2a2-4c09-8ef8-a084127ee06c</variableId>
+   </variableLinks>
+   <variable>
+      <defaultValue>'HR Associate'</defaultValue>
+      <description></description>
+      <id>71c41e7d-a2a2-4c09-8ef8-a084127ee06c</id>
+      <masked>false</masked>
+      <name>jobTitle</name>
+   </variable>
+</TestCaseEntity>

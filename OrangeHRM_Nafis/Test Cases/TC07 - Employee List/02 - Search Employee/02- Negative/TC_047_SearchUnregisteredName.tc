@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Users enter an unregistered name</description>
+   <name>TC_047_SearchUnregisteredName</name>
+   <tag>negative, search employee, unregistered, name</tag>
+   <comment></comment>
+   <testCaseGuid>a65c5cf0-9235-4cde-a0f0-a166e3009930</testCaseGuid>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>71c41e7d-a2a2-4c09-8ef8-a084127ee06c</variableId>
+   </variableLinks>
+   <variable>
+      <defaultValue>'Abee'</defaultValue>
+      <description></description>
+      <id>71c41e7d-a2a2-4c09-8ef8-a084127ee06c</id>
+      <masked>false</masked>
+      <name>name</name>
+   </variable>
+</TestCaseEntity>
