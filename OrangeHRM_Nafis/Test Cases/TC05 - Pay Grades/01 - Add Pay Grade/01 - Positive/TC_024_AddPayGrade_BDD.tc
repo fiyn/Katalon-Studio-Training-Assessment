@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>BDD version of TC_024</description>
+   <name>TC_024_AddPayGrade_BDD</name>
+   <tag>positive, bdd ,add pay grade</tag>
+   <comment></comment>
+   <testCaseGuid>db7d6335-3f21-4e39-95c6-cc1ce89eeef4</testCaseGuid>
+</TestCaseEntity>
