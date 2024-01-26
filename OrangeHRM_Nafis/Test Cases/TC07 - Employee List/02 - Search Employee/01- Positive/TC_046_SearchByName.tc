@@ -11,11 +11,37 @@
       <value></value>
       <variableId>71c41e7d-a2a2-4c09-8ef8-a084127ee06c</variableId>
    </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>bac0ddcf-1fec-4974-994f-55ba7ebc17b2</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>c7eec9af-e33d-4e9a-9b50-f2d6caf75f43</variableId>
+   </variableLinks>
    <variable>
-      <defaultValue>'Olivia Hema Anderson'</defaultValue>
+      <defaultValue>'Ahmad'</defaultValue>
       <description></description>
       <id>71c41e7d-a2a2-4c09-8ef8-a084127ee06c</id>
       <masked>false</masked>
-      <name>name</name>
+      <name>empFirstName</name>
+   </variable>
+   <variable>
+      <defaultValue>'Tim'</defaultValue>
+      <description></description>
+      <id>bac0ddcf-1fec-4974-994f-55ba7ebc17b2</id>
+      <masked>false</masked>
+      <name>empMidName</name>
+   </variable>
+   <variable>
+      <defaultValue>'Sean'</defaultValue>
+      <description></description>
+      <id>c7eec9af-e33d-4e9a-9b50-f2d6caf75f43</id>
+      <masked>false</masked>
+      <name>empLastName</name>
    </variable>
 </TestCaseEntity>

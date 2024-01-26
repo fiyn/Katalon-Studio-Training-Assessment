@@ -3,19 +3,15 @@
    <description></description>
    <name>div_Employee Name Drop Down List</name>
    <tag></tag>
-   <elementGuidId>e3f5f23f-0c29-47d7-abf4-2e9e3ec039aa</elementGuidId>
+   <elementGuidId>60850a38-30fc-4e5b-9a54-3dd8b3b5311d</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>BASIC</key>
-         <value>id(&quot;app&quot;)/div[@class=&quot;oxd-layout&quot;]/div[@class=&quot;oxd-layout-container&quot;]/div[@class=&quot;oxd-layout-context&quot;]/div[@class=&quot;orangehrm-background-container&quot;]/div[@class=&quot;oxd-table-filter&quot;]/div[@class=&quot;oxd-table-filter-area&quot;]/form[@class=&quot;oxd-form&quot;]/div[@class=&quot;oxd-form-row&quot;]/div[@class=&quot;oxd-grid-4 orangehrm-full-width-grid&quot;]/div[@class=&quot;oxd-grid-item oxd-grid-item--gutters&quot;]/div[@class=&quot;oxd-input-group oxd-input-field-bottom-space&quot;]/div[2]/div[@class=&quot;oxd-autocomplete-wrapper&quot;]/div[@class=&quot;oxd-autocomplete-dropdown --positon-bottom&quot;]/div[@class=&quot;oxd-autocomplete-option --selected&quot;][count(. | //*[(text() = '${empFullName}' or . = '${empFullName}')]) = count(//*[(text() = '${empFullName}' or . = '${empFullName}')])]</value>
+         <key>XPATH</key>
+         <value>//div[@id='app']/div/div[2]/div[2]/div/div/div[2]/form/div/div/div/div/div[2]/div/div[2]/div</value>
       </entry>
       <entry>
          <key>CSS</key>
          <value>div.oxd-autocomplete-option.--selected</value>
-      </entry>
-      <entry>
-         <key>XPATH</key>
-         <value>//div[@id='app']/div/div[2]/div[2]/div/div/div[2]/form/div/div/div/div/div[2]/div/div[2]/div</value>
       </entry>
    </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
@@ -26,7 +22,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>div</value>
-      <webElementGuid>cf19361d-9dcf-488f-9631-5bb5cbad929c</webElementGuid>
+      <webElementGuid>6b4d7455-7ff2-4ed0-ade7-20c5c1a76dc4</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -34,7 +30,7 @@
       <name>role</name>
       <type>Main</type>
       <value>option</value>
-      <webElementGuid>50d3b0d6-ff23-4f71-b7e0-a41969124223</webElementGuid>
+      <webElementGuid>a791fecf-fe1f-412b-bd62-73bd87f1600e</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -42,15 +38,15 @@
       <name>class</name>
       <type>Main</type>
       <value>oxd-autocomplete-option --selected</value>
-      <webElementGuid>829c0655-38a9-4fb2-b36a-0614b1f66202</webElementGuid>
+      <webElementGuid>f79247c0-4fa1-4532-9cf7-50c53cfe6164</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>text</name>
       <type>Main</type>
-      <value>${empFullName}</value>
-      <webElementGuid>dcc3d703-da72-4f01-a8fb-9ce98a6b6a26</webElementGuid>
+      <value>${name}</value>
+      <webElementGuid>9a8ccc28-8366-4ade-a00e-d13291179b1b</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -58,7 +54,7 @@
       <name>xpath</name>
       <type>Main</type>
       <value>id(&quot;app&quot;)/div[@class=&quot;oxd-layout&quot;]/div[@class=&quot;oxd-layout-container&quot;]/div[@class=&quot;oxd-layout-context&quot;]/div[@class=&quot;orangehrm-background-container&quot;]/div[@class=&quot;oxd-table-filter&quot;]/div[@class=&quot;oxd-table-filter-area&quot;]/form[@class=&quot;oxd-form&quot;]/div[@class=&quot;oxd-form-row&quot;]/div[@class=&quot;oxd-grid-4 orangehrm-full-width-grid&quot;]/div[@class=&quot;oxd-grid-item oxd-grid-item--gutters&quot;]/div[@class=&quot;oxd-input-group oxd-input-field-bottom-space&quot;]/div[2]/div[@class=&quot;oxd-autocomplete-wrapper&quot;]/div[@class=&quot;oxd-autocomplete-dropdown --positon-bottom&quot;]/div[@class=&quot;oxd-autocomplete-option --selected&quot;]</value>
-      <webElementGuid>469cccf7-44c1-47b6-aa8e-0cebe6a67fde</webElementGuid>
+      <webElementGuid>b6042cb4-eb22-4fc5-b3e5-4b6b85bd62f8</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -66,7 +62,7 @@
       <name>xpath:idRelative</name>
       <type>Main</type>
       <value>//div[@id='app']/div/div[2]/div[2]/div/div/div[2]/form/div/div/div/div/div[2]/div/div[2]/div</value>
-      <webElementGuid>b96694ac-ce0c-4c2e-aff5-5563566eed3b</webElementGuid>
+      <webElementGuid>c53c7622-b23a-4847-ad50-7bfa87eca08a</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -74,7 +70,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Employee Name'])[1]/following::div[7]</value>
-      <webElementGuid>fc070627-047d-41be-b9cc-0259500777cb</webElementGuid>
+      <webElementGuid>f51f7fe3-9bfe-4fdb-9f23-5aab2e55b5f2</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -82,7 +78,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Olivia Hema Anderson'])[2]/preceding::div[1]</value>
-      <webElementGuid>1b3fccef-d0d6-48f2-86eb-5fa5ea6c342b</webElementGuid>
+      <webElementGuid>f3aa97e9-1a99-4551-88c7-fc45d3363e0d</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -90,7 +86,7 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//div/div/div/div/div[2]/div/div[2]/div</value>
-      <webElementGuid>a1dfe1c4-4a49-4092-ad7b-faba133bbaeb</webElementGuid>
+      <webElementGuid>25837189-bc44-48fb-a342-4d381548bf57</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -98,6 +94,6 @@
       <name>xpath:customAttributes</name>
       <type>Main</type>
       <value>//div[(text() = 'Olivia Hema Anderson' or . = 'Olivia Hema Anderson')]</value>
-      <webElementGuid>8cb84e1f-1466-4f24-b7a7-9be957903f12</webElementGuid>
+      <webElementGuid>7b325147-5103-4506-92d3-996b43dcfe1c</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

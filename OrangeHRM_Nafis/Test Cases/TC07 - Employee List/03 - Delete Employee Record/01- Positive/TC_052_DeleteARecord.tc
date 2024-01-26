@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Successfully delete an employee’s record</description>
+   <name>TC_052_DeleteARecord</name>
+   <tag>positive, delete employee record</tag>
+   <comment></comment>
+   <testCaseGuid>e1074617-ed71-4ab5-8c51-bf1e710950e0</testCaseGuid>
+</TestCaseEntity>

@@ -20,19 +20,13 @@ import org.openqa.selenium.Keys as Keys
 WebUI.callTestCase(findTestCase('TC01 - Login/01_Positive/TC_001_LoginSuccess'), [('username') : 'Admin', ('password') : 'hUKwJTbofgPU9eVlw/CnDQ=='
         , ('urlAddress') : GlobalVariable.urlAddress], FailureHandling.STOP_ON_FAILURE)
 
-WebUI.click(findTestObject('Object Repository/TC07 - Employee List/03 - Delete Employee Record/TC_053_DeleteRecords/Page_OrangeHRM/a_PIM'))
+WebUI.click(findTestObject('Object Repository/TC07 - Employee List/01 - Add Employee/TC_038_AddEmployee/Page_OrangeHRM/a_PIM'))
 
-WebUI.setText(findTestObject('TC07 - Employee List/02 - Search Employee/TC_046_SearchByName/Page_OrangeHRM/input_Employee Name'), 
-    empFirstName)
+WebUI.click(findTestObject('TC07 - Employee List/03 - Delete Employee Record/TC_052_DeleteARecord/Page_OrangeHRM/i_Checkbox Row 0'))
 
-empFullName = CustomKeywords.'searchEmployee.ConcatName.concatName'(empFirstName, empMidName, empLastName, true)
+WebUI.click(findTestObject('TC07 - Employee List/03 - Delete Employee Record/TC_052_DeleteARecord/Page_OrangeHRM/button_Delete Row Button'))
 
-WebUI.delay(3)
+WebUI.click(findTestObject('TC07 - Employee List/03 - Delete Employee Record/TC_052_DeleteARecord/Page_OrangeHRM/button_Yes, Delete confirmation'))
 
-WebUI.click(findTestObject('TC07 - Employee List/02 - Search Employee/TC_046_SearchByName/Page_OrangeHRM/div_Employee Name Drop Down List', 
-        [('empFullName') : empFullName]))
-
-WebUI.click(findTestObject('TC07 - Employee List/02 - Search Employee/TC_046_SearchByName/Page_OrangeHRM/button_Search'))
-
-WebUI.verifyElementVisible(findTestObject('TC07 - Employee List/02 - Search Employee/TC_045_SearchEmployeeID/Page_OrangeHRM/span_(1) Record Found'))
+WebUI.verifyElementVisible(findTestObject('TC07 - Employee List/03 - Delete Employee Record/TC_052_DeleteARecord/Page_OrangeHRM/div_SuccessSuccessfully Deleted'))
 

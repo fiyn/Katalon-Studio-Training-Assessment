@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Users delete more than one employee’s record</description>
+   <name>TC_053_DeleteRecords</name>
+   <tag>positive, delete employe record, multiple</tag>
+   <comment></comment>
+   <testCaseGuid>a6422855-8af7-4a27-926d-2e18452ff5b2</testCaseGuid>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>39489c13-6509-4f00-b728-ba397773702b</variableId>
+   </variableLinks>
+   <variable>
+      <defaultValue>'Rick'</defaultValue>
+      <description></description>
+      <id>39489c13-6509-4f00-b728-ba397773702b</id>
+      <masked>false</masked>
+      <name>empName</name>
+   </variable>
+</TestCaseEntity>
