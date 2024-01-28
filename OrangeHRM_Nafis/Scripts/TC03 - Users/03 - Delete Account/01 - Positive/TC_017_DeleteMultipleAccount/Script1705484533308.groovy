@@ -19,60 +19,22 @@ import org.openqa.selenium.Keys as Keys
 
 WebUI.callTestCase(findTestCase('TC01 - Login/01_Positive/TC_001_LoginSuccess'), [:], FailureHandling.STOP_ON_FAILURE)
 
-WebUI.click(findTestObject('Object Repository/TC03 - Users/03 - Delete Account/TC_017_DeleteMultipleAccount/Page_OrangeHRM/a_Admin'))
+WebUI.click(findTestObject('Object Repository/TC03 - Users/02 - Add New Account/TC_008_AddNewUserSuccess/Page_OrangeHRM/a_Admin'))
 
-WebUI.setText(findTestObject('Object Repository/TC03 - Users/03 - Delete Account/TC_016_DeleteAccountSuccess/Page_OrangeHRM/input_Username_oxd-input oxd-input--focus'), 
-    username1)
+WebUI.click(findTestObject('TC03 - Users/03 - Delete Account/TC_017_DeleteMultipleAccount/Page_OrangeHRM/label_Checkbox User', 
+        [('username') : username]))
 
-WebUI.click(findTestObject('Object Repository/TC03 - Users/03 - Delete Account/TC_016_DeleteAccountSuccess/Page_OrangeHRM/button_Search'))
+WebUI.click(findTestObject('TC03 - Users/03 - Delete Account/TC_017_DeleteMultipleAccount/Page_OrangeHRM/label_Checkbox User 1', 
+        [('username1') : username1]))
 
-WebUI.click(findTestObject('Object Repository/TC03 - Users/03 - Delete Account/TC_016_DeleteAccountSuccess/Page_OrangeHRM/label'))
+WebUI.click(findTestObject('TC03 - Users/03 - Delete Account/TC_017_DeleteMultipleAccount/Page_OrangeHRM/label_Checkbox User 2', 
+        [('username2') : username2]))
 
-WebUI.click(findTestObject('Object Repository/TC03 - Users/03 - Delete Account/TC_016_DeleteAccountSuccess/Page_OrangeHRM/i_Enabled_oxd-icon bi-trash'))
+WebUI.scrollToPosition(0, 0)
 
-WebUI.click(findTestObject('Object Repository/TC03 - Users/03 - Delete Account/TC_016_DeleteAccountSuccess/Page_OrangeHRM/button_Yes, Delete'))
+WebUI.click(findTestObject('TC03 - Users/03 - Delete Account/TC_017_DeleteMultipleAccount/Page_OrangeHRM/button_Delete Selected (1)'))
 
-WebUI.verifyElementVisible(findTestObject('TC03 - Users/03 - Delete Account/TC_016_DeleteAccountSuccess/Page_OrangeHRM/div_SuccessSuccessfully Deleted Message'))
-
-WebUI.verifyElementVisible(findTestObject('TC03 - Users/03 - Delete Account/TC_016_DeleteAccountSuccess/Page_OrangeHRM/div_InfoNo Records Found'))
-
-WebUI.verifyElementVisible(findTestObject('TC03 - Users/03 - Delete Account/TC_016_DeleteAccountSuccess/Page_OrangeHRM/span_No Records Found'))
-
-WebUI.sendKeys(findTestObject('TC03 - Users/03 - Delete Account/TC_016_DeleteAccountSuccess/Page_OrangeHRM/input_Username_oxd-input oxd-input--focus'), 
-    Keys.chord(Keys.BACK_SPACE))
-
-WebUI.sendKeys(findTestObject('TC03 - Users/03 - Delete Account/TC_016_DeleteAccountSuccess/Page_OrangeHRM/input_Username_oxd-input oxd-input--focus'), 
-    Keys.chord(Keys.BACK_SPACE))
-
-WebUI.sendKeys(findTestObject('TC03 - Users/03 - Delete Account/TC_016_DeleteAccountSuccess/Page_OrangeHRM/input_Username_oxd-input oxd-input--focus'), 
-    Keys.chord(Keys.BACK_SPACE))
-
-WebUI.sendKeys(findTestObject('TC03 - Users/03 - Delete Account/TC_016_DeleteAccountSuccess/Page_OrangeHRM/input_Username_oxd-input oxd-input--focus'), 
-    Keys.chord(Keys.BACK_SPACE))
-
-WebUI.sendKeys(findTestObject('TC03 - Users/03 - Delete Account/TC_016_DeleteAccountSuccess/Page_OrangeHRM/input_Username_oxd-input oxd-input--focus'), 
-    Keys.chord(Keys.BACK_SPACE))
-
-WebUI.sendKeys(findTestObject('TC03 - Users/03 - Delete Account/TC_016_DeleteAccountSuccess/Page_OrangeHRM/input_Username_oxd-input oxd-input--focus'), 
-    Keys.chord(Keys.BACK_SPACE))
-
-WebUI.sendKeys(findTestObject('TC03 - Users/03 - Delete Account/TC_016_DeleteAccountSuccess/Page_OrangeHRM/input_Username_oxd-input oxd-input--focus'), 
-    Keys.chord(Keys.BACK_SPACE))
-
-WebUI.setText(findTestObject('Object Repository/TC03 - Users/03 - Delete Account/TC_016_DeleteAccountSuccess/Page_OrangeHRM/input_Username_oxd-input oxd-input--focus'), 
-    username2)
-
-WebUI.click(findTestObject('Object Repository/TC03 - Users/03 - Delete Account/TC_016_DeleteAccountSuccess/Page_OrangeHRM/button_Search'))
-
-WebUI.click(findTestObject('Object Repository/TC03 - Users/03 - Delete Account/TC_016_DeleteAccountSuccess/Page_OrangeHRM/label'))
-
-WebUI.click(findTestObject('Object Repository/TC03 - Users/03 - Delete Account/TC_016_DeleteAccountSuccess/Page_OrangeHRM/i_Enabled_oxd-icon bi-trash'))
-
-WebUI.click(findTestObject('Object Repository/TC03 - Users/03 - Delete Account/TC_016_DeleteAccountSuccess/Page_OrangeHRM/button_Yes, Delete'))
+WebUI.click(findTestObject('TC03 - Users/03 - Delete Account/TC_017_DeleteMultipleAccount/Page_OrangeHRM/button_Yes, Delete'))
 
 WebUI.verifyElementVisible(findTestObject('TC03 - Users/03 - Delete Account/TC_016_DeleteAccountSuccess/Page_OrangeHRM/div_SuccessSuccessfully Deleted Message'))
-
-WebUI.verifyElementVisible(findTestObject('TC03 - Users/03 - Delete Account/TC_016_DeleteAccountSuccess/Page_OrangeHRM/div_InfoNo Records Found'))
-
-WebUI.verifyElementVisible(findTestObject('TC03 - Users/03 - Delete Account/TC_016_DeleteAccountSuccess/Page_OrangeHRM/span_No Records Found'))
 

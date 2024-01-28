@@ -17,17 +17,30 @@
       <value></value>
       <variableId>b86aada9-14fc-4713-9fa6-68f200f4fc0e</variableId>
    </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>ae707b01-9ad4-4719-aced-c45ee5dfc11e</variableId>
+   </variableLinks>
    <variable>
-      <defaultValue>'thihan7'</defaultValue>
+      <defaultValue>'linda0909'</defaultValue>
       <description></description>
       <id>f5800177-38c0-42ca-b83a-6e78657319b7</id>
       <masked>false</masked>
-      <name>username1</name>
+      <name>username</name>
    </variable>
    <variable>
       <defaultValue>'PeterWah2'</defaultValue>
       <description></description>
       <id>b86aada9-14fc-4713-9fa6-68f200f4fc0e</id>
+      <masked>false</masked>
+      <name>username1</name>
+   </variable>
+   <variable>
+      <defaultValue>'teracso098'</defaultValue>
+      <description></description>
+      <id>ae707b01-9ad4-4719-aced-c45ee5dfc11e</id>
       <masked>false</masked>
       <name>username2</name>
    </variable>
