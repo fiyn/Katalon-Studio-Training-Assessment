@@ -26,18 +26,19 @@ WebUI.click(findTestObject('Object Repository/TC05 - Pay Grades/03 - Delete Curr
 
 WebUI.click(findTestObject('Object Repository/TC05 - Pay Grades/03 - Delete Currency/TC_029_DeleteACurrency/Page_OrangeHRM/a_Pay Grades'))
 
-WebUI.click(findTestObject('Object Repository/TC05 - Pay Grades/03 - Delete Currency/TC_029_DeleteACurrency/Page_OrangeHRM/i_Pay Grade checkbox'), 
-    FailureHandling.CONTINUE_ON_FAILURE)
+WebUI.click(findTestObject('TC05 - Pay Grades/03 - Delete Currency/TC_029_DeleteACurrency/Page_OrangeHRM/label_Checkbox Pay Grade', 
+        [('payGradeName') : payGradeName]), FailureHandling.STOP_ON_FAILURE)
 
-WebUI.click(findTestObject('Object Repository/TC05 - Pay Grades/03 - Delete Currency/TC_029_DeleteACurrency/Page_OrangeHRM/i_Edit button'))
+WebUI.click(findTestObject('TC05 - Pay Grades/03 - Delete Currency/TC_029_DeleteACurrency/Page_OrangeHRM/button_Edit Action', 
+        [('payGradeName') : payGradeName]))
 
-WebUI.click(findTestObject('Object Repository/TC05 - Pay Grades/03 - Delete Currency/TC_029_DeleteACurrency/Page_OrangeHRM/i_Currency checkbox'))
+WebUI.click(findTestObject('TC05 - Pay Grades/03 - Delete Currency/TC_029_DeleteACurrency/Page_OrangeHRM/label_Checkbox Currency', 
+        [('currency') : currency]))
 
-WebUI.click(findTestObject('Object Repository/TC05 - Pay Grades/03 - Delete Currency/TC_029_DeleteACurrency/Page_OrangeHRM/i_Edit button'))
+WebUI.click(findTestObject('TC05 - Pay Grades/03 - Delete Currency/TC_029_DeleteACurrency/Page_OrangeHRM/button_Delete Currency', 
+        [('currency') : currency]))
 
-WebUI.click(findTestObject('Object Repository/TC05 - Pay Grades/03 - Delete Currency/TC_029_DeleteACurrency/Page_OrangeHRM/i_Currency delete button'))
+WebUI.click(findTestObject('TC05 - Pay Grades/03 - Delete Currency/TC_029_DeleteACurrency/Page_OrangeHRM/button_Yes, Delete Confirmation'))
 
-WebUI.click(findTestObject('Object Repository/TC05 - Pay Grades/03 - Delete Currency/TC_029_DeleteACurrency/Page_OrangeHRM/button_Yes, Delete (2)'))
-
-WebUI.click(findTestObject('Object Repository/TC05 - Pay Grades/03 - Delete Currency/TC_029_DeleteACurrency/Page_OrangeHRM/div_SuccessSuccessfully Deleted (2)'))
+WebUI.click(findTestObject('TC05 - Pay Grades/03 - Delete Currency/TC_029_DeleteACurrency/Page_OrangeHRM/div_SuccessSuccessfully Deleted'))
 

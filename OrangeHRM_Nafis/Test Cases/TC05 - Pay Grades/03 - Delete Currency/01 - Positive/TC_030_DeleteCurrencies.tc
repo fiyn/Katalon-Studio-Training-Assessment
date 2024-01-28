@@ -5,4 +5,69 @@
    <tag>positive, delete, currency</tag>
    <comment></comment>
    <testCaseGuid>55444899-1250-4ed4-ba6e-58ac3bf1be5e</testCaseGuid>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>478bda69-e27e-49ac-ac9d-9712eeb6a107</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>dd3f8d4f-492f-40e2-a80b-7b1dd2b0bf32</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>2be7d306-433c-40ce-8478-ba4592d2047e</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>f84501a0-b68f-4476-a82f-eeb38b3d0943</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>d3bfba19-3d7f-4b31-bfd7-712c691aae0f</variableId>
+   </variableLinks>
+   <variable>
+      <defaultValue>'T20'</defaultValue>
+      <description></description>
+      <id>478bda69-e27e-49ac-ac9d-9712eeb6a107</id>
+      <masked>false</masked>
+      <name>payGradeName</name>
+   </variable>
+   <variable>
+      <defaultValue>'Euro'</defaultValue>
+      <description></description>
+      <id>dd3f8d4f-492f-40e2-a80b-7b1dd2b0bf32</id>
+      <masked>false</masked>
+      <name>currency</name>
+   </variable>
+   <variable>
+      <defaultValue>'Fiji Dollar'</defaultValue>
+      <description></description>
+      <id>2be7d306-433c-40ce-8478-ba4592d2047e</id>
+      <masked>false</masked>
+      <name>currency1</name>
+   </variable>
+   <variable>
+      <defaultValue>'Albanian Lek'</defaultValue>
+      <description></description>
+      <id>f84501a0-b68f-4476-a82f-eeb38b3d0943</id>
+      <masked>false</masked>
+      <name>currency2</name>
+   </variable>
+   <variable>
+      <defaultValue>'Gold (oz.)'</defaultValue>
+      <description></description>
+      <id>d3bfba19-3d7f-4b31-bfd7-712c691aae0f</id>
+      <masked>false</masked>
+      <name>currency3</name>
+   </variable>
 </TestCaseEntity>

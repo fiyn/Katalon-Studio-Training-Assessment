@@ -17,3 +17,30 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
+WebUI.callTestCase(findTestCase('TC01 - Login/01_Positive/TC_001_LoginSuccess'), [('username') : 'Admin', ('password') : 'hUKwJTbofgPU9eVlw/CnDQ=='
+        , ('urlAddress') : GlobalVariable.urlAddress], FailureHandling.STOP_ON_FAILURE)
+
+WebUI.click(findTestObject('Object Repository/TC05 - Pay Grades/03 - Delete Currency/TC_029_DeleteACurrency/Page_OrangeHRM/a_Admin'))
+
+WebUI.click(findTestObject('Object Repository/TC05 - Pay Grades/03 - Delete Currency/TC_029_DeleteACurrency/Page_OrangeHRM/i_Job_oxd-icon bi-chevron-down'))
+
+WebUI.click(findTestObject('Object Repository/TC05 - Pay Grades/03 - Delete Currency/TC_029_DeleteACurrency/Page_OrangeHRM/a_Pay Grades'))
+
+WebUI.click(findTestObject('TC05 - Pay Grades/03 - Delete Currency/TC_029_DeleteACurrency/Page_OrangeHRM/label_Checkbox Pay Grade', 
+        [('payGradeName') : payGradeName]), FailureHandling.STOP_ON_FAILURE)
+
+WebUI.click(findTestObject('TC05 - Pay Grades/03 - Delete Currency/TC_029_DeleteACurrency/Page_OrangeHRM/button_Edit Action', 
+        [('payGradeName') : payGradeName]))
+
+WebUI.click(findTestObject('TC05 - Pay Grades/03 - Delete Currency/TC_029_DeleteACurrency/Page_OrangeHRM/label_Checkbox Currency', 
+        [('currency') : currency]))
+
+WebUI.click(findTestObject('TC05 - Pay Grades/03 - Delete Currency/TC_030_DeleteCurrencies/Page_OrangeHRM/label_Checkbox Currency', 
+        [('currency1') : currency1]))
+
+WebUI.click(findTestObject('TC05 - Pay Grades/03 - Delete Currency/TC_030_DeleteCurrencies/Page_OrangeHRM/button_Delete Selected'))
+
+WebUI.click(findTestObject('TC05 - Pay Grades/03 - Delete Currency/TC_030_DeleteCurrencies/Page_OrangeHRM/button_Yes, Delete Confirmation'))
+
+WebUI.click(findTestObject('TC05 - Pay Grades/03 - Delete Currency/TC_029_DeleteACurrency/Page_OrangeHRM/div_SuccessSuccessfully Deleted'))
+

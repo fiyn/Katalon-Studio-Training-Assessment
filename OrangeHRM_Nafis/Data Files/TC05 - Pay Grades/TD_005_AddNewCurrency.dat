@@ -1,17 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <DataFileEntity>
    <description></description>
-   <name>TD_004_AddEmployee</name>
+   <name>TD_005_AddNewCurrency</name>
    <tag></tag>
    <connectionProperties/>
    <containsHeaders>true</containsHeaders>
    <csvSeperator></csvSeperator>
-   <dataFileGUID>02820642-fac1-4434-bdac-87e06f5f28b7</dataFileGUID>
+   <dataFileGUID>375d5ccf-9915-4aec-b4f3-08b3046e78e4</dataFileGUID>
    <dataSourceUrl>Data Files/Test Data.xlsx</dataSourceUrl>
    <driver>ExcelFile</driver>
    <isInternalPath>true</isInternalPath>
    <query></query>
    <secureUserAccount>false</secureUserAccount>
-   <sheetName>TC07-01 - Add Employee</sheetName>
+   <sheetName>TC05-01 Add New Currency</sheetName>
    <usingGlobalDBSetting>false</usingGlobalDBSetting>
 </DataFileEntity>

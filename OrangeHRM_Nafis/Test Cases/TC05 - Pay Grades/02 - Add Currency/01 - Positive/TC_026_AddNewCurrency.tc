@@ -5,32 +5,41 @@
    <tag>positive, add, new currency</tag>
    <comment></comment>
    <testCaseGuid>74d2012b-fc3a-44f2-b2d3-51c209c9f67a</testCaseGuid>
+   <testDataLinks>
+      <combinationType>ONE</combinationType>
+      <id>e4c6f69d-f7ee-4edd-97ed-494abddc0fab</id>
+      <iterationEntity>
+         <iterationType>ALL</iterationType>
+         <value></value>
+      </iterationEntity>
+      <testDataId>Data Files/TC05 - Pay Grades/TD_005_AddNewCurrency</testDataId>
+   </testDataLinks>
    <variableLinks>
-      <testDataLinkId></testDataLinkId>
-      <type>DEFAULT</type>
-      <value></value>
+      <testDataLinkId>e4c6f69d-f7ee-4edd-97ed-494abddc0fab</testDataLinkId>
+      <type>DATA_COLUMN</type>
+      <value>payGradeName</value>
       <variableId>478bda69-e27e-49ac-ac9d-9712eeb6a107</variableId>
    </variableLinks>
    <variableLinks>
-      <testDataLinkId></testDataLinkId>
-      <type>DEFAULT</type>
-      <value></value>
+      <testDataLinkId>e4c6f69d-f7ee-4edd-97ed-494abddc0fab</testDataLinkId>
+      <type>DATA_COLUMN</type>
+      <value>currency</value>
       <variableId>dd3f8d4f-492f-40e2-a80b-7b1dd2b0bf32</variableId>
    </variableLinks>
    <variableLinks>
-      <testDataLinkId></testDataLinkId>
-      <type>DEFAULT</type>
-      <value></value>
+      <testDataLinkId>e4c6f69d-f7ee-4edd-97ed-494abddc0fab</testDataLinkId>
+      <type>DATA_COLUMN</type>
+      <value>minimumSalary</value>
       <variableId>ad18b864-97eb-4cd4-bd23-d088a14d0535</variableId>
    </variableLinks>
    <variableLinks>
-      <testDataLinkId></testDataLinkId>
-      <type>DEFAULT</type>
-      <value></value>
+      <testDataLinkId>e4c6f69d-f7ee-4edd-97ed-494abddc0fab</testDataLinkId>
+      <type>DATA_COLUMN</type>
+      <value>maximumSalary</value>
       <variableId>61c7e3eb-9d74-47ba-9f20-d12f23d7a414</variableId>
    </variableLinks>
    <variable>
-      <defaultValue>'B40'</defaultValue>
+      <defaultValue>'T20'</defaultValue>
       <description></description>
       <id>478bda69-e27e-49ac-ac9d-9712eeb6a107</id>
       <masked>false</masked>

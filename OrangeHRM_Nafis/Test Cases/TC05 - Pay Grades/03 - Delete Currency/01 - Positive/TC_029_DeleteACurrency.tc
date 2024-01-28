@@ -5,4 +5,30 @@
    <tag>positive, delete, currency</tag>
    <comment></comment>
    <testCaseGuid>3a8a99a3-8059-47cc-9102-74debb113b89</testCaseGuid>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>478bda69-e27e-49ac-ac9d-9712eeb6a107</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>dd3f8d4f-492f-40e2-a80b-7b1dd2b0bf32</variableId>
+   </variableLinks>
+   <variable>
+      <defaultValue>'T20'</defaultValue>
+      <description></description>
+      <id>478bda69-e27e-49ac-ac9d-9712eeb6a107</id>
+      <masked>false</masked>
+      <name>payGradeName</name>
+   </variable>
+   <variable>
+      <defaultValue>'EUR - Euro'</defaultValue>
+      <description></description>
+      <id>dd3f8d4f-492f-40e2-a80b-7b1dd2b0bf32</id>
+      <masked>false</masked>
+      <name>currency</name>
+   </variable>
 </TestCaseEntity>
