@@ -28,19 +28,31 @@ import org.openqa.selenium.remote.RemoteWebElement as RemoteWebElement
 WebUI.callTestCase(findTestCase('TC01 - Login/01_Positive/TC_001_LoginSuccess'), [('username') : 'Admin', ('password') : 'hUKwJTbofgPU9eVlw/CnDQ=='
         , ('urlAddress') : GlobalVariable.urlAddress], FailureHandling.STOP_ON_FAILURE)
 
-WebUI.click(findTestObject('Object Repository/TC05 - Pay Grades/03 - Delete Currency/TC_029_DeleteACurrency/Page_OrangeHRM/a_Admin'))
+WebUI.click(findTestObject('TC05 - Pay Grades/03 - Delete Currency/TC_029_DeleteACurrency/Page_OrangeHRM/a_Admin'))
 
-WebUI.click(findTestObject('Object Repository/TC05 - Pay Grades/03 - Delete Currency/TC_029_DeleteACurrency/Page_OrangeHRM/i_Job_oxd-icon bi-chevron-down'))
+WebUI.click(findTestObject('TC05 - Pay Grades/04 - Edit Currency/TC_031_EditMinSalary/Page_OrangeHRM/li_Job'))
 
-WebUI.click(findTestObject('Object Repository/TC05 - Pay Grades/03 - Delete Currency/TC_029_DeleteACurrency/Page_OrangeHRM/a_Pay Grades'))
+WebUI.click(findTestObject('TC05 - Pay Grades/04 - Edit Currency/TC_031_EditMinSalary/Page_OrangeHRM/li_Pay Grades'))
 
-WebDriver driver = DriverFactory.getWebDriver()
+WebUI.click(findTestObject('TC05 - Pay Grades/04 - Edit Currency/TC_031_EditMinSalary/Page_OrangeHRM/button_Edit Action', 
+        [('payGradeName') : payGradeName]))
 
-WebElement elements = driver.findElements(By.cssSelector('.oxd-table-card'))
+WebUI.click(findTestObject('TC05 - Pay Grades/04 - Edit Currency/TC_031_EditMinSalary/Page_OrangeHRM/button_Edit Currency'))
 
-int totalelementsfind = elements.size()
+WebUI.sendKeys(findTestObject('TC05 - Pay Grades/04 - Edit Currency/TC_031_EditMinSalary/Page_OrangeHRM/input_Minimum Salary_oxd-input oxd-input--focus'), 
+    Keys.chord(Keys.LEFT_CONTROL, 'a'))
 
-System.out.println(totalelementsfind)
+WebUI.sendKeys(findTestObject('TC05 - Pay Grades/04 - Edit Currency/TC_031_EditMinSalary/Page_OrangeHRM/input_Minimum Salary_oxd-input oxd-input--focus'), 
+    Keys.chord(Keys.BACK_SPACE))
 
-WebUI.acceptAlert()
+WebUI.click(findTestObject('Object Repository/TC05 - Pay Grades/04 - Edit Currency/TC_031_EditMinSalary/Page_OrangeHRM/input_Minimum Salary_oxd-input oxd-input--focus'))
+
+WebUI.click(findTestObject('Object Repository/TC05 - Pay Grades/04 - Edit Currency/TC_031_EditMinSalary/Page_OrangeHRM/div_Edit CurrencyCurrencyMinimum SalaryMaxi_b0c072'))
+
+WebUI.setText(findTestObject('Object Repository/TC05 - Pay Grades/04 - Edit Currency/TC_031_EditMinSalary/Page_OrangeHRM/input_Minimum Salary_oxd-input oxd-input--focus'), 
+    minimumSalary)
+
+WebUI.click(findTestObject('Object Repository/TC05 - Pay Grades/04 - Edit Currency/TC_031_EditMinSalary/Page_OrangeHRM/button_Save'))
+
+WebUI.verifyElementVisible(findTestObject('Object Repository/TC05 - Pay Grades/04 - Edit Currency/TC_031_EditMinSalary/Page_OrangeHRM/div_SuccessSuccessfully Updated'))
 

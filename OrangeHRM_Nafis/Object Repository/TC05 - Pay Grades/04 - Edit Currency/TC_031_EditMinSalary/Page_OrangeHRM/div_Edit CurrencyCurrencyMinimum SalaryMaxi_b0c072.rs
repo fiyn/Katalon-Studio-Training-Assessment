@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>div_Edit CurrencyCurrencyMinimum SalaryMaxi_b0c072</name>
+   <tag></tag>
+   <elementGuidId>cf4873af-7e34-40e6-ae14-779144217938</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[@id='app']/div/div[2]/div[2]/div[2]</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>div.oxd-layout-context > div.orangehrm-card-container</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>div</value>
+      <webElementGuid>0b546972-6557-492c-a415-4b225a7f20bd</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>orangehrm-card-container</value>
+      <webElementGuid>af611f62-4b06-41b2-8202-769bbdac712e</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>Edit CurrencyCurrencyMinimum SalaryMaximum Salary * Required Cancel  Save </value>
+      <webElementGuid>17b56104-059e-404a-ba5e-bb961d9a1458</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;app&quot;)/div[@class=&quot;oxd-layout&quot;]/div[@class=&quot;oxd-layout-container&quot;]/div[@class=&quot;oxd-layout-context&quot;]/div[@class=&quot;orangehrm-card-container&quot;]</value>
+      <webElementGuid>37764b10-f647-4c9d-b8ba-f7a8dbf15e08</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='app']/div/div[2]/div[2]/div[2]</value>
+      <webElementGuid>5d3ff35a-f2dc-4571-87e9-db7e96f209f2</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//div[2]/div[2]/div[2]</value>
+      <webElementGuid>dd0c4df9-6c75-4b5f-b07f-fab720359600</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//div[(text() = 'Edit CurrencyCurrencyMinimum SalaryMaximum Salary * Required Cancel  Save ' or . = 'Edit CurrencyCurrencyMinimum SalaryMaximum Salary * Required Cancel  Save ')]</value>
+      <webElementGuid>89c7d9fc-6143-44fd-8ebd-3a0d3dd97de7</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

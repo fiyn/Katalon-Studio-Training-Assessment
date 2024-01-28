@@ -5,4 +5,43 @@
    <tag>positive, edit, curency, minimum salary</tag>
    <comment></comment>
    <testCaseGuid>abccb20a-1e58-4188-9e57-a115f96be73c</testCaseGuid>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>92ba1a5a-7019-49b5-be98-594dce4569c1</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>28a3a1f0-fea0-49ac-8d90-289b7ad5a30f</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>ad18b864-97eb-4cd4-bd23-d088a14d0535</variableId>
+   </variableLinks>
+   <variable>
+      <defaultValue>'T20'</defaultValue>
+      <description></description>
+      <id>92ba1a5a-7019-49b5-be98-594dce4569c1</id>
+      <masked>false</masked>
+      <name>payGradeName</name>
+   </variable>
+   <variable>
+      <defaultValue>'Utd. Arab Emir. Dirham'</defaultValue>
+      <description></description>
+      <id>28a3a1f0-fea0-49ac-8d90-289b7ad5a30f</id>
+      <masked>false</masked>
+      <name>currency</name>
+   </variable>
+   <variable>
+      <defaultValue>'3000'</defaultValue>
+      <description></description>
+      <id>ad18b864-97eb-4cd4-bd23-d088a14d0535</id>
+      <masked>false</masked>
+      <name>minimumSalary</name>
+   </variable>
 </TestCaseEntity>

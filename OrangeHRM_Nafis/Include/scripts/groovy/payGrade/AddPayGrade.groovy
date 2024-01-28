@@ -43,25 +43,25 @@ import cucumber.api.java.en.Then
 import cucumber.api.java.en.When
 
 public class AddPayGrade {
-	
+
 	@Given("Users at Pay Grade page and click 'Add' button")
 	def navigatePayGradePage() {
 		WebUI.callTestCase(findTestCase('TC01 - Login/01_Positive/TC_001_LoginSuccess'), [('username') : 'Admin', ('password') : 'hUKwJTbofgPU9eVlw/CnDQ=='
 			, ('urlAddress') : GlobalVariable.urlAddress], FailureHandling.STOP_ON_FAILURE)
-	
+
 		WebUI.click(findTestObject('Object Repository/TC05 - Pay Grades/01 - Add Pay Grade/TC_024_AddPayGrade/Page_OrangeHRM/a_Admin'))
-		
+
 		WebUI.click(findTestObject('Object Repository/TC05 - Pay Grades/01 - Add Pay Grade/TC_024_AddPayGrade/Page_OrangeHRM/i_Job_oxd-icon bi-chevron-down'))
-		
+
 		WebUI.click(findTestObject('Object Repository/TC05 - Pay Grades/01 - Add Pay Grade/TC_024_AddPayGrade/Page_OrangeHRM/a_Pay Grades'))
-		
+
 		WebUI.click(findTestObject('Object Repository/TC05 - Pay Grades/01 - Add Pay Grade/TC_024_AddPayGrade/Page_OrangeHRM/button_Add'))
 	}
 
 	@When("Users enter Pay Grade (.*) into input box")
 	def inputPayGradeName(String payGradeName) {
 		WebUI.setText(findTestObject('Object Repository/TC05 - Pay Grades/01 - Add Pay Grade/TC_024_AddPayGrade/Page_OrangeHRM/input_Name_oxd-input oxd-input--focus'),
-			payGradeName)
+				payGradeName)
 	}
 
 	@And("Users click 'Save' button")
