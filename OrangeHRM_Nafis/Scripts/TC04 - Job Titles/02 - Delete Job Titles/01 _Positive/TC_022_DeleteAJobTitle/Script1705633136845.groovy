@@ -26,11 +26,13 @@ WebUI.click(findTestObject('Object Repository/TC04 - Job Titles/02 - Delete Job 
 
 WebUI.click(findTestObject('Object Repository/TC04 - Job Titles/02 - Delete Job Titles/TC_022_DeleteAJobTitle/Page_OrangeHRM/li_Job Titles'))
 
-WebUI.click(findTestObject('Object Repository/TC04 - Job Titles/02 - Delete Job Titles/TC_022_DeleteAJobTitle/Page_OrangeHRM/i_Account Assistant- Testing editing- Testi_1229de'))
+WebUI.click(findTestObject('TC04 - Job Titles/02 - Delete Job Titles/TC_022_DeleteAJobTitle/Page_OrangeHRM/label_Checkbox Job Title', 
+        [('jobTitle') : jobTitle]))
 
-WebUI.click(findTestObject('Object Repository/TC04 - Job Titles/02 - Delete Job Titles/TC_022_DeleteAJobTitle/Page_OrangeHRM/button_Assistant to clerk_oxd-icon-button o_66e5c3'))
+WebUI.click(findTestObject('TC04 - Job Titles/02 - Delete Job Titles/TC_022_DeleteAJobTitle/Page_OrangeHRM/button_Delete Action', 
+        [('jobTitle') : jobTitle]))
 
-WebUI.click(findTestObject('Object Repository/TC04 - Job Titles/02 - Delete Job Titles/TC_022_DeleteAJobTitle/Page_OrangeHRM/button_Yes, Delete'))
+WebUI.click(findTestObject('TC04 - Job Titles/02 - Delete Job Titles/TC_022_DeleteAJobTitle/Page_OrangeHRM/button_Yes, Delete Confirmation'))
 
 WebUI.verifyElementVisible(findTestObject('Object Repository/TC04 - Job Titles/02 - Delete Job Titles/TC_022_DeleteAJobTitle/Page_OrangeHRM/div_SuccessSuccessfully Deleted'))
 

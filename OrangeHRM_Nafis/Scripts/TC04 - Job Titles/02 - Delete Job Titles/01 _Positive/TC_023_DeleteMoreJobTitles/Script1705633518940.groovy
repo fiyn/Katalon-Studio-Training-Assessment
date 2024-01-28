@@ -26,13 +26,18 @@ WebUI.click(findTestObject('Object Repository/TC04 - Job Titles/02 - Delete Job 
 
 WebUI.click(findTestObject('Object Repository/TC04 - Job Titles/02 - Delete Job Titles/TC_023_DeleteMoreJobTitles/Page_OrangeHRM/li_Job Titles'))
 
-WebUI.click(findTestObject('TC04 - Job Titles/02 - Delete Job Titles/TC_023_DeleteMoreJobTitles/Page_OrangeHRM/i_Account Assistant'))
+WebUI.click(findTestObject('TC04 - Job Titles/02 - Delete Job Titles/TC_023_DeleteMoreJobTitles/Page_OrangeHRM/label_Checkbox Job Title', 
+        [('jobTitle') : jobTitle]))
 
-WebUI.click(findTestObject('Object Repository/TC04 - Job Titles/02 - Delete Job Titles/TC_023_DeleteMoreJobTitles/Page_OrangeHRM/i_Account Assistant- Testing editing- Testi_1229de'))
+WebUI.click(findTestObject('TC04 - Job Titles/02 - Delete Job Titles/TC_023_DeleteMoreJobTitles/Page_OrangeHRM/label_Checkbox Job Title 1', 
+        [('jobTitle1') : jobTitle1]))
 
-WebUI.click(findTestObject('TC04 - Job Titles/02 - Delete Job Titles/TC_023_DeleteMoreJobTitles/Page_OrangeHRM/i_Manager'))
+WebUI.click(findTestObject('TC04 - Job Titles/02 - Delete Job Titles/TC_023_DeleteMoreJobTitles/Page_OrangeHRM/label_Checkbox Job Title 2', 
+        [('jobTitle2') : jobTitle2]))
 
-WebUI.click(findTestObject('TC04 - Job Titles/02 - Delete Job Titles/TC_023_DeleteMoreJobTitles/Page_OrangeHRM/i_Pembantu'))
+WebUI.scrollToPosition(0, 0)
+
+WebUI.delay(3)
 
 WebUI.click(findTestObject('Object Repository/TC04 - Job Titles/02 - Delete Job Titles/TC_023_DeleteMoreJobTitles/Page_OrangeHRM/button_Delete Selected'))
 

@@ -1,13 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>button_Yes, Delete</name>
+   <name>button_Yes, Delete Confirmation</name>
    <tag></tag>
-   <elementGuidId>1c478f5a-a72d-4829-a5aa-02d43ed2de60</elementGuidId>
+   <elementGuidId>4c33e782-4ab7-4bef-893b-602cf7388e73</elementGuidId>
    <selectorCollection>
       <entry>
          <key>CSS</key>
          <value>button.oxd-button.oxd-button--medium.oxd-button--label-danger.orangehrm-button-margin</value>
+      </entry>
+      <entry>
+         <key>BASIC</key>
+         <value>id(&quot;app&quot;)/div[@class=&quot;oxd-overlay oxd-overlay--flex oxd-overlay--flex-centered&quot;]/div[@class=&quot;oxd-dialog-container-default&quot;]/div[@class=&quot;oxd-dialog-container-default--inner&quot;]/div[@class=&quot;oxd-sheet oxd-sheet--rounded oxd-sheet--white oxd-dialog-sheet oxd-dialog-sheet--shadow oxd-dialog-sheet--gutters orangehrm-dialog-popup&quot;]/div[@class=&quot;orangehrm-modal-footer&quot;]/button[@class=&quot;oxd-button oxd-button--medium oxd-button--label-danger orangehrm-button-margin&quot;][count(. | //*[@type = 'button' and (text() = ' Yes, Delete ' or . = ' Yes, Delete ')]) = count(//*[@type = 'button' and (text() = ' Yes, Delete ' or . = ' Yes, Delete ')])]</value>
       </entry>
       <entry>
          <key>XPATH</key>
@@ -22,7 +26,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>button</value>
-      <webElementGuid>20312413-0c36-4d94-85bd-cfb8f3a682a0</webElementGuid>
+      <webElementGuid>89588d4d-f891-4190-a2b5-f203d79d5e9d</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -30,7 +34,7 @@
       <name>type</name>
       <type>Main</type>
       <value>button</value>
-      <webElementGuid>a6220d0b-f53f-40ea-84f1-b74028a7f7d0</webElementGuid>
+      <webElementGuid>940ead67-ad11-46e4-a792-c658ef61ba2b</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -38,7 +42,7 @@
       <name>class</name>
       <type>Main</type>
       <value>oxd-button oxd-button--medium oxd-button--label-danger orangehrm-button-margin</value>
-      <webElementGuid>cf4f1591-2b8d-4496-b86d-099d354043dd</webElementGuid>
+      <webElementGuid>dc1fc150-a505-42a6-af40-2a28ef4d0d22</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -46,23 +50,23 @@
       <name>text</name>
       <type>Main</type>
       <value> Yes, Delete </value>
-      <webElementGuid>e7d4c5e3-930c-4ad6-aa92-059d1f284549</webElementGuid>
+      <webElementGuid>7eb81f74-f725-4fe8-bae4-0157c7af8de9</webElementGuid>
    </webElementProperties>
    <webElementProperties>
-      <isSelected>false</isSelected>
+      <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
       <value>id(&quot;app&quot;)/div[@class=&quot;oxd-overlay oxd-overlay--flex oxd-overlay--flex-centered&quot;]/div[@class=&quot;oxd-dialog-container-default&quot;]/div[@class=&quot;oxd-dialog-container-default--inner&quot;]/div[@class=&quot;oxd-sheet oxd-sheet--rounded oxd-sheet--white oxd-dialog-sheet oxd-dialog-sheet--shadow oxd-dialog-sheet--gutters orangehrm-dialog-popup&quot;]/div[@class=&quot;orangehrm-modal-footer&quot;]/button[@class=&quot;oxd-button oxd-button--medium oxd-button--label-danger orangehrm-button-margin&quot;]</value>
-      <webElementGuid>78505b53-69cb-41fa-97d7-6be0c1d0b3b4</webElementGuid>
+      <webElementGuid>5465e54d-1e62-4365-9c9a-84c00e1db21d</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:attributes</name>
       <type>Main</type>
-      <value>(//button[@type='button'])[60]</value>
-      <webElementGuid>32d98925-a6d7-4e51-8e10-5baf6a9892fe</webElementGuid>
+      <value>(//button[@type='button'])[67]</value>
+      <webElementGuid>f13e977f-c948-4b2c-8373-2a5bff564a2c</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -70,7 +74,7 @@
       <name>xpath:idRelative</name>
       <type>Main</type>
       <value>//div[@id='app']/div[3]/div/div/div/div[3]/button[2]</value>
-      <webElementGuid>14850bb7-1f2b-4ca6-9204-0e6cb51a8980</webElementGuid>
+      <webElementGuid>ca8d15cc-93a6-430b-b3fa-8208813c6380</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -78,7 +82,23 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='×'])[1]/following::button[2]</value>
-      <webElementGuid>9d99a5bb-7a77-4bdb-92ab-095049867e1d</webElementGuid>
+      <webElementGuid>9e08ce44-30bc-440e-8138-c5bf3dfbb927</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Capture object:'])[1]/preceding::button[1]</value>
+      <webElementGuid>194082a1-6b2b-44a0-abbe-973ae43a9f58</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Alt'])[1]/preceding::button[1]</value>
+      <webElementGuid>6ace470d-d474-4b4a-9def-2eaae3008946</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -86,7 +106,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>//*/text()[normalize-space(.)='Yes, Delete']/parent::*</value>
-      <webElementGuid>f7b0e548-7a72-4433-bcfa-a4c8fc0da880</webElementGuid>
+      <webElementGuid>09debb09-797f-4f19-842b-2c838ef2cef6</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -94,7 +114,7 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//div[3]/button[2]</value>
-      <webElementGuid>f2eb3bd0-e3d7-4135-ba9c-5e8044a5ce6f</webElementGuid>
+      <webElementGuid>fbf6d8ee-89ea-490d-b8a6-ff0ca50c4e7f</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -102,6 +122,6 @@
       <name>xpath:customAttributes</name>
       <type>Main</type>
       <value>//button[@type = 'button' and (text() = ' Yes, Delete ' or . = ' Yes, Delete ')]</value>
-      <webElementGuid>ce393461-149f-4f37-9b97-5918e9c1949b</webElementGuid>
+      <webElementGuid>53524f07-5951-4e73-8ed7-14dd9a3297f4</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>
