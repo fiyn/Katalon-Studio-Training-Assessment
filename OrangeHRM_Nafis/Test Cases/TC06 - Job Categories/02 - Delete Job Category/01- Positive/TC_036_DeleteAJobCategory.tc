@@ -5,4 +5,17 @@
    <tag>positive, delete, job category</tag>
    <comment></comment>
    <testCaseGuid>dbfa569a-d4ff-4ca1-b073-2bc6227e25ba</testCaseGuid>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>77d8f576-f00f-4b93-9887-0a521eabefaa</variableId>
+   </variableLinks>
+   <variable>
+      <defaultValue>'Education'</defaultValue>
+      <description></description>
+      <id>77d8f576-f00f-4b93-9887-0a521eabefaa</id>
+      <masked>false</masked>
+      <name>jobCategoryName</name>
+   </variable>
 </TestCaseEntity>

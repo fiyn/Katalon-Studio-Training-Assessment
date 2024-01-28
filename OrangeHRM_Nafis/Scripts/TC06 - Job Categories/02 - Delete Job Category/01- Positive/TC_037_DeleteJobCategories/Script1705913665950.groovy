@@ -26,18 +26,18 @@ WebUI.click(findTestObject('Object Repository/TC06 - Job Categories/02 - Delete 
 
 WebUI.click(findTestObject('Object Repository/TC06 - Job Categories/02 - Delete Job Category/TC_037_DeleteJobCategories/Page_OrangeHRM/li_Job Categories'))
 
-WebUI.click(findTestObject('TC06 - Job Categories/02 - Delete Job Category/TC_037_DeleteJobCategories/Page_OrangeHRM/i_Barber Checkbox row 1'))
+WebUI.click(findTestObject('TC06 - Job Categories/02 - Delete Job Category/TC_037_DeleteJobCategories/Page_OrangeHRM/label_Checkbox Job Category', 
+        [('jobCategoryName') : jobCategoryName]))
 
-WebUI.click(findTestObject('TC06 - Job Categories/02 - Delete Job Category/TC_037_DeleteJobCategories/Page_OrangeHRM/i_Education Checkbox Row 3'))
+WebUI.click(findTestObject('TC06 - Job Categories/02 - Delete Job Category/TC_037_DeleteJobCategories/Page_OrangeHRM/label_Checkbox Job Category 1', 
+        [('jobCategoryName1') : jobCategoryName1]))
 
-WebUI.click(findTestObject('TC06 - Job Categories/02 - Delete Job Category/TC_037_DeleteJobCategories/Page_OrangeHRM/i_Health care Checkbox Row 4'))
+WebUI.click(findTestObject('TC06 - Job Categories/02 - Delete Job Category/TC_037_DeleteJobCategories/Page_OrangeHRM/label_Checkbox Job Category 2', 
+        [('jobCategoryName2') : jobCategoryName2]))
 
-WebUI.click(findTestObject('TC06 - Job Categories/02 - Delete Job Category/TC_037_DeleteJobCategories/Page_OrangeHRM/i_IT Checkbox Row 5'))
+WebUI.scrollToPosition(0, 2)
 
-WebUI.click(findTestObject('TC06 - Job Categories/02 - Delete Job Category/TC_037_DeleteJobCategories/Page_OrangeHRM/i_Painter Checkbox Row 11'))
-
-WebUI.scrollToElement(findTestObject('TC06 - Job Categories/02 - Delete Job Category/TC_037_DeleteJobCategories/Page_OrangeHRM/button_Delete Selected'), 
-    2)
+WebUI.delay(2)
 
 WebUI.click(findTestObject('Object Repository/TC06 - Job Categories/02 - Delete Job Category/TC_037_DeleteJobCategories/Page_OrangeHRM/button_Delete Selected'))
 

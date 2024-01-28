@@ -5,4 +5,43 @@
    <tag>positive, delete, job category, many</tag>
    <comment></comment>
    <testCaseGuid>0c072c73-cec5-44ca-b8e5-a98fee4211fa</testCaseGuid>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>844360aa-05d2-493a-aa83-cbaec678ac4c</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>f63eb517-950c-4a62-a5cc-dd0544da3a62</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>e0982189-2a35-459e-834e-0cf02c4765f1</variableId>
+   </variableLinks>
+   <variable>
+      <defaultValue>'IT Professional'</defaultValue>
+      <description></description>
+      <id>844360aa-05d2-493a-aa83-cbaec678ac4c</id>
+      <masked>false</masked>
+      <name>jobCategoryName</name>
+   </variable>
+   <variable>
+      <defaultValue>'Health care'</defaultValue>
+      <description></description>
+      <id>f63eb517-950c-4a62-a5cc-dd0544da3a62</id>
+      <masked>false</masked>
+      <name>jobCategoryName1</name>
+   </variable>
+   <variable>
+      <defaultValue>'Barber'</defaultValue>
+      <description></description>
+      <id>e0982189-2a35-459e-834e-0cf02c4765f1</id>
+      <masked>false</masked>
+      <name>jobCategoryName2</name>
+   </variable>
 </TestCaseEntity>

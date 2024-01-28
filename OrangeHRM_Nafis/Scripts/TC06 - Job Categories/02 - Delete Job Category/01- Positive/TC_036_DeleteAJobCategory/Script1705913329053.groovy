@@ -26,11 +26,13 @@ WebUI.click(findTestObject('Object Repository/TC06 - Job Categories/02 - Delete 
 
 WebUI.click(findTestObject('Object Repository/TC06 - Job Categories/02 - Delete Job Category/TC_036_DeleteAJobCategory/Page_OrangeHRM/li_Job Categories'))
 
-WebUI.click(findTestObject('Object Repository/TC06 - Job Categories/02 - Delete Job Category/TC_036_DeleteAJobCategory/Page_OrangeHRM/i_Craft Workers_oxd-icon bi-check oxd-check_0aa6fa'))
+WebUI.click(findTestObject('TC06 - Job Categories/02 - Delete Job Category/TC_036_DeleteAJobCategory/Page_OrangeHRM/label_Checkbox Job Category', 
+        [('jobCategoryName') : jobCategoryName]))
 
-WebUI.click(findTestObject('Object Repository/TC06 - Job Categories/02 - Delete Job Category/TC_036_DeleteAJobCategory/Page_OrangeHRM/i_IT Professional_oxd-icon bi-trash'))
+WebUI.click(findTestObject('TC06 - Job Categories/02 - Delete Job Category/TC_036_DeleteAJobCategory/Page_OrangeHRM/button_Delete Action', 
+        [('jobCategoryName') : jobCategoryName]))
 
-WebUI.click(findTestObject('Object Repository/TC06 - Job Categories/02 - Delete Job Category/TC_036_DeleteAJobCategory/Page_OrangeHRM/button_Yes, Delete'))
+WebUI.click(findTestObject('TC06 - Job Categories/02 - Delete Job Category/TC_036_DeleteAJobCategory/Page_OrangeHRM/button_Yes, Delete Confirmation'))
 
 WebUI.verifyElementVisible(findTestObject('TC06 - Job Categories/02 - Delete Job Category/TC_036_DeleteAJobCategory/Page_OrangeHRM/div_SuccessSuccessfully Deleted'))
 
