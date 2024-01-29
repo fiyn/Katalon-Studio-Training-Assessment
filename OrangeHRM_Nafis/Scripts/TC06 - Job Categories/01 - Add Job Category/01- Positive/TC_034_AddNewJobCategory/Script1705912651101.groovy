@@ -35,3 +35,5 @@ WebUI.click(findTestObject('Object Repository/TC06 - Job Categories/01 - Add Job
 
 WebUI.verifyElementVisible(findTestObject('Object Repository/TC06 - Job Categories/01 - Add Job Category/TC_034_AddNewJobCategory/Page_OrangeHRM/div_SuccessSuccessfully Saved'))
 
+WebUI.delay(2)
+

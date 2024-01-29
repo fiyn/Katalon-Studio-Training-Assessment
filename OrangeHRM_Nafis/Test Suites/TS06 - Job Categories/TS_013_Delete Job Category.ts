@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestSuiteEntity>
+   <description></description>
+   <name>TS_013_Delete Job Category</name>
+   <tag></tag>
+   <isRerun>false</isRerun>
+   <mailRecipient></mailRecipient>
+   <numberOfRerun>1</numberOfRerun>
+   <pageLoadTimeout>30</pageLoadTimeout>
+   <pageLoadTimeoutDefault>true</pageLoadTimeoutDefault>
+   <rerunFailedTestCasesOnly>false</rerunFailedTestCasesOnly>
+   <rerunImmediately>true</rerunImmediately>
+   <testSuiteGuid>258f5bf0-c501-4c64-8f99-1f2f906de922</testSuiteGuid>
+   <testCaseLink>
+      <guid>740e0946-6f1d-4057-94ee-e0dfdc1ee0de</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/TC06 - Job Categories/02 - Delete Job Category/01- Positive/TC_036_DeleteAJobCategory</testCaseId>
+      <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>77d8f576-f00f-4b93-9887-0a521eabefaa</variableId>
+      </variableLink>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>6750c028-1efe-4535-af12-99116fd53caa</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/TC06 - Job Categories/02 - Delete Job Category/01- Positive/TC_037_DeleteJobCategories</testCaseId>
+      <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>844360aa-05d2-493a-aa83-cbaec678ac4c</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>f63eb517-950c-4a62-a5cc-dd0544da3a62</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>e0982189-2a35-459e-834e-0cf02c4765f1</variableId>
+      </variableLink>
+   </testCaseLink>
+</TestSuiteEntity>

@@ -35,3 +35,5 @@ WebUI.click(findTestObject('Object Repository/TC06 - Job Categories/01 - Add Job
 
 WebUI.verifyElementVisible(findTestObject('TC06 - Job Categories/01 - Add Job Category/TC_035_EnterExistingJobCategory/Page_OrangeHRM/span_Already exists'))
 
+WebUI.delay(2)
+

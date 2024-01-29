@@ -5,6 +5,12 @@
    <tag>positive, job category</tag>
    <comment></comment>
    <testCaseGuid>2e842984-d869-4a0b-aa03-8da76a03ed73</testCaseGuid>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>6cb5c99f-ea65-43f0-8d8d-d02f59b7b9ca</variableId>
+   </variableLinks>
    <variable>
       <defaultValue>'IT Professional'</defaultValue>
       <description></description>
