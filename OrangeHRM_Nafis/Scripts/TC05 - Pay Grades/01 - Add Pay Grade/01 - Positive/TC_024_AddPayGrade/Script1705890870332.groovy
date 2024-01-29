@@ -35,3 +35,5 @@ WebUI.click(findTestObject('Object Repository/TC05 - Pay Grades/01 - Add Pay Gra
 
 WebUI.verifyElementVisible(findTestObject('TC05 - Pay Grades/01 - Add Pay Grade/TC_024_AddPayGrade/Page_OrangeHRM/div_SuccessSuccessfully Saved'))
 
+WebUI.delay(3)
+

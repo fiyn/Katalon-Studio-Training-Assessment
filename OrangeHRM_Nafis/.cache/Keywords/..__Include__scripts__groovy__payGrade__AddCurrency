@@ -1,10 +1,10 @@
 {
-  "keywordFileContentHash": "2D525AE50B0FF42A9928A6766438F885",
+  "keywordFileContentHash": "90F92AA4287DD7EE067565C109B1430A",
   "keywordClasses": [
     {
       "name": "payGrade.AddCurrency",
       "keywordMethods": []
     }
   ],
-  "javadocParsed": false
+  "javadocParsed": true
 }

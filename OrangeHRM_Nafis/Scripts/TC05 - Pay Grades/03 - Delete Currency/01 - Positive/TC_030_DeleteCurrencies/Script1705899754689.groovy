@@ -44,3 +44,5 @@ WebUI.click(findTestObject('TC05 - Pay Grades/03 - Delete Currency/TC_030_Delete
 
 WebUI.click(findTestObject('TC05 - Pay Grades/03 - Delete Currency/TC_029_DeleteACurrency/Page_OrangeHRM/div_SuccessSuccessfully Deleted'))
 
+WebUI.delay(3)
+

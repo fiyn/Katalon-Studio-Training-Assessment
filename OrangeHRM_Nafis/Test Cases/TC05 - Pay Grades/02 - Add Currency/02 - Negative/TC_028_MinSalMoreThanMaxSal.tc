@@ -30,7 +30,7 @@
       <variableId>61c7e3eb-9d74-47ba-9f20-d12f23d7a414</variableId>
    </variableLinks>
    <variable>
-      <defaultValue>'M40'</defaultValue>
+      <defaultValue>'T20'</defaultValue>
       <description></description>
       <id>478bda69-e27e-49ac-ac9d-9712eeb6a107</id>
       <masked>false</masked>

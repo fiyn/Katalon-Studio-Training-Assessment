@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestSuiteEntity>
+   <description></description>
+   <name>TS_009_Add Currency</name>
+   <tag></tag>
+   <isRerun>false</isRerun>
+   <mailRecipient></mailRecipient>
+   <numberOfRerun>1</numberOfRerun>
+   <pageLoadTimeout>30</pageLoadTimeout>
+   <pageLoadTimeoutDefault>true</pageLoadTimeoutDefault>
+   <rerunFailedTestCasesOnly>false</rerunFailedTestCasesOnly>
+   <rerunImmediately>true</rerunImmediately>
+   <testSuiteGuid>557ab876-7867-48c8-a063-37f08c6e8d24</testSuiteGuid>
+   <testCaseLink>
+      <guid>99fd9e50-62df-4c16-ad5d-4156db298238</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/TC05 - Pay Grades/02 - Add Currency/01 - Positive/TC_026_AddNewCurrency_BDD</testCaseId>
+      <usingDataBindingAtTestSuiteLevel>false</usingDataBindingAtTestSuiteLevel>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>9c7daf6c-2050-4d10-98ae-3ed8870e64ef</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/TC05 - Pay Grades/02 - Add Currency/02 - Negative/TC_027_InvalidCurrency</testCaseId>
+      <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>478bda69-e27e-49ac-ac9d-9712eeb6a107</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>dd3f8d4f-492f-40e2-a80b-7b1dd2b0bf32</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>ad18b864-97eb-4cd4-bd23-d088a14d0535</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>61c7e3eb-9d74-47ba-9f20-d12f23d7a414</variableId>
+      </variableLink>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>d0492c5e-41a6-468d-b7ec-066e6c8bb0f0</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/TC05 - Pay Grades/02 - Add Currency/02 - Negative/TC_028_MinSalMoreThanMaxSal</testCaseId>
+      <usingDataBindingAtTestSuiteLevel>false</usingDataBindingAtTestSuiteLevel>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value></value>
+         <variableId>478bda69-e27e-49ac-ac9d-9712eeb6a107</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value></value>
+         <variableId>dd3f8d4f-492f-40e2-a80b-7b1dd2b0bf32</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value></value>
+         <variableId>ad18b864-97eb-4cd4-bd23-d088a14d0535</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value></value>
+         <variableId>61c7e3eb-9d74-47ba-9f20-d12f23d7a414</variableId>
+      </variableLink>
+   </testCaseLink>
+</TestSuiteEntity>

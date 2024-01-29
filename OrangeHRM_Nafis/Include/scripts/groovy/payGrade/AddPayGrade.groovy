@@ -72,5 +72,7 @@ public class AddPayGrade {
 	@Then("System displays the new 'Pay Grade' message as confirmation")
 	def clickSave() {
 		WebUI.verifyElementVisible(findTestObject('TC05 - Pay Grades/01 - Add Pay Grade/TC_024_AddPayGrade/Page_OrangeHRM/div_SuccessSuccessfully Saved'))
+	
+		WebUI.delay(3)
 	}
 }

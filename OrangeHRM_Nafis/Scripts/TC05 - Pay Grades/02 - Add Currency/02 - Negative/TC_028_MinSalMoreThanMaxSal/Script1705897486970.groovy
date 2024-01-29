@@ -17,8 +17,20 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
-WebUI.callTestCase(findTestCase('TC05 - Pay Grades/01 - Add Pay Grade/01 - Positive/TC_024_AddPayGrade'), [('payGradeName') : payGradeName], 
-    FailureHandling.STOP_ON_FAILURE)
+WebUI.callTestCase(findTestCase('TC01 - Login/01_Positive/TC_001_LoginSuccess'), [('username') : 'Admin', ('password') : 'hUKwJTbofgPU9eVlw/CnDQ=='
+        , ('urlAddress') : GlobalVariable.urlAddress], FailureHandling.STOP_ON_FAILURE)
+
+WebUI.click(findTestObject('TC05 - Pay Grades/03 - Delete Currency/TC_029_DeleteACurrency/Page_OrangeHRM/a_Admin'))
+
+WebUI.click(findTestObject('TC05 - Pay Grades/04 - Edit Currency/TC_031_EditMinSalary/Page_OrangeHRM/li_Job'))
+
+WebUI.click(findTestObject('TC05 - Pay Grades/04 - Edit Currency/TC_031_EditMinSalary/Page_OrangeHRM/li_Pay Grades'))
+
+WebUI.click(findTestObject('TC05 - Pay Grades/02 - Add Currency/TC_027_InvalidCurrency/Page_OrangeHRM/label_Checkbox Pay Grade', 
+        [('payGradeName') : payGradeName]), FailureHandling.STOP_ON_FAILURE)
+
+WebUI.click(findTestObject('TC05 - Pay Grades/02 - Add Currency/TC_027_InvalidCurrency/Page_OrangeHRM/button_Edit Action', 
+        [('payGradeName') : payGradeName]))
 
 WebUI.click(findTestObject('Object Repository/TC05 - Pay Grades/02 - Add Currency/TC_026_AddNewCurrency/Page_OrangeHRM/button_Add'))
 

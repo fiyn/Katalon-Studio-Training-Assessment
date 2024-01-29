@@ -49,32 +49,31 @@ class DeleteCurrency {
 	@Given("Users login and navigate to Pay Grade page")
 	def navigateToPayGrade() {
 		WebUI.callTestCase(findTestCase('TC01 - Login/01_Positive/TC_001_LoginSuccess'), [('username') : 'Admin', ('password') : 'hUKwJTbofgPU9eVlw/CnDQ=='
-        , ('urlAddress') : GlobalVariable.urlAddress], FailureHandling.STOP_ON_FAILURE)
+			, ('urlAddress') : GlobalVariable.urlAddress], FailureHandling.STOP_ON_FAILURE)
 
 		WebUI.click(findTestObject('Object Repository/TC05 - Pay Grades/03 - Delete Currency/TC_029_DeleteACurrency/Page_OrangeHRM/a_Admin'))
-		
-		WebUI.click(findTestObject('Object Repository/TC05 - Pay Grades/03 - Delete Currency/TC_029_DeleteACurrency/Page_OrangeHRM/i_Job_oxd-icon bi-chevron-down'))
-		
-		WebUI.click(findTestObject('Object Repository/TC05 - Pay Grades/03 - Delete Currency/TC_029_DeleteACurrency/Page_OrangeHRM/a_Pay Grades'))
 
+		WebUI.click(findTestObject('Object Repository/TC05 - Pay Grades/03 - Delete Currency/TC_029_DeleteACurrency/Page_OrangeHRM/i_Job_oxd-icon bi-chevron-down'))
+
+		WebUI.click(findTestObject('Object Repository/TC05 - Pay Grades/03 - Delete Currency/TC_029_DeleteACurrency/Page_OrangeHRM/a_Pay Grades'))
 	}
 
 	@When("Users select (.*) to edit")
 	def selectPayGrade(String payGradeName) {
-		WebUI.click(findTestObject('TC05 - Pay Grades/03 - Delete Currency/TC_029_DeleteACurrency/Page_OrangeHRM/label_Checkbox Pay Grade', 
-			[('payGradeName') : payGradeName]), FailureHandling.STOP_ON_FAILURE)
+		WebUI.click(findTestObject('TC05 - Pay Grades/03 - Delete Currency/TC_029_DeleteACurrency/Page_OrangeHRM/label_Checkbox Pay Grade',
+				[('payGradeName') : payGradeName]), FailureHandling.STOP_ON_FAILURE)
 
-		WebUI.click(findTestObject('TC05 - Pay Grades/03 - Delete Currency/TC_029_DeleteACurrency/Page_OrangeHRM/button_Edit Action', 
-			[('payGradeName') : payGradeName]))
+		WebUI.click(findTestObject('TC05 - Pay Grades/03 - Delete Currency/TC_029_DeleteACurrency/Page_OrangeHRM/button_Edit Action',
+				[('payGradeName') : payGradeName]))
 	}
-	
+
 	@And("Users select (.*) to delete")
 	def selectToDelete(String currency) {
-		WebUI.click(findTestObject('TC05 - Pay Grades/03 - Delete Currency/TC_029_DeleteACurrency/Page_OrangeHRM/label_Checkbox Currency', 
-			[('currency') : currency]))
+		WebUI.click(findTestObject('TC05 - Pay Grades/03 - Delete Currency/TC_029_DeleteACurrency/Page_OrangeHRM/label_Checkbox Currency',
+				[('currency') : currency]))
 
-		WebUI.click(findTestObject('TC05 - Pay Grades/03 - Delete Currency/TC_029_DeleteACurrency/Page_OrangeHRM/button_Delete Currency', 
-		        [('currency') : currency]))
+		WebUI.click(findTestObject('TC05 - Pay Grades/03 - Delete Currency/TC_029_DeleteACurrency/Page_OrangeHRM/button_Delete Currency',
+				[('currency') : currency]))
 	}
 
 	@Then("System displays the confirmation message")
@@ -82,6 +81,7 @@ class DeleteCurrency {
 		WebUI.click(findTestObject('TC05 - Pay Grades/03 - Delete Currency/TC_029_DeleteACurrency/Page_OrangeHRM/button_Yes, Delete Confirmation'))
 
 		WebUI.click(findTestObject('TC05 - Pay Grades/03 - Delete Currency/TC_029_DeleteACurrency/Page_OrangeHRM/div_SuccessSuccessfully Deleted'))
-
+	
+		WebUI.delay(3)
 	}
 }

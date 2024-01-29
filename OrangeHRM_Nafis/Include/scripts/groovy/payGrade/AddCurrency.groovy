@@ -60,11 +60,11 @@ class AddCurrency {
 
 	@When("Users choose which (.*) to modify")
 	def selectPayGrade(String payGradeName) {
-		WebUI.click(findTestObject('TC05 - Pay Grades/03 - Delete Currency/TC_029_DeleteACurrency/Page_OrangeHRM/label_Checkbox Pay Grade', 
-			[('payGradeName') : payGradeName]), FailureHandling.STOP_ON_FAILURE)
+		WebUI.click(findTestObject('TC05 - Pay Grades/03 - Delete Currency/TC_029_DeleteACurrency/Page_OrangeHRM/label_Checkbox Pay Grade',
+				[('payGradeName') : payGradeName]), FailureHandling.STOP_ON_FAILURE)
 
-		WebUI.click(findTestObject('TC05 - Pay Grades/04 - Edit Currency/TC_031_EditMinSalary/Page_OrangeHRM/button_Edit Action', 
-	        [('payGradeName') : payGradeName]))
+		WebUI.click(findTestObject('TC05 - Pay Grades/04 - Edit Currency/TC_031_EditMinSalary/Page_OrangeHRM/button_Edit Action',
+				[('payGradeName') : payGradeName]))
 	}
 
 	@And("Users add (.*), (.*) and, (.*)")
@@ -88,5 +88,7 @@ class AddCurrency {
 		WebUI.click(findTestObject('Object Repository/TC05 - Pay Grades/02 - Add Currency/TC_026_AddNewCurrency/Page_OrangeHRM/button_Save'))
 
 		WebUI.verifyElementVisible(findTestObject('Object Repository/TC05 - Pay Grades/02 - Add Currency/TC_026_AddNewCurrency/Page_OrangeHRM/div_SuccessSuccessfully Saved'))
+		
+		WebUI.delay(3)
 	}
 }
