@@ -24,7 +24,7 @@
       <variableId>d5dcfe00-9cc0-44fa-8a0d-751ac0e415fe</variableId>
    </variableLinks>
    <variable>
-      <defaultValue>'Manager'</defaultValue>
+      <defaultValue>'Assistant Clerk'</defaultValue>
       <description></description>
       <id>9b9e1bdd-909c-4cac-bcd1-ca7553891661</id>
       <masked>false</masked>

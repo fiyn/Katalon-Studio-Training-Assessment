@@ -1,52 +1,40 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <TestSuiteEntity>
    <description></description>
-   <name>TS_001_ResetPassword</name>
+   <name>TS_003_Search User</name>
    <tag></tag>
    <isRerun>false</isRerun>
    <mailRecipient></mailRecipient>
-   <numberOfRerun>2</numberOfRerun>
+   <numberOfRerun>1</numberOfRerun>
    <pageLoadTimeout>30</pageLoadTimeout>
    <pageLoadTimeoutDefault>true</pageLoadTimeoutDefault>
    <rerunFailedTestCasesOnly>false</rerunFailedTestCasesOnly>
    <rerunImmediately>true</rerunImmediately>
-   <testSuiteGuid>a83ffb95-47e1-4985-b22d-d1fcfd03764a</testSuiteGuid>
+   <testSuiteGuid>fa8c69e2-6207-4c87-b45c-49569995a9a7</testSuiteGuid>
    <testCaseLink>
-      <guid>2f5ce3b7-97a6-4cb4-8b3a-337791cfc0e8</guid>
+      <guid>939d9634-eb72-44ef-be67-b0a34d3507bb</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/TC02 - ResetPassword/01_Positive/TC_004_ResetPasswordSuccess</testCaseId>
+      <testCaseId>Test Cases/TC03 - Users/01 - Search Users/01_Positive/TC_006_ValidUserName</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
       <variableLink>
          <testDataLinkId></testDataLinkId>
          <type>DEFAULT</type>
          <value></value>
-         <variableId>62487ccf-91c3-4206-a0d2-ac4797bf1266</variableId>
-      </variableLink>
-      <variableLink>
-         <testDataLinkId></testDataLinkId>
-         <type>DEFAULT</type>
-         <value></value>
-         <variableId>3ba68592-28f0-4c4d-a9a6-dcdaf9c8f482</variableId>
+         <variableId>15f6ff45-3618-4940-be3d-cdd9c4e29576</variableId>
       </variableLink>
    </testCaseLink>
    <testCaseLink>
-      <guid>ca3da1b1-225f-4e21-8f08-77169601d26e</guid>
+      <guid>fb521531-c00b-4372-afdf-e5e31a5644cf</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/TC02 - ResetPassword/02_Negative/TC_005_BlankInput</testCaseId>
+      <testCaseId>Test Cases/TC03 - Users/01 - Search Users/02_Negative/TC_007_InvalidUserName</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
       <variableLink>
          <testDataLinkId></testDataLinkId>
          <type>DEFAULT</type>
          <value></value>
-         <variableId>62487ccf-91c3-4206-a0d2-ac4797bf1266</variableId>
-      </variableLink>
-      <variableLink>
-         <testDataLinkId></testDataLinkId>
-         <type>DEFAULT</type>
-         <value></value>
-         <variableId>3ba68592-28f0-4c4d-a9a6-dcdaf9c8f482</variableId>
+         <variableId>15f6ff45-3618-4940-be3d-cdd9c4e29576</variableId>
       </variableLink>
    </testCaseLink>
 </TestSuiteEntity>

@@ -29,6 +29,18 @@
       <value></value>
       <variableId>61e36a66-7200-4f8d-9d91-ceb336d3918a</variableId>
    </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>22fea7a7-b7fa-4a29-93b2-1e9d399f402e</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>a8c147dc-33e0-4bcc-ae92-72311aa8802a</variableId>
+   </variableLinks>
    <variable>
       <defaultValue>'Sam'</defaultValue>
       <description></description>
@@ -56,5 +68,19 @@
       <id>61e36a66-7200-4f8d-9d91-ceb336d3918a</id>
       <masked>false</masked>
       <name>passwordConfirmation</name>
+   </variable>
+   <variable>
+      <defaultValue>'Enabled'</defaultValue>
+      <description></description>
+      <id>22fea7a7-b7fa-4a29-93b2-1e9d399f402e</id>
+      <masked>false</masked>
+      <name>userStatus</name>
+   </variable>
+   <variable>
+      <defaultValue>'Admin'</defaultValue>
+      <description></description>
+      <id>a8c147dc-33e0-4bcc-ae92-72311aa8802a</id>
+      <masked>false</masked>
+      <name>userRole</name>
    </variable>
 </TestCaseEntity>
