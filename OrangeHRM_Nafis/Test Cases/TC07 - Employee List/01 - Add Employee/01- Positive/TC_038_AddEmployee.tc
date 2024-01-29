@@ -69,35 +69,35 @@
       <variableId>3f29ebdc-2a7c-4eef-9509-209e75798418</variableId>
    </variableLinks>
    <variable>
-      <defaultValue>'Ahmad'</defaultValue>
+      <defaultValue>''</defaultValue>
       <description></description>
       <id>87fd92f0-f499-436a-8b86-752fafdaf050</id>
       <masked>false</masked>
       <name>empFirstName</name>
    </variable>
    <variable>
-      <defaultValue>'Tim'</defaultValue>
+      <defaultValue>''</defaultValue>
       <description></description>
       <id>583ee1b3-fcbb-44da-97db-84b224250df9</id>
       <masked>false</masked>
       <name>empMidName</name>
    </variable>
    <variable>
-      <defaultValue>'Sean'</defaultValue>
+      <defaultValue>''</defaultValue>
       <description></description>
       <id>669f7601-49d6-4675-8bb7-ad00f8ff5b28</id>
       <masked>false</masked>
       <name>empLastName</name>
    </variable>
    <variable>
-      <defaultValue>'0299'</defaultValue>
+      <defaultValue>''</defaultValue>
       <description></description>
       <id>15307e95-6a64-4fe9-977e-5ec935a82371</id>
       <masked>false</masked>
       <name>empID</name>
    </variable>
    <variable>
-      <defaultValue>'ahmad098'</defaultValue>
+      <defaultValue>''</defaultValue>
       <description></description>
       <id>a6ed10c4-47ca-4643-9437-c1630dada7f8</id>
       <masked>false</masked>
@@ -118,7 +118,7 @@
       <name>empPasswordConfirmaton</name>
    </variable>
    <variable>
-      <defaultValue>'2'</defaultValue>
+      <defaultValue>''</defaultValue>
       <description></description>
       <id>a7f67bfc-f508-4a5f-9140-b3c8a4522bc3</id>
       <masked>false</masked>

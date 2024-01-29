@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>button_Delete Row Button</name>
+   <name>button_Delete Action</name>
    <tag></tag>
-   <elementGuidId>19ea2873-2fec-46a2-bdd7-8818cce6e2a2</elementGuidId>
+   <elementGuidId>3aec4b0e-43e5-4b03-ae6d-03f743b47f30</elementGuidId>
    <selectorCollection>
       <entry>
          <key>CSS</key>
@@ -11,7 +11,7 @@
       </entry>
       <entry>
          <key>XPATH</key>
-         <value>(//button[@type='button'])[6]</value>
+         <value>(.//*[normalize-space(text()) and normalize-space(.)='${deleteName}'])[1]/following::button[1]</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
@@ -22,7 +22,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>button</value>
-      <webElementGuid>4b8efddf-1ec9-4c60-9b17-5008b2c04d86</webElementGuid>
+      <webElementGuid>fba5aac2-c9a4-4c55-bee8-82236ed321e8</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -30,7 +30,7 @@
       <name>class</name>
       <type>Main</type>
       <value>oxd-icon-button oxd-table-cell-action-space</value>
-      <webElementGuid>8b51b7be-9266-481e-98f1-7689e6a38ffc</webElementGuid>
+      <webElementGuid>3252e1f9-4bbc-40b5-9520-1594f62f9277</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -38,7 +38,7 @@
       <name>type</name>
       <type>Main</type>
       <value>button</value>
-      <webElementGuid>1f78c619-0a63-4396-ab8a-d2fa2d088657</webElementGuid>
+      <webElementGuid>ece31fe8-6fa4-4985-864d-8a68ad28c1b8</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -46,15 +46,15 @@
       <name>xpath</name>
       <type>Main</type>
       <value>id(&quot;app&quot;)/div[@class=&quot;oxd-layout&quot;]/div[@class=&quot;oxd-layout-container&quot;]/div[@class=&quot;oxd-layout-context&quot;]/div[@class=&quot;orangehrm-background-container&quot;]/div[@class=&quot;orangehrm-paper-container&quot;]/div[@class=&quot;orangehrm-container&quot;]/div[@class=&quot;oxd-table orangehrm-employee-list&quot;]/div[@class=&quot;oxd-table-body&quot;]/div[@class=&quot;oxd-table-card&quot;]/div[@class=&quot;oxd-table-row oxd-table-row--with-border oxd-table-row--clickable&quot;]/div[@class=&quot;oxd-table-cell oxd-padding-cell&quot;]/div[@class=&quot;oxd-table-cell-actions&quot;]/button[@class=&quot;oxd-icon-button oxd-table-cell-action-space&quot;]</value>
-      <webElementGuid>53389da0-a107-4edf-bfe5-3e239976e76b</webElementGuid>
+      <webElementGuid>ba42f3a3-840d-42f9-8ef6-435bd5148431</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:attributes</name>
       <type>Main</type>
-      <value>(//button[@type='button'])[6]</value>
-      <webElementGuid>84d284f2-2213-4b44-94ea-15f217dba232</webElementGuid>
+      <value>(//button[@type='button'])[5]</value>
+      <webElementGuid>2faf2400-db17-41df-8ded-03c50a3b873b</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -62,23 +62,23 @@
       <name>xpath:idRelative</name>
       <type>Main</type>
       <value>//div[@id='app']/div/div[2]/div[2]/div/div[2]/div[3]/div/div[2]/div/div/div[9]/div/button</value>
-      <webElementGuid>b4854f44-fc83-4117-a885-04f4e3b822a7</webElementGuid>
+      <webElementGuid>97059936-eed4-4120-88ca-2b8df97d5667</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='Bok Bok'])[1]/following::button[1]</value>
-      <webElementGuid>de83628e-ac60-4af3-8747-7019c14f98c6</webElementGuid>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Odis Adalwin'])[1]/following::button[1]</value>
+      <webElementGuid>3f028fb6-7c55-4e26-818d-66881ede969d</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='Alfred'])[1]/following::button[1]</value>
-      <webElementGuid>b263d5c2-b5cf-462f-9b95-825b6193b17d</webElementGuid>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Quality Assurance'])[1]/following::button[1]</value>
+      <webElementGuid>a5073296-5a79-4b77-a509-f7e75f77a863</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -86,7 +86,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Alice'])[1]/preceding::button[2]</value>
-      <webElementGuid>33085242-7979-4dfa-bd01-a60fbefd56cb</webElementGuid>
+      <webElementGuid>8afddfcf-8e54-4a51-95fb-24958dd25fed</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -94,7 +94,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Duval'])[1]/preceding::button[2]</value>
-      <webElementGuid>e6b4c6ab-efe7-4b65-a925-a6f654466174</webElementGuid>
+      <webElementGuid>98e0cb6b-a9a2-4313-9a8e-2b46bc69ca03</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -102,7 +102,7 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//div[9]/div/button</value>
-      <webElementGuid>55ac154e-0f36-4b66-ab1e-9e3b499d2d79</webElementGuid>
+      <webElementGuid>20473efb-05f7-4bfa-9c2e-cc8309d20c00</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -110,6 +110,6 @@
       <name>xpath:customAttributes</name>
       <type>Main</type>
       <value>//button[@type = 'button']</value>
-      <webElementGuid>579c1bc5-a091-4c9f-81e8-7d05db997f82</webElementGuid>
+      <webElementGuid>f5de3137-7e7d-4f5a-bae2-6b7f131f08a1</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

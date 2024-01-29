@@ -22,9 +22,31 @@ WebUI.callTestCase(findTestCase('TC01 - Login/01_Positive/TC_001_LoginSuccess'),
 
 WebUI.click(findTestObject('Object Repository/TC07 - Employee List/01 - Add Employee/TC_038_AddEmployee/Page_OrangeHRM/a_PIM'))
 
-WebUI.click(findTestObject('TC07 - Employee List/03 - Delete Employee Record/TC_052_DeleteARecord/Page_OrangeHRM/i_Checkbox Row 0'))
+not_run: boolean isEmployeeExist = false
 
-WebUI.click(findTestObject('TC07 - Employee List/03 - Delete Employee Record/TC_052_DeleteARecord/Page_OrangeHRM/button_Delete Row Button'))
+not_run: println(isEmployeeExist)
+
+not_run: isEmployeeExist = WebUI.verifyElementVisible(findTestObject('TC07 - Employee List/03 - Delete Employee Record/TC_052_DeleteARecord/Page_OrangeHRM/label_Checkbox Employee'))
+
+not_run: while (!(isEmployeeExist)) {
+    println(isEmployeeExist)
+
+    if (!(isEmployeeExist)) {
+        WebUI.scrollToPosition(9999999, 9999999)
+
+        WebUI.click(findTestObject('TC07 - Employee List/03 - Delete Employee Record/TC_052_DeleteARecord/Page_OrangeHRM/button_Next Page'))
+
+        isEmployeeExist = WebUI.verifyElementVisible(findTestObject('TC07 - Employee List/03 - Delete Employee Record/TC_052_DeleteARecord/Page_OrangeHRM/label_Checkbox Employee'))
+    }
+}
+
+deleteName = CustomKeywords.'employeeList.GetFirstMidName.concatName'(empFirstName, empMidName, isMidName)
+
+WebUI.click(findTestObject('TC07 - Employee List/03 - Delete Employee Record/TC_052_DeleteARecord/Page_OrangeHRM/label_Checkbox Employee', 
+        [('deleteName') : deleteName]))
+
+WebUI.click(findTestObject('TC07 - Employee List/03 - Delete Employee Record/TC_052_DeleteARecord/Page_OrangeHRM/button_Delete Action', 
+        [('deleteName') : deleteName]))
 
 WebUI.click(findTestObject('TC07 - Employee List/03 - Delete Employee Record/TC_052_DeleteARecord/Page_OrangeHRM/button_Yes, Delete confirmation'))
 

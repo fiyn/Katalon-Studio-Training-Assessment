@@ -25,7 +25,7 @@ WebUI.click(findTestObject('Object Repository/TC07 - Employee List/03 - Delete E
 WebUI.setText(findTestObject('TC07 - Employee List/02 - Search Employee/TC_046_SearchByName/Page_OrangeHRM/input_Employee Name'), 
     empFirstName)
 
-empFullName = CustomKeywords.'searchEmployee.ConcatName.concatName'(empFirstName, empMidName, empLastName, true)
+empFullName = CustomKeywords.'employeeList.ConcatName.concatName'(empFirstName, empMidName, empLastName, true)
 
 WebUI.delay(3)
 

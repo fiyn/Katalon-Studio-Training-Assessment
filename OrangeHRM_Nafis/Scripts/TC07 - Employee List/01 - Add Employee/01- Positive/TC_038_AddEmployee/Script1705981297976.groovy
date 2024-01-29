@@ -34,13 +34,7 @@ WebUI.setText(findTestObject('Object Repository/TC07 - Employee List/01 - Add Em
     empLastName)
 
 WebUI.sendKeys(findTestObject('TC07 - Employee List/01 - Add Employee/TC_038_AddEmployee/Page_OrangeHRM/input_Employee Id'), 
-    Keys.chord(Keys.BACK_SPACE))
-
-WebUI.sendKeys(findTestObject('TC07 - Employee List/01 - Add Employee/TC_038_AddEmployee/Page_OrangeHRM/input_Employee Id'), 
-    Keys.chord(Keys.BACK_SPACE))
-
-WebUI.sendKeys(findTestObject('TC07 - Employee List/01 - Add Employee/TC_038_AddEmployee/Page_OrangeHRM/input_Employee Id'), 
-    Keys.chord(Keys.BACK_SPACE))
+    Keys.chord(Keys.LEFT_CONTROL, 'a'))
 
 WebUI.sendKeys(findTestObject('TC07 - Employee List/01 - Add Employee/TC_038_AddEmployee/Page_OrangeHRM/input_Employee Id'), 
     Keys.chord(Keys.BACK_SPACE))

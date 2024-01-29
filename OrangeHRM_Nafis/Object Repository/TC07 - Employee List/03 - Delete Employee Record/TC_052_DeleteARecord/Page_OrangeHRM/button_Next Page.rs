@@ -1,17 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>button_Next Page button</name>
+   <name>button_Next Page</name>
    <tag></tag>
-   <elementGuidId>b05944e8-09b4-417d-bbca-40d7893a4eed</elementGuidId>
+   <elementGuidId>b9a30b20-f283-4ffd-aeef-658ae0fb07fb</elementGuidId>
    <selectorCollection>
       <entry>
          <key>CSS</key>
-         <value></value>
+         <value>button.oxd-pagination-page-item.oxd-pagination-page-item--previous-next</value>
       </entry>
       <entry>
          <key>XPATH</key>
-         <value>(//button[@type='button'])[109]</value>
+         <value>(//button[@type='button'])[107]</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
@@ -22,7 +22,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>button</value>
-      <webElementGuid>8079ebdc-a968-42b1-8743-6897ae77a821</webElementGuid>
+      <webElementGuid>6b4b6c62-b7fc-4f87-bacd-06adb648246b</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -30,7 +30,7 @@
       <name>type</name>
       <type>Main</type>
       <value>button</value>
-      <webElementGuid>bbcc73e5-8695-40d8-96fa-85347f6a5b85</webElementGuid>
+      <webElementGuid>b7483aa1-9b21-4faa-bbce-5acf5c3d542c</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -38,47 +38,47 @@
       <name>class</name>
       <type>Main</type>
       <value>oxd-pagination-page-item oxd-pagination-page-item--previous-next</value>
-      <webElementGuid>80967e27-43b2-4c00-9c25-1c240ac027ab</webElementGuid>
+      <webElementGuid>cc141142-44f5-435a-9f66-a7851b39890d</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>id(&quot;app&quot;)/div[@class=&quot;oxd-layout&quot;]/div[@class=&quot;oxd-layout-container&quot;]/div[@class=&quot;oxd-layout-context&quot;]/div[@class=&quot;orangehrm-background-container&quot;]/div[@class=&quot;orangehrm-paper-container&quot;]/div[@class=&quot;orangehrm-bottom-container&quot;]/nav[1]/ul[@class=&quot;oxd-pagination__ul&quot;]/li[5]/button[@class=&quot;oxd-pagination-page-item oxd-pagination-page-item--previous-next&quot;]</value>
-      <webElementGuid>43c260d8-ce64-41e9-8cd2-99adcccf2dfd</webElementGuid>
+      <value>id(&quot;app&quot;)/div[@class=&quot;oxd-layout&quot;]/div[@class=&quot;oxd-layout-container&quot;]/div[@class=&quot;oxd-layout-context&quot;]/div[@class=&quot;orangehrm-background-container&quot;]/div[@class=&quot;orangehrm-paper-container&quot;]/div[@class=&quot;orangehrm-bottom-container&quot;]/nav[1]/ul[@class=&quot;oxd-pagination__ul&quot;]/li[3]/button[@class=&quot;oxd-pagination-page-item oxd-pagination-page-item--previous-next&quot;]</value>
+      <webElementGuid>6eb465ec-1692-4fdb-b260-2db3612dc2b6</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:attributes</name>
       <type>Main</type>
-      <value>(//button[@type='button'])[109]</value>
-      <webElementGuid>982702e2-77bc-48ca-bb48-b92530f51e86</webElementGuid>
+      <value>(//button[@type='button'])[107]</value>
+      <webElementGuid>edf9eab5-54e4-44c9-937c-737f37b0a93d</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:idRelative</name>
       <type>Main</type>
-      <value>//div[@id='app']/div/div[2]/div[2]/div/div[2]/div[4]/nav/ul/li[5]/button</value>
-      <webElementGuid>773ad1cd-32dc-47e2-90e5-e67997761e26</webElementGuid>
+      <value>//div[@id='app']/div/div[2]/div[2]/div/div[2]/div[4]/nav/ul/li[3]/button</value>
+      <webElementGuid>7a8b367f-ec15-495f-a4d1-40de42effcc3</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='John Smith'])[4]/following::button[7]</value>
-      <webElementGuid>eda31af1-42df-4c71-8ed7-3ba2854256b9</webElementGuid>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Quality Assurance'])[3]/following::button[5]</value>
+      <webElementGuid>e4029fab-d26a-4468-a40c-72b937e97bd5</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='Human Resources'])[4]/following::button[7]</value>
-      <webElementGuid>6f3d9b8f-e183-4909-853a-e0cdffbadaf6</webElementGuid>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Full-Time Contract'])[4]/following::button[5]</value>
+      <webElementGuid>97073b8c-9ff8-47d4-8dd8-cbb81ad9f528</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -86,7 +86,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='OrangeHRM, Inc'])[1]/preceding::button[1]</value>
-      <webElementGuid>2189fd86-c201-42ab-bf89-54effe9a2428</webElementGuid>
+      <webElementGuid>5f1be00f-e2a2-43e7-9b51-baf5e11b3fbe</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -94,15 +94,15 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Capture object:'])[1]/preceding::button[1]</value>
-      <webElementGuid>bdd1dcfc-36e5-4f46-b6a4-69f3306cfde7</webElementGuid>
+      <webElementGuid>04901238-241e-49ae-bfd0-c106d7aeab55</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:position</name>
       <type>Main</type>
-      <value>//li[5]/button</value>
-      <webElementGuid>df20b18a-2fc2-459f-a545-484ff3a68d4a</webElementGuid>
+      <value>//li[3]/button</value>
+      <webElementGuid>fa10c31b-92c7-4c91-a801-ba6d86579615</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -110,6 +110,6 @@
       <name>xpath:customAttributes</name>
       <type>Main</type>
       <value>//button[@type = 'button']</value>
-      <webElementGuid>91046848-44c9-4f1f-bbc7-95453220e831</webElementGuid>
+      <webElementGuid>e3e144b3-904b-4b1a-a196-c6dc4ba4a7ad</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>
