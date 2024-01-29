@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestSuiteEntity>
+   <description></description>
+   <name>TS_015 _Search Employee</name>
+   <tag></tag>
+   <isRerun>false</isRerun>
+   <mailRecipient></mailRecipient>
+   <numberOfRerun>1</numberOfRerun>
+   <pageLoadTimeout>30</pageLoadTimeout>
+   <pageLoadTimeoutDefault>true</pageLoadTimeoutDefault>
+   <rerunFailedTestCasesOnly>false</rerunFailedTestCasesOnly>
+   <rerunImmediately>true</rerunImmediately>
+   <testSuiteGuid>866459e2-6802-4aac-ba1c-9a252f2d8829</testSuiteGuid>
+   <testCaseLink>
+      <guid>1308d958-c47a-4c63-b734-1ef9e99b5766</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/TC07 - Employee List/02 - Search Employee/01- Positive/TC_045_SearchEmployeeID</testCaseId>
+      <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>5f7b6e36-2146-4718-9789-5b915c0bc189</variableId>
+      </variableLink>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>d56b17e5-35f0-49c6-8126-88d43d7b6adf</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/TC07 - Employee List/02 - Search Employee/01- Positive/TC_046_SearchByName</testCaseId>
+      <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>71c41e7d-a2a2-4c09-8ef8-a084127ee06c</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>bac0ddcf-1fec-4974-994f-55ba7ebc17b2</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>c7eec9af-e33d-4e9a-9b50-f2d6caf75f43</variableId>
+      </variableLink>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>12cc2461-aa04-4f0b-9a64-cb4568fd7c84</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/TC07 - Employee List/02 - Search Employee/02- Negative/TC_047_SearchUnregisteredName</testCaseId>
+      <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>71c41e7d-a2a2-4c09-8ef8-a084127ee06c</variableId>
+      </variableLink>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>d6d890c8-e92b-451e-ad1e-61627040d8b7</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/TC07 - Employee List/02 - Search Employee/01- Positive/TC_048_SearchByEmpStatus</testCaseId>
+      <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>71c41e7d-a2a2-4c09-8ef8-a084127ee06c</variableId>
+      </variableLink>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>13beb27c-5cfb-484d-9c29-2e64dcdbde1d</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/TC07 - Employee List/02 - Search Employee/01- Positive/TC_049_SearchByJobTitle</testCaseId>
+      <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>71c41e7d-a2a2-4c09-8ef8-a084127ee06c</variableId>
+      </variableLink>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>0b58ee16-7cdc-4817-8c91-7c42b48939dc</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/TC07 - Employee List/02 - Search Employee/01- Positive/TC_050_SearchBySVName</testCaseId>
+      <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>fd46c544-8415-4808-a9c9-69d3b1166310</variableId>
+      </variableLink>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>0c76f552-9c6c-47ff-b1a6-3b8c8ec4919d</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/TC07 - Employee List/02 - Search Employee/01- Positive/TC_051_SearchBySubUnit</testCaseId>
+      <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>ae44f19e-26e8-410e-b04c-3bbc8aacebe1</variableId>
+      </variableLink>
+   </testCaseLink>
+</TestSuiteEntity>

@@ -81,7 +81,7 @@
       <name>empLastName</name>
    </variable>
    <variable>
-      <defaultValue>'0299'</defaultValue>
+      <defaultValue>'0666'</defaultValue>
       <description></description>
       <id>15307e95-6a64-4fe9-977e-5ec935a82371</id>
       <masked>false</masked>
