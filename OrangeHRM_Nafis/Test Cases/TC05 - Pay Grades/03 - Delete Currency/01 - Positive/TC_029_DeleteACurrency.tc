@@ -25,7 +25,7 @@
       <name>payGradeName</name>
    </variable>
    <variable>
-      <defaultValue>'EUR - Euro'</defaultValue>
+      <defaultValue>'Euro'</defaultValue>
       <description></description>
       <id>dd3f8d4f-492f-40e2-a80b-7b1dd2b0bf32</id>
       <masked>false</masked>

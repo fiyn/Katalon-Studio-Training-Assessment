@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>BDD version of Add New Currency</description>
+   <name>TC_026_AddNewCurrency_BDD</name>
+   <tag>BDD, positive, add, new currency</tag>
+   <comment></comment>
+   <testCaseGuid>bb5113a5-7ade-4b13-be44-a82f0c5ac167</testCaseGuid>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>6c939864-1650-4933-ab61-f9f69a574ca1</variableId>
+   </variableLinks>
+</TestCaseEntity>
