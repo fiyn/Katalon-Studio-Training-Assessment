@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Users able to navigate to the corresponding employee correctly upon clicking on one of the search results</description>
+   <name>TC_011_ClickSearchEmployees</name>
+   <tag>positive, click, result</tag>
+   <comment></comment>
+   <testCaseGuid>cd092df2-89a3-49e5-b66d-4820e518ed58</testCaseGuid>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>a2cd0eff-4b5b-498e-8e05-bd30a039442d</variableId>
+   </variableLinks>
+   <variable>
+      <defaultValue>'@emp'</defaultValue>
+      <description></description>
+      <id>a2cd0eff-4b5b-498e-8e05-bd30a039442d</id>
+      <masked>false</masked>
+      <name>searchPrefix</name>
+   </variable>
+</TestCaseEntity>

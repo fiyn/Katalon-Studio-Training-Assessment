@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>span_add job title</name>
+   <tag></tag>
+   <elementGuidId>e60733b6-4684-44dd-a0ac-f7258be41580</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[@id='ajax_listOfOptions']/div/span</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>#ajax_listOfOptions > div > span</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>span</value>
+      <webElementGuid>caa3405b-3190-402e-9379-97d16e0112a2</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>add job title</value>
+      <webElementGuid>a97d90eb-120b-40a4-b911-69c613880e88</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;ajax_listOfOptions&quot;)/div[1]/span[1]</value>
+      <webElementGuid>5cd6be0a-85c4-4dd6-8b7f-c8e9723747c6</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='ajax_listOfOptions']/div/span</value>
+      <webElementGuid>e3086969-e869-44b0-af21-3e1367f2833d</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)=concat('id(', '&quot;', 'ajax_listOfOptions', '&quot;', ')/div[1]/span[1]')])[1]/following::span[1]</value>
+      <webElementGuid>2f227f91-ada8-42af-9ef1-05e83127a6ea</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>//*/text()[normalize-space(.)='add job title']/parent::*</value>
+      <webElementGuid>2791ce8b-76c7-4d8e-ba25-a625bbb0c3aa</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//div[7]/div/span</value>
+      <webElementGuid>abd73cd3-1333-4959-b827-7d805d1996b7</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//span[(text() = 'add job title' or . = 'add job title')]</value>
+      <webElementGuid>2a4df925-ba75-43e3-90a7-8e54572f4ee6</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

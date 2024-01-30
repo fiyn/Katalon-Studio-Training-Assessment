@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>div_My attendance dashboard</name>
+   <tag></tag>
+   <elementGuidId>3b843cad-58db-445e-8f9f-a6a5d9b20c6e</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>BASIC</key>
+         <value>//*[@id = 'runet.do?activity=submit&amp;mod=MyAttendance$$panel$$_blank' and (text() = 'My attendance dashboard' or . = 'My attendance dashboard')]</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[@id='runet.do?activity=submit&amp;mod=MyAttendance$$panel$$_blank']</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value></value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>BASIC</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>div</value>
+      <webElementGuid>0b75433f-1cda-4b0d-8c6c-1c6a5773539a</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>id</name>
+      <type>Main</type>
+      <value>runet.do?activity=submit&amp;mod=MyAttendance$$panel$$_blank</value>
+      <webElementGuid>90dd9d19-7429-4616-8cce-1a297684f411</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>optionDivSelected</value>
+      <webElementGuid>b055cd9e-e634-4f25-b746-56fc3082ace6</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>My attendance dashboard</value>
+      <webElementGuid>c5ab6682-f2c0-4e61-b9b0-a2623bc08433</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;runet.do?activity=submit&amp;mod=MyAttendance$$panel$$_blank&quot;)</value>
+      <webElementGuid>220802c8-a8aa-4074-8fcc-f25549b13520</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:attributes</name>
+      <type>Main</type>
+      <value>//div[@id='runet.do?activity=submit&amp;mod=MyAttendance$$panel$$_blank']</value>
+      <webElementGuid>9150ee3f-e566-4be9-9a43-aab094673d1e</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='ajax_listOfOptions']/div</value>
+      <webElementGuid>969b871d-62b7-41ba-8357-84fb3e123b2e</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)=concat('id(', '&quot;', 'runet.do?activity=submit&amp;mod=MyAttendance$$panel$$_blank', '&quot;', ')')])[1]/following::div[2]</value>
+      <webElementGuid>7879329e-dda3-4192-a3f3-74fbfda66354</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Loading...'])[8]/following::div[4]</value>
+      <webElementGuid>53b792a2-61b1-43fa-bcb4-07f80e8f9466</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Self services dashboards'])[1]/preceding::div[1]</value>
+      <webElementGuid>7279c306-a847-43f0-a6c0-bb48e3b99151</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>//*/text()[normalize-space(.)='My attendance dashboard']/parent::*</value>
+      <webElementGuid>6a3f2e82-e153-4bfc-9a8f-d7ea78490715</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//div[7]/div</value>
+      <webElementGuid>2a02e1b5-1d64-487d-9f90-ae66791280f2</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//div[@id = 'runet.do?activity=submit&amp;mod=MyAttendance$$panel$$_blank' and (text() = 'My attendance dashboard' or . = 'My attendance dashboard')]</value>
+      <webElementGuid>a476e4e4-21fe-426e-a011-820f07891e16</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

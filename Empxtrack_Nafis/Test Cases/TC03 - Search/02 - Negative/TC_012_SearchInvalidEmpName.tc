@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Users enter invalid employee name and no results displayed</description>
+   <name>TC_012_SearchInvalidEmpName</name>
+   <tag>negative, invalid employees name</tag>
+   <comment></comment>
+   <testCaseGuid>01fdac0c-fdcd-4875-a2b3-8dbe4a247654</testCaseGuid>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>e44d0990-c3b1-42d8-925d-a013551f123d</variableId>
+   </variableLinks>
+   <variable>
+      <defaultValue>'@employee'</defaultValue>
+      <description></description>
+      <id>e44d0990-c3b1-42d8-925d-a013551f123d</id>
+      <masked>false</masked>
+      <name>searchPrefix</name>
+   </variable>
+</TestCaseEntity>

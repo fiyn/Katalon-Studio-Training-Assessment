@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Users able to navigate to the corresponding feature correctly upon clicking on one of the search results</description>
+   <name>TC_008_ClickResult</name>
+   <tag>positive, search feature, click result</tag>
+   <comment></comment>
+   <testCaseGuid>63dd7f97-b204-4b25-ad6b-d32d8c511d71</testCaseGuid>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>a1c7f1f8-ca00-4655-9a3c-ba62659383a9</variableId>
+   </variableLinks>
+   <variable>
+      <defaultValue>'Attendance'</defaultValue>
+      <description></description>
+      <id>a1c7f1f8-ca00-4655-9a3c-ba62659383a9</id>
+      <masked>false</masked>
+      <name>searchText</name>
+   </variable>
+</TestCaseEntity>

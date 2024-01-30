@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Users able to search for a feature and the results are displayed</description>
+   <name>TC_007_SearchFeature</name>
+   <tag>positive, search, feature</tag>
+   <comment></comment>
+   <testCaseGuid>731f90d1-5118-4793-9a29-30b68c0823a5</testCaseGuid>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>a1c7f1f8-ca00-4655-9a3c-ba62659383a9</variableId>
+   </variableLinks>
+   <variable>
+      <defaultValue>'Attendance'</defaultValue>
+      <description></description>
+      <id>a1c7f1f8-ca00-4655-9a3c-ba62659383a9</id>
+      <masked>false</masked>
+      <name>searchText</name>
+   </variable>
+</TestCaseEntity>

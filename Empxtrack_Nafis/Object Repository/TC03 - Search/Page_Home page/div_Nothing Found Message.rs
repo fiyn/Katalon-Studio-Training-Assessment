@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>div_Nothing Found Message</name>
+   <tag></tag>
+   <elementGuidId>7ac04775-abb5-400d-82a0-736eb63bb39f</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>//*[@id=&quot;ajax_listOfOptions&quot;]</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>BASIC</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>div</value>
+      <webElementGuid>32430d72-1071-4a7a-821a-dd9e2d37fab8</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>//*[@id=&quot;ajax_listOfOptions&quot;]</value>
+      <webElementGuid>b82ceb89-25e6-47d8-926d-b670cd65d4f8</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>css</name>
+      <type>Main</type>
+      <value>style = 'top: 53px; left: 133.828px; width: 486px;'</value>
+      <webElementGuid>50df57b3-56e8-48d5-a655-b8a5a2998935</webElementGuid>
+   </webElementProperties>
+</WebElementEntity>

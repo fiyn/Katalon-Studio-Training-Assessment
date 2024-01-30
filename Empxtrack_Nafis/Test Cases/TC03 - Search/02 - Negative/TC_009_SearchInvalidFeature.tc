@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Users enter invalid feature and no results displayed</description>
+   <name>TC_009_SearchInvalidFeature</name>
+   <tag>negative, search, invalid feature</tag>
+   <comment></comment>
+   <testCaseGuid>804e680c-efba-4a44-be71-70ce5e1aa843</testCaseGuid>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>a1c7f1f8-ca00-4655-9a3c-ba62659383a9</variableId>
+   </variableLinks>
+   <variable>
+      <defaultValue>'Add Job Title'</defaultValue>
+      <description></description>
+      <id>a1c7f1f8-ca00-4655-9a3c-ba62659383a9</id>
+      <masked>false</masked>
+      <name>searchText</name>
+   </variable>
+</TestCaseEntity>

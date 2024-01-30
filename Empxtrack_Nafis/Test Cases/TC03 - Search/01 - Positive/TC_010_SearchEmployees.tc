@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Users able to search for employees by @ prefix, followed by name</description>
+   <name>TC_010_SearchEmployees</name>
+   <tag>positive, search, employees</tag>
+   <comment></comment>
+   <testCaseGuid>3b05dd7d-8273-412d-a040-4c171b0a5a5e</testCaseGuid>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>48e9f81f-6362-4c99-935e-0fd6a797d100</variableId>
+   </variableLinks>
+   <variable>
+      <defaultValue>'@emp'</defaultValue>
+      <description></description>
+      <id>48e9f81f-6362-4c99-935e-0fd6a797d100</id>
+      <masked>false</masked>
+      <name>searchPrefix</name>
+   </variable>
+</TestCaseEntity>
