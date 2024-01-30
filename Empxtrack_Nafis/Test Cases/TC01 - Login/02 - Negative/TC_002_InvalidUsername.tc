@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Users enter invalid username</description>
+   <name>TC_002_InvalidUsername</name>
+   <tag>negative, login, invalid username</tag>
+   <comment></comment>
+   <testCaseGuid>d15c9088-41dc-4e92-abaf-d373a8c8db79</testCaseGuid>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>298e67f3-787c-47a0-a690-64d5fa661818</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>3bb4dc43-a95b-4b40-a980-4300fe58b684</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>94461568-3e60-4b52-8565-9201a73737ba</variableId>
+   </variableLinks>
+   <variable>
+      <defaultValue>GlobalVariable.urlAddress</defaultValue>
+      <description></description>
+      <id>298e67f3-787c-47a0-a690-64d5fa661818</id>
+      <masked>false</masked>
+      <name>urlAddress</name>
+   </variable>
+   <variable>
+      <defaultValue>'epxt.latihan01@yopmail.com'</defaultValue>
+      <description></description>
+      <id>3bb4dc43-a95b-4b40-a980-4300fe58b684</id>
+      <masked>false</masked>
+      <name>username</name>
+   </variable>
+   <variable>
+      <defaultValue>'cIjZX7FQSD5JPNYeXpMicQ=='</defaultValue>
+      <description></description>
+      <id>94461568-3e60-4b52-8565-9201a73737ba</id>
+      <masked>false</masked>
+      <name>password</name>
+   </variable>
+</TestCaseEntity>

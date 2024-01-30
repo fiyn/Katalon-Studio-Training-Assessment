@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Users successfully login into Empxtrack</description>
+   <name>TC_001_Login</name>
+   <tag>positive, login</tag>
+   <comment></comment>
+   <testCaseGuid>46785491-314a-45b0-ad71-5c498c6ad3a2</testCaseGuid>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>298e67f3-787c-47a0-a690-64d5fa661818</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>3bb4dc43-a95b-4b40-a980-4300fe58b684</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>94461568-3e60-4b52-8565-9201a73737ba</variableId>
+   </variableLinks>
+   <variable>
+      <defaultValue>GlobalVariable.urlAddress</defaultValue>
+      <description></description>
+      <id>298e67f3-787c-47a0-a690-64d5fa661818</id>
+      <masked>false</masked>
+      <name>urlAddress</name>
+   </variable>
+   <variable>
+      <defaultValue>'empxt.latihan01@yopmail.com'</defaultValue>
+      <description></description>
+      <id>3bb4dc43-a95b-4b40-a980-4300fe58b684</id>
+      <masked>false</masked>
+      <name>username</name>
+   </variable>
+   <variable>
+      <defaultValue>'cIjZX7FQSD5JPNYeXpMicQ=='</defaultValue>
+      <description></description>
+      <id>94461568-3e60-4b52-8565-9201a73737ba</id>
+      <masked>false</masked>
+      <name>password</name>
+   </variable>
+</TestCaseEntity>
