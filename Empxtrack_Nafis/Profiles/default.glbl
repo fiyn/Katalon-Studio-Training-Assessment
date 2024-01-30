@@ -4,4 +4,9 @@
    <name>default</name>
    <tag></tag>
    <defaultProfile>true</defaultProfile>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'https://hrportal.empxtrack.com/empxtrack/logon.do?location=testbitssdnbhd'</initValue>
+      <name>urlAddress</name>
+   </GlobalVariableEntity>
 </GlobalVariableEntities>
