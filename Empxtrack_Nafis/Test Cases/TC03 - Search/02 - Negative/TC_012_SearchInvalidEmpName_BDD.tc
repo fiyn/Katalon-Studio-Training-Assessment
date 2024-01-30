@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>BDD version of TC_012</description>
+   <name>TC_012_SearchInvalidEmpName_BDD</name>
+   <tag>negative, search, invalid prefix, employee</tag>
+   <comment></comment>
+   <testCaseGuid>dc46a0e7-5354-4083-bdac-7dc54511f1a5</testCaseGuid>
+</TestCaseEntity>

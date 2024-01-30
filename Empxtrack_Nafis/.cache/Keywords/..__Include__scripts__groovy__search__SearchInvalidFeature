@@ -1,0 +1,10 @@
+{
+  "keywordFileContentHash": "5DD3138C94F60E677A9E66D610CE84F4",
+  "keywordClasses": [
+    {
+      "name": "search.SearchInvalidFeature",
+      "keywordMethods": []
+    }
+  ],
+  "javadocParsed": true
+}
