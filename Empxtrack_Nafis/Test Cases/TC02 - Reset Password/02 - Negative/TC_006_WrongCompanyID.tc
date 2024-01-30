@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Users enter wrong company ID</description>
+   <name>TC_006_WrongCompanyID</name>
+   <tag>negative, forget password, wrong, company ID</tag>
+   <comment></comment>
+   <testCaseGuid>8de86d7c-7a02-48c0-9918-fd2752f2d42f</testCaseGuid>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>298e67f3-787c-47a0-a690-64d5fa661818</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>3bb4dc43-a95b-4b40-a980-4300fe58b684</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>94461568-3e60-4b52-8565-9201a73737ba</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>398b21a5-736d-47c1-acd3-80bb457453ef</variableId>
+   </variableLinks>
+   <variable>
+      <defaultValue>GlobalVariable.urlAddress</defaultValue>
+      <description></description>
+      <id>298e67f3-787c-47a0-a690-64d5fa661818</id>
+      <masked>false</masked>
+      <name>urlAddress</name>
+   </variable>
+   <variable>
+      <defaultValue>'empxt.latihan01@yopmail.com'</defaultValue>
+      <description></description>
+      <id>3bb4dc43-a95b-4b40-a980-4300fe58b684</id>
+      <masked>false</masked>
+      <name>username</name>
+   </variable>
+   <variable>
+      <defaultValue>'cIjZX7FQSD5JPNYeXpMicQ=='</defaultValue>
+      <description></description>
+      <id>94461568-3e60-4b52-8565-9201a73737ba</id>
+      <masked>false</masked>
+      <name>password</name>
+   </variable>
+   <variable>
+      <defaultValue>'testbits'</defaultValue>
+      <description></description>
+      <id>398b21a5-736d-47c1-acd3-80bb457453ef</id>
+      <masked>false</masked>
+      <name>companyID</name>
+   </variable>
+</TestCaseEntity>
