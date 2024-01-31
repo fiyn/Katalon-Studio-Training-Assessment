@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>i_Casual Leave three dots</name>
+   <tag></tag>
+   <elementGuidId>31c52442-8f83-4560-997c-0221c0f92990</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>CSS</key>
+         <value>i.fas.fa-ellipsis-h</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//td[3]/div/a/span/i</value>
+      </entry>
+      <entry>
+         <key>BASIC</key>
+         <value>id(&quot;_navBarId_renderTableHeaderArray_1706717310959_0&quot;)/span[1]/i[@class=&quot;fas fa-ellipsis-h&quot;][count(. | //*[@ref_element = 'Object Repository/TC04 - Dashboard/03 - Leave/TC_026_ApplyCasualLeave/Page_Home page/iframe_Self services_homePageFrame (1)']) = count(//*[@ref_element = 'Object Repository/TC04 - Dashboard/03 - Leave/TC_026_ApplyCasualLeave/Page_Home page/iframe_Self services_homePageFrame (1)'])]</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>i</value>
+      <webElementGuid>09bab6ac-499e-4622-9a1a-e484a7ef1c91</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>fas fa-ellipsis-h</value>
+      <webElementGuid>fa4bd032-8f3f-46e6-a5cb-135601fbaac3</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;_navBarId_renderTableHeaderArray_1706717310959_0&quot;)/span[1]/i[@class=&quot;fas fa-ellipsis-h&quot;]</value>
+      <webElementGuid>d015dc6b-a4b1-4392-bee6-1f94369ddf0b</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>ref_element</name>
+      <type>Main</type>
+      <value>Object Repository/TC04 - Dashboard/03 - Leave/TC_026_ApplyCasualLeave/Page_Home page/iframe_Self services_homePageFrame (1)</value>
+      <webElementGuid>8d0d5424-3658-42ac-9001-0d4d10a11bb0</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//a[@id='_navBarId_renderTableHeaderArray_1706717310959_0']/span/i</value>
+      <webElementGuid>ee5b278b-751a-4132-ac09-f63bba4e294f</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//td[3]/div/a/span/i</value>
+      <webElementGuid>dd21ebca-5695-4737-af28-f1861bd91cef</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

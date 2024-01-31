@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Users successfully applied a casual leave</description>
+   <name>TC_026_ApplyCasualLeave</name>
+   <tag>positive, apply casual leave</tag>
+   <comment></comment>
+   <testCaseGuid>562485dd-c372-4482-9812-836af04e0365</testCaseGuid>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>9f536f59-8429-4c27-ba03-e888e61ceead</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>5ae911c0-c3a8-4bd4-9d2b-9ca5600727a0</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>91481de3-0433-4c60-a29d-74dfad4a1200</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>c12391c2-d2ed-4fa8-8061-00ae3023d6d3</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>a3b02968-afc1-42c9-8e28-0e55f63f4284</variableId>
+   </variableLinks>
+   <variable>
+      <defaultValue>'05/02/2024\r\n'</defaultValue>
+      <description></description>
+      <id>9f536f59-8429-4c27-ba03-e888e61ceead</id>
+      <masked>false</masked>
+      <name>startDate</name>
+   </variable>
+   <variable>
+      <defaultValue>'07/02/2024\r\n'</defaultValue>
+      <description></description>
+      <id>5ae911c0-c3a8-4bd4-9d2b-9ca5600727a0</id>
+      <masked>false</masked>
+      <name>endDate</name>
+   </variable>
+   <variable>
+      <defaultValue>'sick MC'</defaultValue>
+      <description></description>
+      <id>91481de3-0433-4c60-a29d-74dfad4a1200</id>
+      <masked>false</masked>
+      <name>reason</name>
+   </variable>
+   <variable>
+      <defaultValue>false</defaultValue>
+      <description></description>
+      <id>c12391c2-d2ed-4fa8-8061-00ae3023d6d3</id>
+      <masked>false</masked>
+      <name>isHalfStartDate</name>
+   </variable>
+   <variable>
+      <defaultValue>false</defaultValue>
+      <description></description>
+      <id>a3b02968-afc1-42c9-8e28-0e55f63f4284</id>
+      <masked>false</masked>
+      <name>isHalfEndDate</name>
+   </variable>
+</TestCaseEntity>

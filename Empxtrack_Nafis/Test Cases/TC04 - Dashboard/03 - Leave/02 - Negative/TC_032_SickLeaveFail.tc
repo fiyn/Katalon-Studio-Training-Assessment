@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Users unsuccessfully applied a sick leave without a reason</description>
+   <name>TC_032_SickLeaveFail</name>
+   <tag>negative, apply,sick leave, unsuccessful</tag>
+   <comment></comment>
+   <testCaseGuid>62fea4b9-90e0-494c-8d0f-58f6f95e7b57</testCaseGuid>
+   <variable>
+      <defaultValue>'05/02/2024\r\n'</defaultValue>
+      <description></description>
+      <id>9f536f59-8429-4c27-ba03-e888e61ceead</id>
+      <masked>false</masked>
+      <name>startDate</name>
+   </variable>
+   <variable>
+      <defaultValue>'07/02/2024\r\n'</defaultValue>
+      <description></description>
+      <id>5ae911c0-c3a8-4bd4-9d2b-9ca5600727a0</id>
+      <masked>false</masked>
+      <name>endDate</name>
+   </variable>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>91481de3-0433-4c60-a29d-74dfad4a1200</id>
+      <masked>false</masked>
+      <name>reason</name>
+   </variable>
+   <variable>
+      <defaultValue>false</defaultValue>
+      <description></description>
+      <id>c12391c2-d2ed-4fa8-8061-00ae3023d6d3</id>
+      <masked>false</masked>
+      <name>isHalfStartDate</name>
+   </variable>
+   <variable>
+      <defaultValue>false</defaultValue>
+      <description></description>
+      <id>a3b02968-afc1-42c9-8e28-0e55f63f4284</id>
+      <masked>false</masked>
+      <name>isHalfEndDate</name>
+   </variable>
+</TestCaseEntity>
