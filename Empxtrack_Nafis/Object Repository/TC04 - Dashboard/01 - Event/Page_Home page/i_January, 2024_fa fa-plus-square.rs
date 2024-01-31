@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>i_January, 2024_fa fa-plus-square</name>
+   <tag></tag>
+   <elementGuidId>d6bff73b-66a5-4b8c-85e5-fe95fc0a31bb</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>//a[@id='addButton']/i</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>i.fa.fa-plus-square</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>i</value>
+      <webElementGuid>402fa2a4-cec0-4033-9bbc-836ecb1949ee</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>fa fa-plus-square</value>
+      <webElementGuid>9a519d0f-fd33-4e42-b7d4-c3f26f80a339</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;addButton&quot;)/i[@class=&quot;fa fa-plus-square&quot;]</value>
+      <webElementGuid>1ce69592-d382-4234-9847-f25225a2ff0d</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>ref_element</name>
+      <type>Main</type>
+      <value>Object Repository/TC04 - Dashboard/01 - Event/Page_Home page/iframe_Self services_homePageFrame</value>
+      <webElementGuid>7454a83a-dd0f-4762-b3fa-aa9ff98de7f0</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//a[@id='addButton']/i</value>
+      <webElementGuid>99e22e50-9d39-4b60-97a1-9185f915b3e9</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//div[2]/div/div[2]/div/div/a/i</value>
+      <webElementGuid>37f76986-6da5-4546-9dbf-21736b107e78</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

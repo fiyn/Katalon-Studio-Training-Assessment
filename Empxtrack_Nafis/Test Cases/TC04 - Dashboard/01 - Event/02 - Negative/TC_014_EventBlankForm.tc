@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Users unsuccessfully save blank event</description>
+   <name>TC_014_EventBlankForm</name>
+   <tag>negative, add new event, blank</tag>
+   <comment></comment>
+   <testCaseGuid>c92c5099-3975-491a-837c-65c4b6c64af6</testCaseGuid>
+</TestCaseEntity>

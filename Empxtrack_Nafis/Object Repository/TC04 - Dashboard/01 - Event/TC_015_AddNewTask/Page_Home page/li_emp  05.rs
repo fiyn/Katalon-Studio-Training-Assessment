@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>li_emp  05</name>
+   <tag></tag>
+   <elementGuidId>ff7f97ab-b585-4125-9b46-9fd3a659ef47</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>CSS</key>
+         <value></value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//li[(text() = 'emp  05 ' or . = 'emp  05 ')]</value>
+      </entry>
+      <entry>
+         <key>BASIC</key>
+         <value>/li[@class=&quot;active-result&quot;][count(. | //li[(text() = '${assignEmp}' or . = '${assignEmp}') and @ref_element = 'Object Repository/TC04 - Dashboard/01 - Event/TC_015_AddNewTask/Page_Home page/iframe_Self services_homePageFrame']) = count(//li[(text() = '${assignEmp}' or . = '${assignEmp}') and @ref_element = 'Object Repository/TC04 - Dashboard/01 - Event/TC_015_AddNewTask/Page_Home page/iframe_Self services_homePageFrame'])]</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>BASIC</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>li</value>
+      <webElementGuid>03af1795-b068-4f0c-b628-310e2d36abb1</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>active-result</value>
+      <webElementGuid>d0b67e70-84ff-40cd-a073-36a3dc269aa6</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>data-option-array-index</name>
+      <type>Main</type>
+      <value>4</value>
+      <webElementGuid>edc3db72-780e-46f7-9816-44df5f0749cf</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>${assignEmp}</value>
+      <webElementGuid>7489de6f-f76d-4a00-a37c-aff14be84fc0</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>/li[@class=&quot;active-result&quot;]</value>
+      <webElementGuid>e49b47f7-3645-4d18-829f-ab4d7749fd05</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>ref_element</name>
+      <type>Main</type>
+      <value>Object Repository/TC04 - Dashboard/01 - Event/TC_015_AddNewTask/Page_Home page/iframe_Self services_homePageFrame</value>
+      <webElementGuid>20947c86-591b-4cfd-b45b-11cfdddf3133</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//li[(text() = 'emp  05 ' or . = 'emp  05 ')]</value>
+      <webElementGuid>97965f85-4f36-46e5-b5bd-1bd9405a5a8b</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

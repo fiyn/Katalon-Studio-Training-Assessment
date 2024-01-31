@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>div_Please specify the subject</name>
+   <tag></tag>
+   <elementGuidId>40d0966a-c06e-44dd-afbf-36d2d918c5c7</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>CSS</key>
+         <value>div.bootstrap-dialog-message</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[@id='085fc78a-88dd-4100-9278-a1457ac06dde']/div/div/div[2]/div/div</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>div</value>
+      <webElementGuid>e317763f-f046-4f2a-abe1-d4efd8300e6f</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>bootstrap-dialog-message</value>
+      <webElementGuid>328363ea-0571-47ca-8e88-754085bb3ff2</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>Please specify the subject</value>
+      <webElementGuid>dc16d9a7-bc80-4dfa-b73f-de27d2dcf0ce</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;085fc78a-88dd-4100-9278-a1457ac06dde&quot;)/div[@class=&quot;modal-dialog&quot;]/div[@class=&quot;modal-content&quot;]/div[@class=&quot;modal-body&quot;]/div[@class=&quot;bootstrap-dialog-body&quot;]/div[@class=&quot;bootstrap-dialog-message&quot;]</value>
+      <webElementGuid>72583b82-eb22-403e-8787-c2da6e9eed87</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>ref_element</name>
+      <type>Main</type>
+      <value>Object Repository/TC04 - Dashboard/01 - Event/TC_016_TaskBlankForm/Page_Home page/iframe_Self services_homePageFrame</value>
+      <webElementGuid>c2dcce02-ff79-4ff3-ac3c-38c61e816cf1</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='085fc78a-88dd-4100-9278-a1457ac06dde']/div/div/div[2]/div/div</value>
+      <webElementGuid>a761b512-28a2-4292-ad16-1f831d343e10</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Information'])[1]/following::div[3]</value>
+      <webElementGuid>971c70de-3f3c-43c6-aa82-742dee500ae2</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='×'])[5]/following::div[4]</value>
+      <webElementGuid>eec47c0b-e353-443f-898c-93f811807f62</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='OK'])[1]/preceding::div[1]</value>
+      <webElementGuid>5bd05a54-c0ab-4fff-83b8-249e98c0fef3</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>//*/text()[normalize-space(.)='Please specify the subject']/parent::*</value>
+      <webElementGuid>6cbd1898-bead-4a3f-b849-390262e7dfa7</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//div[12]/div/div/div[2]/div/div</value>
+      <webElementGuid>537244c4-9ea2-4b28-917e-dff072415b7b</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//div[(text() = 'Please specify the subject' or . = 'Please specify the subject')]</value>
+      <webElementGuid>084b3b82-b81f-4d91-a25e-5dbc15a37150</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

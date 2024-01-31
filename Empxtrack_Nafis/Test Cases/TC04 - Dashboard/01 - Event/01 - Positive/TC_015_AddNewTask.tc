@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Successfully add new task</description>
+   <name>TC_015_AddNewTask</name>
+   <tag>positive, add new task</tag>
+   <comment></comment>
+   <testCaseGuid>71bb4a21-4838-477c-b773-33d8e919e82f</testCaseGuid>
+   <testDataLinks>
+      <combinationType>ONE</combinationType>
+      <id>b08f8b9c-d8e4-4381-a535-9f6474751afa</id>
+      <iterationEntity>
+         <iterationType>SPECIFIC</iterationType>
+         <value>2</value>
+      </iterationEntity>
+      <testDataId>Data Files/TD04 - Dashboard/TD_002_AddNewTask</testDataId>
+   </testDataLinks>
+   <variableLinks>
+      <testDataLinkId>b08f8b9c-d8e4-4381-a535-9f6474751afa</testDataLinkId>
+      <type>DATA_COLUMN</type>
+      <value>subject</value>
+      <variableId>2f4c28a9-9954-496e-b4df-e866653aacc9</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId>b08f8b9c-d8e4-4381-a535-9f6474751afa</testDataLinkId>
+      <type>DATA_COLUMN</type>
+      <value>dueDate</value>
+      <variableId>1e202188-5efa-41ce-83b0-cce9853e74df</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId>b08f8b9c-d8e4-4381-a535-9f6474751afa</testDataLinkId>
+      <type>DATA_COLUMN</type>
+      <value>details</value>
+      <variableId>04b48ca2-f098-483a-9b56-6ea51707da79</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId>b08f8b9c-d8e4-4381-a535-9f6474751afa</testDataLinkId>
+      <type>DATA_COLUMN</type>
+      <value>isAddTask</value>
+      <variableId>266c98fe-48cf-4eea-a96c-0dc83f41d8ae</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId>b08f8b9c-d8e4-4381-a535-9f6474751afa</testDataLinkId>
+      <type>DATA_COLUMN</type>
+      <value>isAddToCalendar</value>
+      <variableId>0c221202-338e-4342-a48d-8874911b7012</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId>b08f8b9c-d8e4-4381-a535-9f6474751afa</testDataLinkId>
+      <type>DATA_COLUMN</type>
+      <value>assignEmp</value>
+      <variableId>4d90c6ba-0ae6-41a5-8a80-31062b2b6da4</variableId>
+   </variableLinks>
+   <variable>
+      <defaultValue>'Task A'</defaultValue>
+      <description></description>
+      <id>2f4c28a9-9954-496e-b4df-e866653aacc9</id>
+      <masked>false</masked>
+      <name>subject</name>
+   </variable>
+   <variable>
+      <defaultValue>'02/02/2024'</defaultValue>
+      <description></description>
+      <id>1e202188-5efa-41ce-83b0-cce9853e74df</id>
+      <masked>false</masked>
+      <name>dueDate</name>
+   </variable>
+   <variable>
+      <defaultValue>'Details bla bal'</defaultValue>
+      <description></description>
+      <id>04b48ca2-f098-483a-9b56-6ea51707da79</id>
+      <masked>false</masked>
+      <name>details</name>
+   </variable>
+   <variable>
+      <defaultValue>false</defaultValue>
+      <description></description>
+      <id>266c98fe-48cf-4eea-a96c-0dc83f41d8ae</id>
+      <masked>false</masked>
+      <name>isAddTask</name>
+   </variable>
+   <variable>
+      <defaultValue>true</defaultValue>
+      <description></description>
+      <id>0c221202-338e-4342-a48d-8874911b7012</id>
+      <masked>false</masked>
+      <name>isAddToCalendar</name>
+   </variable>
+   <variable>
+      <defaultValue>'emp 07'</defaultValue>
+      <description></description>
+      <id>4d90c6ba-0ae6-41a5-8a80-31062b2b6da4</id>
+      <masked>false</masked>
+      <name>assignEmp</name>
+   </variable>
+</TestCaseEntity>

@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>body_Details Text</name>
+   <tag></tag>
+   <elementGuidId>dc6e3e34-6a0f-459a-a76a-bd0f0ec1f5c4</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>CSS</key>
+         <value>body.cke_editable.cke_editable_themed.cke_contents_ltr.cke_show_borders</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//body</value>
+      </entry>
+      <entry>
+         <key>BASIC</key>
+         <value>//*[(text() = '/html[1]/body[@class=&quot;cke_editable cke_editable_themed cke_contents_ltr cke_show_borders&quot;]' or . = '/html[1]/body[@class=&quot;cke_editable cke_editable_themed cke_contents_ltr cke_show_borders&quot;]') and @ref_element = 'Object Repository/TC04 - Dashboard/01 - Event/TC_015_AddNewTask/Page_Home page/iframe_Press ALT 0 for help_cke_wysiwyg_frame cke_reset']</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>body</value>
+      <webElementGuid>ce7b51f9-c962-47f1-a9f4-25823ef05183</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>contenteditable</name>
+      <type>Main</type>
+      <value>true</value>
+      <webElementGuid>880a6ae3-1216-45d3-ac25-d2a81e902a5c</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>cke_editable cke_editable_themed cke_contents_ltr cke_show_borders</value>
+      <webElementGuid>48bf8600-f817-412a-a20d-e7d97659bbd5</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>spellcheck</name>
+      <type>Main</type>
+      <value>false</value>
+      <webElementGuid>869bfbc9-8f0f-45e2-87fb-7b4876867f22</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>/html[1]/body[@class=&quot;cke_editable cke_editable_themed cke_contents_ltr cke_show_borders&quot;]</value>
+      <webElementGuid>9d399e4a-d7cb-49cf-9d0a-226ed47eb377</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>/html[1]/body[@class=&quot;cke_editable cke_editable_themed cke_contents_ltr cke_show_borders&quot;]</value>
+      <webElementGuid>addc754b-6b27-457f-b33a-f136e8056196</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>ref_element</name>
+      <type>Main</type>
+      <value>Object Repository/TC04 - Dashboard/01 - Event/TC_015_AddNewTask/Page_Home page/iframe_Press ALT 0 for help_cke_wysiwyg_frame cke_reset</value>
+      <webElementGuid>05adf071-3de4-4201-8889-49a1b9196318</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='×'])[1]/following::body[1]</value>
+      <webElementGuid>4a4273ff-9420-4d35-91b3-73a5fde29784</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Edit in Ginger'])[1]/following::body[1]</value>
+      <webElementGuid>e7b127ed-83c4-4da8-927b-8d7b081b9499</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//body</value>
+      <webElementGuid>b43d2baf-862f-4fb1-bd01-d3244b517ced</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//body[(text() = '/html[1]/body[@class=&quot;cke_editable cke_editable_themed cke_contents_ltr cke_show_borders&quot;]' or . = '/html[1]/body[@class=&quot;cke_editable cke_editable_themed cke_contents_ltr cke_show_borders&quot;]')]</value>
+      <webElementGuid>6e5008b6-ae0b-474b-a0d9-1b6c6b632adc</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>
