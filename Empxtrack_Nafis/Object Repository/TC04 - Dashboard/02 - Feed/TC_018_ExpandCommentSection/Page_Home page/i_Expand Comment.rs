@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>i_Expand Comment</name>
+   <tag></tag>
+   <elementGuidId>4d0f7846-a8ce-4355-98be-071ae3c22b55</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>CSS</key>
+         <value>i.fas.fa-caret-down</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[@id='display_comments_1000012']/a/i</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>i</value>
+      <webElementGuid>41a2ff72-1a4c-4a0e-a61f-3caa4945fb5d</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>fas fa-caret-down</value>
+      <webElementGuid>6cbf9caf-7462-4e8a-b3c8-a93a08a23399</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;display_comments_1000012&quot;)/a[1]/i[@class=&quot;fas fa-caret-down&quot;]</value>
+      <webElementGuid>0a50229c-9c6b-4569-8a5f-f17344420526</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>ref_element</name>
+      <type>Main</type>
+      <value>Object Repository/TC04 - Dashboard/02 - Feed/TC_018_ExpandCommentSection/Page_Home page/iframe_Self services_homePageFrame (3)</value>
+      <webElementGuid>f1eecf2b-89bf-46db-876a-178848b82801</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='display_comments_1000012']/a/i</value>
+      <webElementGuid>1809c96c-cc4c-488a-8924-81790e7748c1</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//div[6]/div[2]/a/i</value>
+      <webElementGuid>d3374b76-2d44-4037-b952-5ff52eb7ab0e</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

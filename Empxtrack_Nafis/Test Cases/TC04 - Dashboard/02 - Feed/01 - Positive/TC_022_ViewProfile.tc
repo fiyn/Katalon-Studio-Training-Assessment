@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Successfully view one of the users’ profiles (three-dot button)</description>
+   <name>TC_022_ViewProfile</name>
+   <tag>positive, view profile, feed</tag>
+   <comment></comment>
+   <testCaseGuid>c32e201b-4d13-4626-97d3-f36f8d2631e5</testCaseGuid>
+</TestCaseEntity>

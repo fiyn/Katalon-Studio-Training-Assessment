@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Successfully add an emoji comment on one of the users</description>
+   <name>TC_019_EmojiComment</name>
+   <tag>positive, comment, emoji</tag>
+   <comment></comment>
+   <testCaseGuid>b6e03c25-fc38-47f3-b868-d2e925c4c8fb</testCaseGuid>
+</TestCaseEntity>

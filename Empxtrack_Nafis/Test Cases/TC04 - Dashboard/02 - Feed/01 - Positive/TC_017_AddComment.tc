@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Successfully add a comment on one of the users</description>
+   <name>TC_017_AddComment</name>
+   <tag>positive, add comment</tag>
+   <comment></comment>
+   <testCaseGuid>fdb262e9-ae12-4510-8616-02e8abd363e1</testCaseGuid>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>eb26a32c-9ffb-4172-80d6-0622e68e4110</variableId>
+   </variableLinks>
+   <variable>
+      <defaultValue>'Real ke ni?'</defaultValue>
+      <description></description>
+      <id>eb26a32c-9ffb-4172-80d6-0622e68e4110</id>
+      <masked>false</masked>
+      <name>comment</name>
+   </variable>
+</TestCaseEntity>

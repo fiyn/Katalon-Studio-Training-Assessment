@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Users unsuccessfully add an empty comment</description>
+   <name>TC_021_EmptyComment</name>
+   <tag>negative, empty comment</tag>
+   <comment></comment>
+   <testCaseGuid>28d2f301-b8ea-474b-a821-fae3b3bc0f9e</testCaseGuid>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>1d46d820-f65d-49b9-848c-2ad8a113f9ab</variableId>
+   </variableLinks>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>1d46d820-f65d-49b9-848c-2ad8a113f9ab</id>
+      <masked>false</masked>
+      <name>comment</name>
+   </variable>
+</TestCaseEntity>

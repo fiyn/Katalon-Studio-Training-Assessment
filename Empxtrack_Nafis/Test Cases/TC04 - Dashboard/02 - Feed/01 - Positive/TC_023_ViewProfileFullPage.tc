@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Users successfully view one of the users’ profiles in full page</description>
+   <name>TC_023_ViewProfileFullPage</name>
+   <tag>positive, view profile, feed, full page</tag>
+   <comment></comment>
+   <testCaseGuid>ec45cfbc-a9c1-48e2-b3f2-9bdb7a71af12</testCaseGuid>
+</TestCaseEntity>

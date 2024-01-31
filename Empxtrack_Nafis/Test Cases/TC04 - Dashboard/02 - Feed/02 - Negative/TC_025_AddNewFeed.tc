@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Users unsuccessfully add a new feed</description>
+   <name>TC_025_AddNewFeed</name>
+   <tag>negative, add new feed, feed</tag>
+   <comment></comment>
+   <testCaseGuid>a061ffeb-33f4-4e91-9296-9d8e70bed662</testCaseGuid>
+</TestCaseEntity>

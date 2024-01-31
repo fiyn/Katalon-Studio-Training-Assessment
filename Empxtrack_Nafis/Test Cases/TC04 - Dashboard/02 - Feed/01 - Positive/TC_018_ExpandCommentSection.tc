@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Successfully expand comment section on one of the users (Small blue arrow pointing down on right side)</description>
+   <name>TC_018_ExpandCommentSection</name>
+   <tag>positive, feed, expand comment</tag>
+   <comment></comment>
+   <testCaseGuid>3622fe4f-a5a6-4ecd-8cbf-af04abcb4e9c</testCaseGuid>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>0e259485-d937-4b61-bd95-271d386ef1f4</variableId>
+   </variableLinks>
+   <variable>
+      <defaultValue>'Hehe'</defaultValue>
+      <description></description>
+      <id>0e259485-d937-4b61-bd95-271d386ef1f4</id>
+      <masked>false</masked>
+      <name>comment</name>
+   </variable>
+</TestCaseEntity>
