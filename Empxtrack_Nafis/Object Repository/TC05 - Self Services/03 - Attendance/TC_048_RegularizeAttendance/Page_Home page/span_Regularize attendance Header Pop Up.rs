@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>span_Regularize attendance Header Pop Up</name>
+   <tag></tag>
+   <elementGuidId>2b75964f-59fe-498a-87d1-bdaef3b48407</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>CSS</key>
+         <value>#modal-header-title</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//span[@id='modal-header-title']</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>span</value>
+      <webElementGuid>115d24f3-6f71-42e2-a281-52324629541a</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>id</name>
+      <type>Main</type>
+      <value>modal-header-title</value>
+      <webElementGuid>c79fad44-59e9-4f5f-a4aa-e0a770398ff5</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>Regularize attendance</value>
+      <webElementGuid>475ef4cd-b621-46cc-8566-25f5eb837a72</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;modal-dialog-empxtrack&quot;)/div[@class=&quot;modal fade in&quot;]/div[@class=&quot;modal-dialog&quot;]/div[@class=&quot;modal-content&quot;]/div[@id=&quot;modal-header-id&quot;]/span[@id=&quot;modal-header-title&quot;]</value>
+      <webElementGuid>211a5ec8-5626-4c83-8080-aa62ab2cbb68</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>ref_element</name>
+      <type>Main</type>
+      <value>Object Repository/TC05 - Self Services/03 - Attendance/TC_048_RegularizeAttendance/Page_Home page/iframe_Self services_homePageFrame</value>
+      <webElementGuid>8f534c96-007a-4929-90f9-08925612b17b</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:attributes</name>
+      <type>Main</type>
+      <value>//span[@id='modal-header-title']</value>
+      <webElementGuid>f9a096a6-5af3-4021-b083-a11a14c284d7</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='modal-header-id']/span</value>
+      <webElementGuid>c7384b51-9eea-4373-a899-0ee808f0b7eb</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Privacy policy'])[1]/following::span[1]</value>
+      <webElementGuid>91beb763-27dd-4094-a5ac-1c15ce54ced8</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Terms of services'])[1]/following::span[1]</value>
+      <webElementGuid>6a0ed67e-52cc-4486-886b-8408f33a5cd3</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Thu, 01 Feb 2024'])[1]/preceding::span[2]</value>
+      <webElementGuid>b99e2e2a-12f7-4786-bf0d-9bb76ed70ac6</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//div/span</value>
+      <webElementGuid>03859002-75d5-44a2-941d-f773fe35f86e</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//span[@id = 'modal-header-title' and (text() = 'Regularize attendance' or . = 'Regularize attendance')]</value>
+      <webElementGuid>8b587509-eda6-49ae-b61c-7313895cb343</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

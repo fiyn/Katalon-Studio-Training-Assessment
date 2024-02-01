@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Users successfully view attendance dashboard</description>
+   <name>TC_049_ViewDashboard</name>
+   <tag>positive view dashboard, attendance, self services</tag>
+   <comment></comment>
+   <testCaseGuid>bb3e61da-ad7d-470e-b8e4-2768aa4ce805</testCaseGuid>
+</TestCaseEntity>
