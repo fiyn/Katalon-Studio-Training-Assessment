@@ -1,24 +1,20 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>select_Lang Proficiency</name>
+   <name>select_Lang Proficiency click to open</name>
    <tag></tag>
-   <elementGuidId>99400c6a-b1cf-4a78-a43a-8e01c64bf547</elementGuidId>
+   <elementGuidId>d30f6952-953a-47e8-a2be-847ccc9b9b71</elementGuidId>
    <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>//select[@id='languageProficiency']</value>
+      </entry>
       <entry>
          <key>CSS</key>
          <value>#languageProficiency</value>
       </entry>
-      <entry>
-         <key>XPATH</key>
-         <value>//select[@name = 'dataObject.languageProficiency' and @id = 'languageProficiency' and (text() = 'Basic KnowledgeOralWritten and OralExpert' or . = 'Basic KnowledgeOralWritten and OralExpert')]</value>
-      </entry>
-      <entry>
-         <key>BASIC</key>
-         <value>//*[@id = 'languageProficiency' and @class = 'form-control' and @ref_element = 'Object Repository/TC05 - Self Services/01 - Profile/TC_042_AddProfileDetails/Page_Home page/iframe_Self services_homePageFrame']</value>
-      </entry>
    </selectorCollection>
-   <selectorMethod>BASIC</selectorMethod>
+   <selectorMethod>XPATH</selectorMethod>
    <useRalativeImagePath>true</useRalativeImagePath>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -26,15 +22,15 @@
       <name>tag</name>
       <type>Main</type>
       <value>select</value>
-      <webElementGuid>7ed3accd-3c4c-4759-9bdd-829d750fb582</webElementGuid>
+      <webElementGuid>21915035-61e8-41b5-9e88-cc2f1040ccde</webElementGuid>
    </webElementProperties>
    <webElementProperties>
-      <isSelected>false</isSelected>
+      <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>name</name>
       <type>Main</type>
       <value>dataObject.languageProficiency</value>
-      <webElementGuid>f6fe69bc-8e05-4bb6-bdb3-b108fa6d37a5</webElementGuid>
+      <webElementGuid>cef79b7c-44b2-4344-bf29-7365025b33b5</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -42,23 +38,23 @@
       <name>id</name>
       <type>Main</type>
       <value>languageProficiency</value>
-      <webElementGuid>2ed8b198-37d5-46e7-8a3b-7a7f7a8ec6c2</webElementGuid>
-   </webElementProperties>
-   <webElementProperties>
-      <isSelected>true</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>class</name>
-      <type>Main</type>
-      <value>form-control</value>
-      <webElementGuid>e04b58ef-110a-45b4-8490-ff43de7212ed</webElementGuid>
+      <webElementGuid>4b5a5a08-5fc1-4ad0-9b4f-7169a2bcf397</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>form-control</value>
+      <webElementGuid>c20fc99e-ab21-49ec-8b30-2ac6c0602635</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
       <name>text</name>
       <type>Main</type>
       <value>Basic KnowledgeOralWritten and OralExpert</value>
-      <webElementGuid>29f5cbd7-f454-4817-88b7-ebc20113a05d</webElementGuid>
+      <webElementGuid>08a2208f-7026-4060-a8b7-ad1a07ae16dc</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -66,15 +62,15 @@
       <name>xpath</name>
       <type>Main</type>
       <value>id(&quot;languageProficiency&quot;)</value>
-      <webElementGuid>e5927ad5-4302-4df2-8704-13f9b3ff55a9</webElementGuid>
+      <webElementGuid>73ab7e9b-6fb9-4761-bdd6-891af3055bf8</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>ref_element</name>
       <type>Main</type>
-      <value>Object Repository/TC05 - Self Services/01 - Profile/TC_042_AddProfileDetails/Page_Home page/iframe_Self services_homePageFrame</value>
-      <webElementGuid>8ed89bfb-6e54-4c7f-a0ca-8a28490a54cd</webElementGuid>
+      <value>Object Repository/TC05 - Self Services/01 - Profile/TC_042_AddProfileDetails/Page_Home page/Languages/Page_Home page/iframe_Self services_homePageFrame</value>
+      <webElementGuid>c80664ab-2b5e-46e1-b4a1-ebb0567bdbbc</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -82,7 +78,7 @@
       <name>xpath:attributes</name>
       <type>Main</type>
       <value>//select[@id='languageProficiency']</value>
-      <webElementGuid>af53111b-1043-47e9-a62a-b6839c245810</webElementGuid>
+      <webElementGuid>55bd0c92-6a50-4207-a781-2b101c11fd0c</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -90,7 +86,7 @@
       <name>xpath:idRelative</name>
       <type>Main</type>
       <value>//div[@id='modal-dialog-empxtrack']/div/div/div/div[2]/div[2]/div/div[2]/select</value>
-      <webElementGuid>41415eff-2239-44e9-8b34-df1337af7ca6</webElementGuid>
+      <webElementGuid>fdb2c038-281b-430a-8fff-a37cbaeeb2cb</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -98,7 +94,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Proficiency'])[1]/following::select[1]</value>
-      <webElementGuid>a64a465a-fa9b-44ec-b593-92446d1d2775</webElementGuid>
+      <webElementGuid>850c0615-0277-447e-9292-707f71b120bf</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -106,7 +102,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Language details'])[1]/following::select[2]</value>
-      <webElementGuid>2e57061d-c4de-4446-9fea-c678c732cd75</webElementGuid>
+      <webElementGuid>bef43f67-dbc0-46de-a1be-f23a050cdfb5</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -114,7 +110,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='More details'])[1]/preceding::select[1]</value>
-      <webElementGuid>73eae234-8570-4546-a4e1-03b5c160c976</webElementGuid>
+      <webElementGuid>9758df17-4db3-41e4-b0dc-d4c57b853426</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -122,7 +118,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Save'])[1]/preceding::select[1]</value>
-      <webElementGuid>7750f7ec-5708-451c-93b5-8def6854def5</webElementGuid>
+      <webElementGuid>16add860-cde1-45a9-9d9e-787afc1e9424</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -130,7 +126,7 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//div[2]/select</value>
-      <webElementGuid>e1b5878c-b1ce-494b-abe7-38c77249d1ff</webElementGuid>
+      <webElementGuid>0ba03abb-da64-4d5d-8e4d-c8a86a11c98a</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -138,6 +134,6 @@
       <name>xpath:customAttributes</name>
       <type>Main</type>
       <value>//select[@name = 'dataObject.languageProficiency' and @id = 'languageProficiency' and (text() = 'Basic KnowledgeOralWritten and OralExpert' or . = 'Basic KnowledgeOralWritten and OralExpert')]</value>
-      <webElementGuid>6e757403-b929-4b1a-9070-84d489ec5b16</webElementGuid>
+      <webElementGuid>9ba43582-0fa9-4a61-b21b-d26761317844</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

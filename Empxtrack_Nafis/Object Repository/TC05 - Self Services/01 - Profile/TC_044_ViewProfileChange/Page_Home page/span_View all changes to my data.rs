@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>span_View all changes to my data</name>
+   <tag></tag>
+   <elementGuidId>80def7dc-24c9-4633-8713-62e071dab878</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>CSS</key>
+         <value>#modal-header-title</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//span[@id = 'modal-header-title' and (text() = 'View all changes to my data' or . = 'View all changes to my data')]</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>span</value>
+      <webElementGuid>eb773b27-ee0c-41ab-a71d-f2ba02f5c7cf</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>id</name>
+      <type>Main</type>
+      <value>modal-header-title</value>
+      <webElementGuid>7745eebb-de69-4489-a316-216f22f3845a</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>View all changes to my data</value>
+      <webElementGuid>20897a6a-92c4-46e0-8aa1-2d388b2a823f</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;modal-dialog-empxtrack&quot;)/div[@class=&quot;modal fade in&quot;]/div[@class=&quot;modal-dialog&quot;]/div[@class=&quot;modal-content&quot;]/div[@id=&quot;modal-header-id&quot;]/span[@id=&quot;modal-header-title&quot;]</value>
+      <webElementGuid>11c6d32a-8645-483a-b61e-c7f9a79a2664</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>ref_element</name>
+      <type>Main</type>
+      <value>Object Repository/TC05 - Self Services/01 - Profile/TC_044_ViewProfileChange/Page_Home page/iframe__mycontent-right-frame</value>
+      <webElementGuid>82c17fc7-5624-4338-8aed-0f4abf3fff3e</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:attributes</name>
+      <type>Main</type>
+      <value>//span[@id='modal-header-title']</value>
+      <webElementGuid>c7fe07fb-505c-4726-8135-d25181a4a42c</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='modal-header-id']/span</value>
+      <webElementGuid>d05e7d00-d985-46c5-8667-b4a10bbd408d</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='View in full page'])[1]/following::span[1]</value>
+      <webElementGuid>e4305ca6-bb12-4ba6-9f73-8b5ae6af0f2d</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='No records are available'])[3]/following::span[1]</value>
+      <webElementGuid>7f8026bd-519c-44f2-a9ed-f4b48ed8d71c</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Section'])[1]/preceding::span[2]</value>
+      <webElementGuid>1ed456f1-e0df-407e-95a1-471b0de5afa7</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Initiated by'])[1]/preceding::span[2]</value>
+      <webElementGuid>ffd865f8-12af-474b-b8cc-e0179ba9edfd</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>//*/text()[normalize-space(.)='View all changes to my data']/parent::*</value>
+      <webElementGuid>eb58d335-2ad4-482f-91a6-b53ff416ec3e</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//div[2]/div/div/div/div/span</value>
+      <webElementGuid>719cbbe6-d539-4fed-baab-8fb5a94b49e4</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//span[@id = 'modal-header-title' and (text() = 'View all changes to my data' or . = 'View all changes to my data')]</value>
+      <webElementGuid>d71ff071-71c0-4f7e-b4f6-410979b48ae3</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

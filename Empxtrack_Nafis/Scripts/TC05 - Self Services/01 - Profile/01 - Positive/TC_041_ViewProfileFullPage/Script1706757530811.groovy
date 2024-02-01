@@ -25,7 +25,7 @@ WebUI.waitForElementVisible(findTestObject('TC05 - Self Services/01 - Profile/TC
 WebUI.click(findTestObject('TC05 - Self Services/01 - Profile/TC_041_ViewProfileFullPage/Page_Home page/a_View in full page'))
 
 WebUI.waitForElementVisible(findTestObject('TC05 - Self Services/01 - Profile/TC_041_ViewProfileFullPage/Page_Home page/dispcontentlargefontname_Full View Mr.emp 01'), 
-    2)
+    7)
 
 WebUI.verifyElementVisible(findTestObject('TC05 - Self Services/01 - Profile/TC_041_ViewProfileFullPage/Page_Home page/dispcontentlargefontname_Full View Mr.emp 01'))
 

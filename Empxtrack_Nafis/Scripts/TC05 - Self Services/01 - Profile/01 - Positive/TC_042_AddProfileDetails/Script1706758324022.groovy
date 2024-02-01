@@ -24,28 +24,26 @@ WebUI.delay(10)
 WebUI.scrollToElement(findTestObject('TC05 - Self Services/01 - Profile/TC_042_AddProfileDetails/Page_Home page/Hobbies/Hobbies_a_Open Hobbies'), 
     2)
 
-not_run: WebUI.click(findTestObject('TC05 - Self Services/01 - Profile/TC_042_AddProfileDetails/Page_Home page/Hobbies/Hobbies_a_Open Hobbies'))
+WebUI.click(findTestObject('TC05 - Self Services/01 - Profile/TC_042_AddProfileDetails/Page_Home page/Hobbies/Hobbies_a_Open Hobbies'))
 
-not_run: WebUI.waitForElementVisible(findTestObject('TC05 - Self Services/01 - Profile/TC_042_AddProfileDetails/Page_Home page/Hobbies/Hobies_a_Add'), 
-    0)
+WebUI.waitForElementVisible(findTestObject('TC05 - Self Services/01 - Profile/TC_042_AddProfileDetails/Page_Home page/Hobbies/Page_Home page/a_Add'), 
+    2)
 
-not_run: WebUI.click(findTestObject('TC05 - Self Services/01 - Profile/TC_042_AddProfileDetails/Page_Home page/Hobbies/Hobies_a_Add'))
+WebUI.click(findTestObject('TC05 - Self Services/01 - Profile/TC_042_AddProfileDetails/Page_Home page/Hobbies/Page_Home page/a_Add'))
 
-not_run: WebUI.setText(findTestObject('TC05 - Self Services/01 - Profile/TC_042_AddProfileDetails/Page_Home page/Hobbies/Hobbies_input_Your Hobbies'), 
+WebUI.setText(findTestObject('TC05 - Self Services/01 - Profile/TC_042_AddProfileDetails/Page_Home page/Hobbies/Page_Home page/input_Your Hobbies  Interests_hobbies0'), 
     hobby)
 
-not_run: WebUI.click(findTestObject('TC05 - Self Services/01 - Profile/TC_042_AddProfileDetails/Page_Home page/Hobbies/Hobbies_i_Save Hobbies Button'))
+WebUI.click(findTestObject('TC05 - Self Services/01 - Profile/TC_042_AddProfileDetails/Page_Home page/Hobbies/Page_Home page/i_Your Hobbies  Interests_fa fa-save'))
 
-not_run: WebUI.waitForElementVisible(findTestObject('TC05 - Self Services/01 - Profile/TC_042_AddProfileDetails/Page_Home page/Hobbies/Hobbies_div_Hobies save confirmation'), 
+WebUI.waitForElementVisible(findTestObject('TC05 - Self Services/01 - Profile/TC_042_AddProfileDetails/Page_Home page/Hobbies/Page_Home page/div_Record has been added successfully'), 
     0)
 
-not_run: WebUI.verifyElementVisible(findTestObject('TC05 - Self Services/01 - Profile/TC_042_AddProfileDetails/Page_Home page/Hobbies/Hobbies_div_Hobies save confirmation'))
+WebUI.verifyElementVisible(findTestObject('TC05 - Self Services/01 - Profile/TC_042_AddProfileDetails/Page_Home page/Hobbies/Page_Home page/div_Record has been added successfully'))
 
-not_run: WebUI.click(findTestObject('TC05 - Self Services/01 - Profile/TC_042_AddProfileDetails/Page_Home page/Hobbies/Hobbies_button_Hobbies Ok'))
+WebUI.click(findTestObject('TC05 - Self Services/01 - Profile/TC_042_AddProfileDetails/Page_Home page/Hobbies/Page_Home page/button_Ok'))
 
-not_run: WebUI.click(findTestObject('TC05 - Self Services/01 - Profile/TC_042_AddProfileDetails/Page_Home page/Hobbies/Hobbies_span_Close'))
-
-not_run: WebUI.click(findTestObject('TC05 - Self Services/01 - Profile/TC_042_AddProfileDetails/Page_Home page/Hobbies/Hobbies_a_Open Hobbies'))
+WebUI.click(findTestObject('TC05 - Self Services/01 - Profile/TC_042_AddProfileDetails/Page_Home page/Hobbies/Page_Home page/span_'))
 
 WebUI.click(findTestObject('TC05 - Self Services/01 - Profile/TC_042_AddProfileDetails/Page_Home page/Languages/a_Languages Open'), 
     FailureHandling.STOP_ON_FAILURE)
@@ -55,13 +53,16 @@ WebUI.waitForElementVisible(findTestObject('TC05 - Self Services/01 - Profile/TC
 
 WebUI.click(findTestObject('TC05 - Self Services/01 - Profile/TC_042_AddProfileDetails/Page_Home page/Languages/a_Lang Add'))
 
-not_run: WebUI.selectOptionByLabel(findTestObject('TC05 - Self Services/01 - Profile/TC_042_AddProfileDetails/Page_Home page/Languages/select_Lang Details'), 
+WebUI.waitForElementVisible(findTestObject('TC05 - Self Services/01 - Profile/TC_042_AddProfileDetails/Page_Home page/Languages/Page_Home page/select_Lang Details Click to open'), 
+    3)
+
+WebUI.selectOptionByLabel(findTestObject('TC05 - Self Services/01 - Profile/TC_042_AddProfileDetails/Page_Home page/Languages/Page_Home page/select_Lang Details Click to open'), 
     langDetails, false)
 
-not_run: WebUI.selectOptionByLabel(findTestObject('TC05 - Self Services/01 - Profile/TC_042_AddProfileDetails/Page_Home page/Languages/select_Lang Proficiency'), 
+WebUI.selectOptionByLabel(findTestObject('TC05 - Self Services/01 - Profile/TC_042_AddProfileDetails/Page_Home page/Languages/Page_Home page/select_Lang Proficiency click to open'), 
     langProficiency, false)
 
-WebUI.setText(findTestObject('TC05 - Self Services/01 - Profile/TC_042_AddProfileDetails/Page_Home page/Languages/textarea_Lang More details'), 
+WebUI.setText(findTestObject('TC05 - Self Services/01 - Profile/TC_042_AddProfileDetails/Page_Home page/Languages/Page_Home page/textarea_More details'), 
     langMoreDetails)
 
 WebUI.click(findTestObject('TC05 - Self Services/01 - Profile/TC_042_AddProfileDetails/Page_Home page/Languages/a_Save Lang'))
@@ -73,5 +74,8 @@ WebUI.verifyElementVisible(findTestObject('TC05 - Self Services/01 - Profile/TC_
 
 WebUI.click(findTestObject('TC05 - Self Services/01 - Profile/TC_042_AddProfileDetails/Page_Home page/Languages/button_Ok'))
 
-WebUI.click(findTestObject('TC05 - Self Services/01 - Profile/TC_042_AddProfileDetails/Page_Home page/Languages/span_Close'))
+WebUI.click(findTestObject('TC05 - Self Services/01 - Profile/TC_042_AddProfileDetails/Page_Home page/Languages/Page_Home page/span_close pop up'))
+
+WebUI.scrollToElement(findTestObject('TC05 - Self Services/01 - Profile/TC_041_ViewProfileFullPage/Page_Home page/dispcontentlargefontname_Full View Mr.emp 01'), 
+    2)
 

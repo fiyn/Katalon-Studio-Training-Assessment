@@ -17,3 +17,15 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
+WebUI.callTestCase(findTestCase('TC05 - Self Services/01 - Profile/01 - Positive/TC_040_ViewProfile'), [:], FailureHandling.STOP_ON_FAILURE)
+
+WebUI.waitForElementVisible(findTestObject('TC05 - Self Services/01 - Profile/TC_044_ViewProfileChange/Page_Home page/i_Help_fas fa-eye'), 
+    2)
+
+WebUI.click(findTestObject('TC05 - Self Services/01 - Profile/TC_044_ViewProfileChange/Page_Home page/i_Help_fas fa-eye'))
+
+WebUI.waitForElementVisible(findTestObject('TC05 - Self Services/01 - Profile/TC_044_ViewProfileChange/Page_Home page/span_View all changes to my data'), 
+    3)
+
+WebUI.verifyElementVisible(findTestObject('TC05 - Self Services/01 - Profile/TC_044_ViewProfileChange/Page_Home page/span_View all changes to my data'))
+

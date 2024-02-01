@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>div_Record has been added successfully</name>
+   <tag></tag>
+   <elementGuidId>562f8f82-ae46-4ca3-ae7f-1ba07d37c212</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>CSS</key>
+         <value>div.bootstrap-dialog-message</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[(text() = 'Record has been added successfully.' or . = 'Record has been added successfully.')]</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>div</value>
+      <webElementGuid>a694e927-4be5-4653-9e3c-c027f62f3974</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>bootstrap-dialog-message</value>
+      <webElementGuid>28751778-b556-4327-b2a6-13b79324b36f</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>Record has been added successfully.</value>
+      <webElementGuid>61de2f27-7a5f-4dfb-adee-949a25690bf0</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;047b0f09-9429-457a-bbac-81c02b3d91a9&quot;)/div[@class=&quot;modal-dialog&quot;]/div[@class=&quot;modal-content&quot;]/div[@class=&quot;modal-body&quot;]/div[@class=&quot;bootstrap-dialog-body&quot;]/div[@class=&quot;bootstrap-dialog-message&quot;]</value>
+      <webElementGuid>233604d4-6661-4166-99bf-dac0e6304888</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>ref_element</name>
+      <type>Main</type>
+      <value>Object Repository/TC05 - Self Services/01 - Profile/TC_042_AddProfileDetails/Page_Home page/Hobbies/Page_Home page/iframe_Self services_homePageFrame (1)</value>
+      <webElementGuid>8297d1c0-5c68-483d-805a-3208fe5b35ed</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='047b0f09-9429-457a-bbac-81c02b3d91a9']/div/div/div[2]/div/div</value>
+      <webElementGuid>f836ebdc-27a6-4814-b37e-9cf3c3554fce</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Confirmation!'])[1]/following::div[3]</value>
+      <webElementGuid>009a0979-1941-43fe-9ac2-b3eefb059b21</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='×'])[6]/following::div[4]</value>
+      <webElementGuid>fbd0caee-721f-46d2-8d4c-fc94703852d0</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Ok'])[1]/preceding::div[1]</value>
+      <webElementGuid>cd5534a7-791e-4346-b3e0-699ff909b627</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>//*/text()[normalize-space(.)='Record has been added successfully.']/parent::*</value>
+      <webElementGuid>fec8fd96-f076-4446-bc2e-d6713afbed29</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//div[9]/div/div/div[2]/div/div</value>
+      <webElementGuid>b8a4f1c1-aad9-4e26-9f59-aeb3e0972cc5</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//div[(text() = 'Record has been added successfully.' or . = 'Record has been added successfully.')]</value>
+      <webElementGuid>c6034e7c-5e52-4f9d-ba74-13f5b598ef5c</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

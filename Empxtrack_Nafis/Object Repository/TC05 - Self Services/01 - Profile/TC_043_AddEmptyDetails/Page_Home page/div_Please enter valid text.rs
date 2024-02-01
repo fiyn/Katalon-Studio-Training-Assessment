@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>div_Please enter valid text</name>
+   <tag></tag>
+   <elementGuidId>83ff519b-187f-4956-a3fb-ccb783c2ec78</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>//*/text()[normalize-space(.)='Please enter valid text.']/parent::*</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>div.bootstrap-dialog-message</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>div</value>
+      <webElementGuid>05bc2d7a-4cc9-46a4-9090-d2ed612b27ba</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>bootstrap-dialog-message</value>
+      <webElementGuid>ebd670b1-0b63-457d-8283-1e69e4872f7e</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>Please enter valid text.</value>
+      <webElementGuid>32902d66-9ab0-4a7b-8dda-ea77b8dface7</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;1a5ad13f-fdc1-47ce-a167-eb6be0d06bb6&quot;)/div[@class=&quot;modal-dialog&quot;]/div[@class=&quot;modal-content&quot;]/div[@class=&quot;modal-body&quot;]/div[@class=&quot;bootstrap-dialog-body&quot;]/div[@class=&quot;bootstrap-dialog-message&quot;]</value>
+      <webElementGuid>95b43a60-b917-476e-a0d1-de37a22f5ea4</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>ref_element</name>
+      <type>Main</type>
+      <value>Object Repository/TC05 - Self Services/01 - Profile/TC_043_AddEmptyDetails/Page_Home page/iframe_Self services_homePageFrame</value>
+      <webElementGuid>6b8dfa26-c27f-4fd4-8120-f27f30d62f6d</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='1a5ad13f-fdc1-47ce-a167-eb6be0d06bb6']/div/div/div[2]/div/div</value>
+      <webElementGuid>b0c7eb46-82b7-40b2-a569-ae6e00ff9dfc</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Information'])[1]/following::div[3]</value>
+      <webElementGuid>090d84c0-b62b-45dd-b24e-6fa10244f7ab</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='×'])[6]/following::div[4]</value>
+      <webElementGuid>98661a63-80bb-4f02-a829-9fc1e3a85d95</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='OK'])[1]/preceding::div[1]</value>
+      <webElementGuid>f5b29f06-6c71-471a-a4bb-c3d856db3636</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>//*/text()[normalize-space(.)='Please enter valid text.']/parent::*</value>
+      <webElementGuid>544e38c5-d0f2-4851-b9a9-b75a0c59b560</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//div[8]/div/div/div[2]/div/div</value>
+      <webElementGuid>c26786e3-848e-40a8-aba3-5db18d403a04</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//div[(text() = 'Please enter valid text.' or . = 'Please enter valid text.')]</value>
+      <webElementGuid>0469dcd1-988d-4cad-80d2-38284bde4681</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>
