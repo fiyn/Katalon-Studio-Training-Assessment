@@ -17,29 +17,25 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
-WebUI.openBrowser('')
+WebUI.callTestCase(findTestCase('TC01 - Login/01 - Positive/TC_001_Login'), [('urlAddress') : GlobalVariable.urlAddress, ('username') : GlobalVariable.username
+        , ('password') : GlobalVariable.password], FailureHandling.STOP_ON_FAILURE)
 
-WebUI.navigateToUrl(urlAddress)
+WebUI.maximizeWindow()
 
-WebUI.setText(findTestObject('Object Repository/TC01 - Login/Page_Empxtrack logon/input_If checked, login details will not be_5dd927'), 
-    username)
+WebUI.click(findTestObject('TC06 - Menu Toolbar/TC_058_ClickCommunicateChat/Page_Home page/img_Communicate Button'))
 
-WebUI.setEncryptedText(findTestObject('Object Repository/TC01 - Login/Page_Empxtrack logon/input_If checked, login details will not be_5c5f06'), 
-    password)
+WebUI.waitForElementVisible(findTestObject('TC06 - Menu Toolbar/TC_060_ClickCommunicatePoll/Page_Home page/a_Open Poll'), 
+    3)
 
-WebUI.click(findTestObject('Object Repository/TC01 - Login/Page_Empxtrack logon/input_If checked, login details will not be_b1d379'))
+WebUI.click(findTestObject('TC06 - Menu Toolbar/TC_060_ClickCommunicatePoll/Page_Home page/a_Open Poll'))
 
-WebUI.click(findTestObject('Object Repository/TC01 - Login/Page_Empxtrack logon/input_submit'))
+WebUI.click(findTestObject('TC06 - Menu Toolbar/TC_060_ClickCommunicatePoll/Page_Home page/input_Not upto the mark_DynamicRadioBox', 
+        [('poll') : poll]))
 
-not_run: ifPopupVisible = WebUI.waitForElementVisible(findTestObject('TC01 - Login/Page_Home page/span_Close Pop-up'), 0)
+WebUI.click(findTestObject('TC06 - Menu Toolbar/TC_060_ClickCommunicatePoll/Page_Home page/a_Submit'))
 
-not_run: if (ifPopupVisible) {
-    WebUI.click(findTestObject('TC01 - Login/Page_Home page/span_Close Pop-up'))
+WebUI.waitForElementVisible(findTestObject('TC06 - Menu Toolbar/TC_060_ClickCommunicatePoll/Page_Home page/div_Thanks for submitting your choice'), 
+    2)
 
-    WebUI.verifyElementVisible(findTestObject('Object Repository/TC01 - Login/Page_Home page/div_Good morningemp,'))
-} else {
-    WebUI.verifyElementVisible(findTestObject('Object Repository/TC01 - Login/Page_Home page/div_Good morningemp,'))
-}
-
-WebUI.verifyElementVisible(findTestObject('Object Repository/TC01 - Login/Page_Home page/div_Good morningemp,'))
+WebUI.verifyElementVisible(findTestObject('TC06 - Menu Toolbar/TC_060_ClickCommunicatePoll/Page_Home page/div_Thanks for submitting your choice'))
 

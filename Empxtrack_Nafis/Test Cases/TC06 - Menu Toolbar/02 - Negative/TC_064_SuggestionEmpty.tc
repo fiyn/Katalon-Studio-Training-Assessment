@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Users unsuccessfully share a suggestion with empty information</description>
+   <name>TC_064_SuggestionEmpty</name>
+   <tag>negative, menu toolbar</tag>
+   <comment></comment>
+   <testCaseGuid>beb424f1-826e-49fc-b333-4d43981c5166</testCaseGuid>
+</TestCaseEntity>

@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Users successfully clicked on Communicate and enter a poll</description>
+   <name>TC_060_ClickCommunicatePoll</name>
+   <tag>positive, menu toolbar</tag>
+   <comment></comment>
+   <testCaseGuid>3b840d83-5e6d-4c47-ac9b-a14d4778f0a2</testCaseGuid>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>1011373e-56be-40fe-9659-999fc5f2e802</variableId>
+   </variableLinks>
+   <variable>
+      <defaultValue>'Did not try'</defaultValue>
+      <description></description>
+      <id>1011373e-56be-40fe-9659-999fc5f2e802</id>
+      <masked>false</masked>
+      <name>poll</name>
+   </variable>
+</TestCaseEntity>

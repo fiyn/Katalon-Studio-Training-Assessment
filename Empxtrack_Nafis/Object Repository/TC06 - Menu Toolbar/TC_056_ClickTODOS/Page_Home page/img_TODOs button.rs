@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>img_TODOs button</name>
+   <tag></tag>
+   <elementGuidId>d2bcd074-19fc-4d0f-986b-c7f89fe1f9ec</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>CSS</key>
+         <value>#todoItems123 > a.pull-right > img</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[@id='todoItems123']/a/img</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>img</value>
+      <webElementGuid>85f53b9c-2d2a-420b-8eec-29e6f64b62d4</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>src</name>
+      <type>Main</type>
+      <value>images/v10/todo.png</value>
+      <webElementGuid>82655aa4-e2b5-48b1-96b1-700add43e43b</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;top_bg-gray_v9&quot;)/div[@class=&quot;col-md-9 col-xs-7 v9-widget&quot;]/div[@class=&quot;v9-widget_icon&quot;]/div[@id=&quot;todoItems123&quot;]/a[@class=&quot;pull-right&quot;]/img[1]</value>
+      <webElementGuid>84eee0d5-14b0-42bb-a082-d3f63614b874</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='todoItems123']/a/img</value>
+      <webElementGuid>4d2d6375-45fe-4a6b-a1da-916d5031d5f0</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//div[2]/div/a/img</value>
+      <webElementGuid>a9a9aa06-3c7b-43f2-bb20-f3c6d48d6688</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//img[@src = 'images/v10/todo.png']</value>
+      <webElementGuid>6e21a2ad-f69f-43a2-aafa-c16514bb42c5</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

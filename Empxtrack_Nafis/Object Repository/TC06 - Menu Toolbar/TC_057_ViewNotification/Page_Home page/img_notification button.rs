@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>img_notification button</name>
+   <tag></tag>
+   <elementGuidId>d5db8e77-efa0-4b21-ba36-82e76c9f45e4</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>CSS</key>
+         <value>#notificationItems123 > a.pull-right > img</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[@id='notificationItems123']/a/img</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>img</value>
+      <webElementGuid>8517f7da-7426-4375-ade2-dc30e10b2419</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>src</name>
+      <type>Main</type>
+      <value>images/v10/notification.png</value>
+      <webElementGuid>4014cd28-f094-4daf-aecf-40eae20c62bc</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;notificationItems123&quot;)/a[@class=&quot;pull-right&quot;]/img[1]</value>
+      <webElementGuid>57979895-b0d9-42e0-a0ec-464efd687f63</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='notificationItems123']/a/img</value>
+      <webElementGuid>d64b1f94-474a-4476-89a7-0cf0cb1dcae0</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//div[3]/a/img</value>
+      <webElementGuid>ad00bfec-3a71-4cbb-a233-8a018ddf6daa</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//img[@src = 'images/v10/notification.png']</value>
+      <webElementGuid>dca89e6f-2c4c-4395-b7f9-01b266c7b9cc</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>
