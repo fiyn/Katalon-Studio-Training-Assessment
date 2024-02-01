@@ -17,7 +17,7 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
-WebUI.callTestCase(findTestCase('TC05 - Self Services/01 - Profile/TC_040_ViewProfile'), [:], FailureHandling.STOP_ON_FAILURE)
+WebUI.callTestCase(findTestCase('TC05 - Self Services/01 - Profile/01 - Positive/TC_040_ViewProfile'), [:], FailureHandling.STOP_ON_FAILURE)
 
 WebUI.waitForElementVisible(findTestObject('TC05 - Self Services/01 - Profile/TC_041_ViewProfileFullPage/Page_Home page/a_View in full page'), 
     2)
