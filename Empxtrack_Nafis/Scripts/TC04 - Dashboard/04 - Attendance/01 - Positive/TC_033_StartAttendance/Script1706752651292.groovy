@@ -24,3 +24,5 @@ WebUI.maximizeWindow()
 
 WebUI.click(findTestObject('TC04 - Dashboard/04 - Attendance/TC_033_StartAttendance/Page_Home page/a_Start Attendance'))
 
+WebUI.delay(2)
+
