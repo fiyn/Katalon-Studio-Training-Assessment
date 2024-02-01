@@ -1,0 +1,143 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>select_Lang Proficiency</name>
+   <tag></tag>
+   <elementGuidId>99400c6a-b1cf-4a78-a43a-8e01c64bf547</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>CSS</key>
+         <value>#languageProficiency</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//select[@name = 'dataObject.languageProficiency' and @id = 'languageProficiency' and (text() = 'Basic KnowledgeOralWritten and OralExpert' or . = 'Basic KnowledgeOralWritten and OralExpert')]</value>
+      </entry>
+      <entry>
+         <key>BASIC</key>
+         <value>//*[@id = 'languageProficiency' and @class = 'form-control' and @ref_element = 'Object Repository/TC05 - Self Services/01 - Profile/TC_042_AddProfileDetails/Page_Home page/iframe_Self services_homePageFrame']</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>BASIC</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>select</value>
+      <webElementGuid>7ed3accd-3c4c-4759-9bdd-829d750fb582</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>name</name>
+      <type>Main</type>
+      <value>dataObject.languageProficiency</value>
+      <webElementGuid>f6fe69bc-8e05-4bb6-bdb3-b108fa6d37a5</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>id</name>
+      <type>Main</type>
+      <value>languageProficiency</value>
+      <webElementGuid>2ed8b198-37d5-46e7-8a3b-7a7f7a8ec6c2</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>form-control</value>
+      <webElementGuid>e04b58ef-110a-45b4-8490-ff43de7212ed</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>Basic KnowledgeOralWritten and OralExpert</value>
+      <webElementGuid>29f5cbd7-f454-4817-88b7-ebc20113a05d</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;languageProficiency&quot;)</value>
+      <webElementGuid>e5927ad5-4302-4df2-8704-13f9b3ff55a9</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>ref_element</name>
+      <type>Main</type>
+      <value>Object Repository/TC05 - Self Services/01 - Profile/TC_042_AddProfileDetails/Page_Home page/iframe_Self services_homePageFrame</value>
+      <webElementGuid>8ed89bfb-6e54-4c7f-a0ca-8a28490a54cd</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:attributes</name>
+      <type>Main</type>
+      <value>//select[@id='languageProficiency']</value>
+      <webElementGuid>af53111b-1043-47e9-a62a-b6839c245810</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='modal-dialog-empxtrack']/div/div/div/div[2]/div[2]/div/div[2]/select</value>
+      <webElementGuid>41415eff-2239-44e9-8b34-df1337af7ca6</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Proficiency'])[1]/following::select[1]</value>
+      <webElementGuid>a64a465a-fa9b-44ec-b593-92446d1d2775</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Language details'])[1]/following::select[2]</value>
+      <webElementGuid>2e57061d-c4de-4446-9fea-c678c732cd75</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='More details'])[1]/preceding::select[1]</value>
+      <webElementGuid>73eae234-8570-4546-a4e1-03b5c160c976</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Save'])[1]/preceding::select[1]</value>
+      <webElementGuid>7750f7ec-5708-451c-93b5-8def6854def5</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//div[2]/select</value>
+      <webElementGuid>e1b5878c-b1ce-494b-abe7-38c77249d1ff</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//select[@name = 'dataObject.languageProficiency' and @id = 'languageProficiency' and (text() = 'Basic KnowledgeOralWritten and OralExpert' or . = 'Basic KnowledgeOralWritten and OralExpert')]</value>
+      <webElementGuid>6e757403-b929-4b1a-9070-84d489ec5b16</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

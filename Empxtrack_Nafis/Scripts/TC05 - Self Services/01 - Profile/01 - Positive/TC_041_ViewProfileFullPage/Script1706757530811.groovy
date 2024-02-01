@@ -17,29 +17,17 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
-WebUI.openBrowser('')
+WebUI.callTestCase(findTestCase('TC05 - Self Services/01 - Profile/TC_040_ViewProfile'), [:], FailureHandling.STOP_ON_FAILURE)
 
-WebUI.navigateToUrl(urlAddress)
+WebUI.waitForElementVisible(findTestObject('TC05 - Self Services/01 - Profile/TC_041_ViewProfileFullPage/Page_Home page/a_View in full page'), 
+    2)
 
-WebUI.setText(findTestObject('Object Repository/TC01 - Login/Page_Empxtrack logon/input_If checked, login details will not be_5dd927'), 
-    username)
+WebUI.click(findTestObject('TC05 - Self Services/01 - Profile/TC_041_ViewProfileFullPage/Page_Home page/a_View in full page'))
 
-WebUI.setEncryptedText(findTestObject('Object Repository/TC01 - Login/Page_Empxtrack logon/input_If checked, login details will not be_5c5f06'), 
-    password)
+WebUI.waitForElementVisible(findTestObject('TC05 - Self Services/01 - Profile/TC_041_ViewProfileFullPage/Page_Home page/dispcontentlargefontname_Full View Mr.emp 01'), 
+    2)
 
-WebUI.click(findTestObject('Object Repository/TC01 - Login/Page_Empxtrack logon/input_If checked, login details will not be_b1d379'))
+WebUI.verifyElementVisible(findTestObject('TC05 - Self Services/01 - Profile/TC_041_ViewProfileFullPage/Page_Home page/dispcontentlargefontname_Full View Mr.emp 01'))
 
-WebUI.click(findTestObject('Object Repository/TC01 - Login/Page_Empxtrack logon/input_submit'))
-
-WebUI.delay(2)
-
-ifPopupVisible = WebUI.waitForElementVisible(findTestObject('TC01 - Login/Page_Home page/span_Close Pop-up'), 0)
-
-if (ifPopupVisible) {
-    WebUI.click(findTestObject('TC01 - Login/Page_Home page/span_Close Pop-up'))
-
-    WebUI.verifyElementVisible(findTestObject('Object Repository/TC01 - Login/Page_Home page/div_Good morningemp,'))
-} else {
-    WebUI.verifyElementVisible(findTestObject('Object Repository/TC01 - Login/Page_Home page/div_Good morningemp,'))
-}
+WebUI.delay(5)
 

@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Users successfully view changes to profile data (eye icon on top right)</description>
+   <name>TC_044_ViewProfileChange</name>
+   <tag>positive, profile, change</tag>
+   <comment></comment>
+   <testCaseGuid>f9da2bc8-cd0e-4897-a7ed-c68c91753729</testCaseGuid>
+</TestCaseEntity>

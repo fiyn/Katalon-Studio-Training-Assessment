@@ -17,29 +17,3 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
-WebUI.openBrowser('')
-
-WebUI.navigateToUrl(urlAddress)
-
-WebUI.setText(findTestObject('Object Repository/TC01 - Login/Page_Empxtrack logon/input_If checked, login details will not be_5dd927'), 
-    username)
-
-WebUI.setEncryptedText(findTestObject('Object Repository/TC01 - Login/Page_Empxtrack logon/input_If checked, login details will not be_5c5f06'), 
-    password)
-
-WebUI.click(findTestObject('Object Repository/TC01 - Login/Page_Empxtrack logon/input_If checked, login details will not be_b1d379'))
-
-WebUI.click(findTestObject('Object Repository/TC01 - Login/Page_Empxtrack logon/input_submit'))
-
-WebUI.delay(2)
-
-ifPopupVisible = WebUI.waitForElementVisible(findTestObject('TC01 - Login/Page_Home page/span_Close Pop-up'), 0)
-
-if (ifPopupVisible) {
-    WebUI.click(findTestObject('TC01 - Login/Page_Home page/span_Close Pop-up'))
-
-    WebUI.verifyElementVisible(findTestObject('Object Repository/TC01 - Login/Page_Home page/div_Good morningemp,'))
-} else {
-    WebUI.verifyElementVisible(findTestObject('Object Repository/TC01 - Login/Page_Home page/div_Good morningemp,'))
-}
-

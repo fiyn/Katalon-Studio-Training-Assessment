@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Users successfully add any of the FIVE detail types (e.g. Hobbies, Permanent address, Education, etc.) in the profile</description>
+   <name>TC_042_AddProfileDetails</name>
+   <tag>positive, add details, profile</tag>
+   <comment></comment>
+   <testCaseGuid>f2c8b790-b9d5-4da3-a3a7-17e78af1e344</testCaseGuid>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>37341ea4-97b7-45d8-89f7-111993200acb</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>6813fbf5-49da-4731-8ede-35cc40a52c2a</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>ae2867bf-284d-4e2c-815b-17e92543ca9e</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>e239f605-1577-4cae-bc69-0cb10e3facde</variableId>
+   </variableLinks>
+   <variable>
+      <defaultValue>'Fishing'</defaultValue>
+      <description></description>
+      <id>37341ea4-97b7-45d8-89f7-111993200acb</id>
+      <masked>false</masked>
+      <name>hobby</name>
+   </variable>
+   <variable>
+      <defaultValue>'Hindi'</defaultValue>
+      <description></description>
+      <id>6813fbf5-49da-4731-8ede-35cc40a52c2a</id>
+      <masked>false</masked>
+      <name>langDetails</name>
+   </variable>
+   <variable>
+      <defaultValue>'Expert'</defaultValue>
+      <description></description>
+      <id>ae2867bf-284d-4e2c-815b-17e92543ca9e</id>
+      <masked>false</masked>
+      <name>langProficiency</name>
+   </variable>
+   <variable>
+      <defaultValue>'damn good'</defaultValue>
+      <description></description>
+      <id>e239f605-1577-4cae-bc69-0cb10e3facde</id>
+      <masked>false</masked>
+      <name>langMoreDetails</name>
+   </variable>
+</TestCaseEntity>
