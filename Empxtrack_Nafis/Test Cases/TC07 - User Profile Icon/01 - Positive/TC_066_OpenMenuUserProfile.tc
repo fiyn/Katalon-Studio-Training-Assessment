@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Users successfully clicked on user profile icon to open menu</description>
+   <name>TC_066_OpenMenuUserProfile</name>
+   <tag>positive, user profile icon</tag>
+   <comment></comment>
+   <testCaseGuid>ebc990dd-ffc4-490e-9cbc-d639c92dbb56</testCaseGuid>
+</TestCaseEntity>

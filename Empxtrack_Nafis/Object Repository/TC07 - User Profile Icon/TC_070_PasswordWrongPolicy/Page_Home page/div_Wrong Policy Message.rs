@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>div_Wrong Policy Message</name>
+   <tag></tag>
+   <elementGuidId>b34334e3-b82b-44f6-a326-a96490c4e453</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>CSS</key>
+         <value>div.bootstrap-dialog-message</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[(text() = 'Invalid password. Policy: Mix of numeric, lower case and upper case characters with minimum length of 6 characters.' or . = 'Invalid password. Policy: Mix of numeric, lower case and upper case characters with minimum length of 6 characters.')]</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>div</value>
+      <webElementGuid>003fc4b9-cf6c-492d-98ec-53d2afd8cebf</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>bootstrap-dialog-message</value>
+      <webElementGuid>98af738b-fdda-413f-a8bf-4fc4967af2ce</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>Invalid password. Policy: Mix of numeric, lower case and upper case characters with minimum length of 6 characters.</value>
+      <webElementGuid>e72087ce-3db6-4036-9fda-21906d4242c4</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;1f91608c-8324-4dc2-b109-a94c7d2b0274&quot;)/div[@class=&quot;modal-dialog&quot;]/div[@class=&quot;modal-content&quot;]/div[@class=&quot;modal-body&quot;]/div[@class=&quot;bootstrap-dialog-body&quot;]/div[@class=&quot;bootstrap-dialog-message&quot;]</value>
+      <webElementGuid>73114d0d-7095-4e0f-84a3-34520bb8c166</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>ref_element</name>
+      <type>Main</type>
+      <value>Object Repository/TC07 - User Profile Icon/TC_070_PasswordWrongPolicy/Page_Home page/iframe__mycontent-right-frame</value>
+      <webElementGuid>15b16f80-c3ca-4ddb-8001-f9da34d4230f</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='1f91608c-8324-4dc2-b109-a94c7d2b0274']/div/div/div[2]/div/div</value>
+      <webElementGuid>ac972f7c-19d1-4ae2-addb-98dc89c236bd</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Confirmation!'])[1]/following::div[3]</value>
+      <webElementGuid>8019dd5a-97f7-4d1d-b3d8-b68d9065ed10</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='×'])[4]/following::div[4]</value>
+      <webElementGuid>e8c56301-0c97-46c3-94c6-85a88200f3f6</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Ok'])[1]/preceding::div[1]</value>
+      <webElementGuid>6a167dea-5db1-49d6-aeb8-41a9af5ae571</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>//*/text()[normalize-space(.)='Invalid password. Policy: Mix of numeric, lower case and upper case characters with minimum length of 6 characters.']/parent::*</value>
+      <webElementGuid>5c0b376c-8b26-4ccc-bb4c-d9d718178d8a</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//div/div[2]/div/div</value>
+      <webElementGuid>786b02e8-5fa7-426e-a99d-33a5f6e22445</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//div[(text() = 'Invalid password. Policy: Mix of numeric, lower case and upper case characters with minimum length of 6 characters.' or . = 'Invalid password. Policy: Mix of numeric, lower case and upper case characters with minimum length of 6 characters.')]</value>
+      <webElementGuid>4d20742d-70dc-42c4-9941-31dc8fc14642</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>
