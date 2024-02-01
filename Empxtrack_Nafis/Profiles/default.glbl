@@ -9,4 +9,14 @@
       <initValue>'https://hrportal.empxtrack.com/empxtrack/logon.do?location=testbitssdnbhd'</initValue>
       <name>urlAddress</name>
    </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'empxt.latihan01@yopmail.com'</initValue>
+      <name>username</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'cIjZX7FQSD5JPNYeXpMicQ=='</initValue>
+      <name>password</name>
+   </GlobalVariableEntity>
 </GlobalVariableEntities>

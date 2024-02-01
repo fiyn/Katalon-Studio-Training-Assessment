@@ -31,14 +31,14 @@
       <name>urlAddress</name>
    </variable>
    <variable>
-      <defaultValue>'empxt.latihan01@yopmail.com'</defaultValue>
+      <defaultValue>GlobalVariable.username</defaultValue>
       <description></description>
       <id>3bb4dc43-a95b-4b40-a980-4300fe58b684</id>
       <masked>false</masked>
       <name>username</name>
    </variable>
    <variable>
-      <defaultValue>'cIjZX7FQSD5JPNYeXpMicQ=='</defaultValue>
+      <defaultValue>GlobalVariable.password</defaultValue>
       <description></description>
       <id>94461568-3e60-4b52-8565-9201a73737ba</id>
       <masked>false</masked>
