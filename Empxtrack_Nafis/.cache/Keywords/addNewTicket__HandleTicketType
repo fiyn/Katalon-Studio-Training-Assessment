@@ -1,14 +1,14 @@
 {
-  "keywordFileContentHash": "B23F69ADBC653792D0ECE6C814B8FB0D",
+  "keywordFileContentHash": "E014924128AD03129B8A6CCB43EAE75C",
   "keywordClasses": [
     {
-      "name": "addNewEvent.TimezoneHandler",
+      "name": "addNewTicket.HandleTicketType",
       "keywordMethods": [
         {
-          "name": "setTimezone",
+          "name": "setTicketType",
           "parameters": [
             {
-              "name": "timezone",
+              "name": "ticket",
               "initialExpression": "",
               "type": {
                 "fullClassName": "java.lang.String",
@@ -21,7 +21,7 @@
               }
             }
           ],
-          "javadoc": "/**\n\t * Decide Timezone based on user input\n\t */"
+          "javadoc": "/**\r\n\t * Set Ticket Type\r\n\t */"
         }
       ]
     }

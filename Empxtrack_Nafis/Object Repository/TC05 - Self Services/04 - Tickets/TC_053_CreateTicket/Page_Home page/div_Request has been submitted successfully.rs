@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>div_Request has been submitted successfully</name>
+   <tag></tag>
+   <elementGuidId>ff681c75-6c32-4608-8c43-ece82b1d0b15</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>CSS</key>
+         <value>div.msgContent</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[@id='snackbar']/div</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>div</value>
+      <webElementGuid>80887e3c-1e9a-49bf-82d5-e8516c1a1c3a</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>msgContent</value>
+      <webElementGuid>8a633484-9a3f-4a51-b5a6-ae89879219a2</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>Request has been submitted successfully.</value>
+      <webElementGuid>b36e21b7-3ed3-4a19-a867-09fe1791229f</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;snackbar&quot;)/div[@class=&quot;msgContent&quot;]</value>
+      <webElementGuid>616f3656-bd1e-4621-bc58-cc0196ea1dbc</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>ref_element</name>
+      <type>Main</type>
+      <value>Object Repository/TC05 - Self Services/04 - Tickets/TC_053_CreateTicket/Page_Home page/iframe_Self services_homePageFrame (1)</value>
+      <webElementGuid>43450b54-1afe-46aa-bf70-1b2ac7132f94</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='snackbar']/div</value>
+      <webElementGuid>0d37eb3e-4963-45a7-bb9b-602f3ce1dd91</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Privacy policy'])[1]/following::div[16]</value>
+      <webElementGuid>43e2d355-e245-4383-9e2c-adfc50a34484</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Terms of services'])[1]/following::div[16]</value>
+      <webElementGuid>cf437d59-32d8-4353-95e8-485bc4f26447</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='×'])[3]/preceding::div[1]</value>
+      <webElementGuid>c4bdaa39-8647-40c2-ad16-18da209c451f</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)=concat('id(', '&quot;', 'snackbar', '&quot;', ')/div[@class=', '&quot;', 'msgContent', '&quot;', ']')])[1]/preceding::div[17]</value>
+      <webElementGuid>fd9eff1e-d868-4ea8-8cab-c30ce53b9107</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>//*/text()[normalize-space(.)='Request has been submitted successfully.']/parent::*</value>
+      <webElementGuid>0f81b17d-daf1-4bd7-b143-0085e16cfa57</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//div[5]/div</value>
+      <webElementGuid>fb0352d4-5bc4-4c29-a3b3-ab1df2d5a91b</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//div[(text() = 'Request has been submitted successfully.' or . = 'Request has been submitted successfully.')]</value>
+      <webElementGuid>f3df384c-49fc-4535-9186-ce9608d35d84</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

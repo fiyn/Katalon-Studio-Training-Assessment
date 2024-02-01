@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Users successfully view My Tickets in full page</description>
+   <name>TC_052_ViewMyTicketFullPage</name>
+   <tag>positive, view ticket, full page</tag>
+   <comment></comment>
+   <testCaseGuid>6c531562-7791-481f-81fe-a97d4cf51d98</testCaseGuid>
+</TestCaseEntity>
