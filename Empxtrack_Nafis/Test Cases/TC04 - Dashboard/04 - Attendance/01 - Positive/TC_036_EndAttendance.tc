@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Users successfully end an attendance</description>
+   <name>TC_036_EndAttendance</name>
+   <tag>positive, end attendance, attendance</tag>
+   <comment></comment>
+   <testCaseGuid>d215954e-d629-4aac-9ea2-b04751acfb31</testCaseGuid>
+</TestCaseEntity>

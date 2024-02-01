@@ -1,0 +1,147 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>a_Start Attendance</name>
+   <tag></tag>
+   <elementGuidId>3695cacc-d153-484f-b684-b8d4a4712ae9</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>CSS</key>
+         <value>a.attendance-widget-btn</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//a[@onclick=&quot;markTodayAttendanceOnHomepage('31/01/2024', '1003783', 'S');return false;&quot;]</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>a</value>
+      <webElementGuid>1ddac654-31f8-498e-a8b8-e6a12318b149</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>href</name>
+      <type>Main</type>
+      <value>#</value>
+      <webElementGuid>e69c1965-60ed-41ee-a7bf-95989b57854d</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>onclick</name>
+      <type>Main</type>
+      <value>markTodayAttendanceOnHomepage('31/01/2024', '1003783', 'S');return false;</value>
+      <webElementGuid>9ed43da3-8365-423e-a80a-beba570b51dd</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>alt</name>
+      <type>Main</type>
+      <value>Start</value>
+      <webElementGuid>6245db89-cc26-452d-a5eb-8cb0b5c46fa2</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>attendance-widget-btn</value>
+      <webElementGuid>e6f21468-35dd-4078-8041-fc83ca33205f</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value> Start    </value>
+      <webElementGuid>1a5526e2-794b-41da-b8bd-b8dd7e14317a</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;attendance_content&quot;)/a[@class=&quot;attendance-widget-btn&quot;]</value>
+      <webElementGuid>67312cc3-fce7-4ffa-acc0-5400a49b8b91</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>ref_element</name>
+      <type>Main</type>
+      <value>Object Repository/TC04 - Dashboard/04 - Attendance/TC_033_StartAttendance/Page_Home page/iframe_Self services_homePageFrame</value>
+      <webElementGuid>40c2a3ff-4108-40fb-a979-da8e7f3d90f5</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:attributes</name>
+      <type>Main</type>
+      <value>//a[@onclick=&quot;markTodayAttendanceOnHomepage('31/01/2024', '1003783', 'S');return false;&quot;]</value>
+      <webElementGuid>3831c655-46bd-450a-b01e-865de0832758</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='attendance_content']/a</value>
+      <webElementGuid>0e73f903-ee5f-4c6b-9eaf-aed8f315be50</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Total hours'])[1]/following::a[1]</value>
+      <webElementGuid>238ab582-df60-4d9d-8bc9-2a1a0d4d1727</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='--'])[2]/following::a[1]</value>
+      <webElementGuid>7fd4152f-2f95-49f8-9d07-259fad99242b</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Leave'])[1]/preceding::a[1]</value>
+      <webElementGuid>7152f11e-1348-46cc-98a3-5f67487eda2c</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:href</name>
+      <type>Main</type>
+      <value>(//a[contains(@href, '#')])[11]</value>
+      <webElementGuid>d083a9d3-9d30-4210-a14c-d5e748a2dc14</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//div[3]/div/div[2]/div/a</value>
+      <webElementGuid>a5d01f1c-2d7b-4078-97af-25a1eb88262f</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//a[@href = '#' and @alt = 'Start' and (text() = ' Start    ' or . = ' Start    ')]</value>
+      <webElementGuid>d3e2ddaa-c05e-430e-9189-ace838f0c5ae</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

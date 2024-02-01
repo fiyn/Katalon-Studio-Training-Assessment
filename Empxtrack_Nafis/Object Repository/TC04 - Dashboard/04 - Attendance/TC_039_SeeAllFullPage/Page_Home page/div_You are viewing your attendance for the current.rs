@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>div_You are viewing your attendance for the current</name>
+   <tag></tag>
+   <elementGuidId>54bfcea3-708c-4a0c-8543-c88a77faffaf</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>CSS</key>
+         <value>#renderTipId</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[@id='renderTipId']</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>div</value>
+      <webElementGuid>60499207-8d95-4eef-997b-2c4124fa560b</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>id</name>
+      <type>Main</type>
+      <value>renderTipId</value>
+      <webElementGuid>02577b7b-818d-4a18-8427-53dd885516d5</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>alert alert-help</value>
+      <webElementGuid>d55c7b2a-a5ec-426c-a0aa-7c547b26417a</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>You are viewing your attendance for the current month. Each day has a status that maps to the entries for the day. Click on any date to view details for the date. You can regularize the attendance for a current or past day, apply for leave or view the holiday calendar. Click on View details link in Effective days worked section to get a summary of attendance.</value>
+      <webElementGuid>53386518-19d7-49ed-b8e4-e39ce07acc1f</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;renderTipId&quot;)</value>
+      <webElementGuid>caf6418b-847b-4c4d-8d88-0d5eafbede18</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>ref_element</name>
+      <type>Main</type>
+      <value>Object Repository/TC04 - Dashboard/04 - Attendance/TC_039_SeeAllFullPage/Page_Home page/iframe_Self services_homePageFrame</value>
+      <webElementGuid>63b949a0-667f-49c1-9f0a-d91eac0e56cf</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:attributes</name>
+      <type>Main</type>
+      <value>//div[@id='renderTipId']</value>
+      <webElementGuid>7265557f-6ca2-4c93-a84a-0da8171ed7dd</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='displayPageContent']/div[2]/div</value>
+      <webElementGuid>eb0bf1ff-f6c8-41f9-b8d8-6aefacc4f2ab</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Help'])[1]/following::div[5]</value>
+      <webElementGuid>983aa3ef-525f-4d43-9003-5f1bdf268f25</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Attendance'])[1]/following::div[9]</value>
+      <webElementGuid>2404370a-efb5-4f94-a3da-262dc7432dd3</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='This is the default assigned shift. To change the shift, regularize attendance for the day.'])[1]/preceding::div[8]</value>
+      <webElementGuid>ef286a70-07f8-4488-8bf1-f74b5aea8cb9</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>//*/text()[normalize-space(.)='You are viewing your attendance for the current month. Each day has a status that maps to the entries for the day. Click on any date to view details for the date. You can regularize the attendance for a current or past day, apply for leave or view the holiday calendar. Click on View details link in Effective days worked section to get a summary of attendance.']/parent::*</value>
+      <webElementGuid>de0a0ed1-60c6-40fe-be2b-23679990f00c</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//div[2]/div[2]/div</value>
+      <webElementGuid>2db27dbd-77bb-469c-8e72-b239c5cfa880</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//div[@id = 'renderTipId' and (text() = 'You are viewing your attendance for the current month. Each day has a status that maps to the entries for the day. Click on any date to view details for the date. You can regularize the attendance for a current or past day, apply for leave or view the holiday calendar. Click on View details link in Effective days worked section to get a summary of attendance.' or . = 'You are viewing your attendance for the current month. Each day has a status that maps to the entries for the day. Click on any date to view details for the date. You can regularize the attendance for a current or past day, apply for leave or view the holiday calendar. Click on View details link in Effective days worked section to get a summary of attendance.')]</value>
+      <webElementGuid>48f747dc-8372-40fe-8d30-fff546ea83a9</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>a_Resume work</name>
+   <tag></tag>
+   <elementGuidId>6b33ab6c-6c9b-420e-a678-37cc4116f0dd</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>CSS</key>
+         <value>a.attendance-widget-btn</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//a[@href = '#' and (text() = ' Resume work   ' or . = ' Resume work   ')]</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>a</value>
+      <webElementGuid>e2a075ed-9a17-44b9-93cc-f5f96b0f147c</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>href</name>
+      <type>Main</type>
+      <value>#</value>
+      <webElementGuid>423380bc-92d2-4b95-b27c-759eee1b8c2f</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>onclick</name>
+      <type>Main</type>
+      <value>markTodayAttendanceOnHomepage('31/01/2024','1003783','R');return false;</value>
+      <webElementGuid>e7199ca7-ffc9-476c-908b-3cc30ec3ba10</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>attendance-widget-btn</value>
+      <webElementGuid>daf2d943-b77a-4315-9a00-65b12cdc5b21</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value> Resume work   </value>
+      <webElementGuid>d625adea-b6f5-44b7-afdf-34b22fd5adb0</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;attendance_content&quot;)/a[@class=&quot;attendance-widget-btn&quot;]</value>
+      <webElementGuid>0f1c8f8f-e818-4c4d-98d3-1059769e9a65</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>ref_element</name>
+      <type>Main</type>
+      <value>Object Repository/TC04 - Dashboard/04 - Attendance/TC_035_ResumeWork/Page_Home page/iframe_Self services_homePageFrame</value>
+      <webElementGuid>bb202d94-17a3-4bac-a5df-68e22924194f</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:attributes</name>
+      <type>Main</type>
+      <value>//a[@onclick=&quot;markTodayAttendanceOnHomepage('31/01/2024','1003783','R');return false;&quot;]</value>
+      <webElementGuid>f0fa93a3-7d45-4943-9422-cc55531cc144</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='attendance_content']/a</value>
+      <webElementGuid>fe0c12fc-a8d5-44e1-9d7f-7c5feddcee88</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Total hours'])[1]/following::a[1]</value>
+      <webElementGuid>c47119d7-cbb0-4d6b-8343-2b87cf7ff31c</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='--'])[2]/following::a[1]</value>
+      <webElementGuid>07670650-98a1-4909-bf4c-43d208a02533</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:href</name>
+      <type>Main</type>
+      <value>(//a[contains(@href, '#')])[11]</value>
+      <webElementGuid>9914abdc-5ac6-4c3a-93b7-5e99c726d303</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//div[3]/div/div[2]/div/a</value>
+      <webElementGuid>c88ed5cd-de6a-409f-82f1-a690f9fe230c</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//a[@href = '#' and (text() = ' Resume work   ' or . = ' Resume work   ')]</value>
+      <webElementGuid>8ede85a1-b4a7-4983-a62b-120057d519d3</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

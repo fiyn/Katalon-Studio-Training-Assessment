@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Users successfully resume work</description>
+   <name>TC_035_ResumeWork</name>
+   <tag>positive, resume work, attendance</tag>
+   <comment></comment>
+   <testCaseGuid>b8df44ac-19bf-44d5-9b0f-a5f614742aa8</testCaseGuid>
+</TestCaseEntity>

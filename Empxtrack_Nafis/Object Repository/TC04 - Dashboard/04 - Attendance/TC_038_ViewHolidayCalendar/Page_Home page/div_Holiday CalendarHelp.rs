@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>div_Holiday CalendarHelp</name>
+   <tag></tag>
+   <elementGuidId>e98bcb0f-ac6d-4970-86e2-bcf9e89b4c45</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>CSS</key>
+         <value>#display_page_title</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[@id='display_page_title']</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>div</value>
+      <webElementGuid>7cc1ce55-2d43-4a90-86c9-f84bb000409f</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>id</name>
+      <type>Main</type>
+      <value>display_page_title</value>
+      <webElementGuid>8e89468e-e9d6-4af7-8aba-5d8c561c0626</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>Holiday Calendar  Help</value>
+      <webElementGuid>db7cb9fd-8c9e-4656-be13-5ddf4b3a5525</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;display_page_title&quot;)</value>
+      <webElementGuid>4271df18-d5e6-4329-a80d-9c411ba83f3e</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:attributes</name>
+      <type>Main</type>
+      <value>//div[@id='display_page_title']</value>
+      <webElementGuid>73fdece4-6601-4ebd-86bb-052d99c17606</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='show_hide_page_title']/div/div</value>
+      <webElementGuid>e54162a1-2e90-4a93-80a0-b921d0e8a8b7</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Self services'])[1]/following::div[10]</value>
+      <webElementGuid>f1823bf8-9b04-4c40-99a3-39810e487a68</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Dashboards'])[1]/following::div[13]</value>
+      <webElementGuid>6bcad437-d635-4dd7-b639-96b4783e006f</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='×'])[1]/preceding::div[5]</value>
+      <webElementGuid>d9d40a02-c8ac-45f4-90e8-26f879913636</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//div[3]/div[3]/div/div/div</value>
+      <webElementGuid>bc8e46db-82ff-4d8d-ab74-2db3c1484c0a</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//div[@id = 'display_page_title' and (text() = 'Holiday Calendar  Help' or . = 'Holiday Calendar  Help')]</value>
+      <webElementGuid>83f828a7-073e-4d74-96b0-0e2c3ca7c843</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

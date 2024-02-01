@@ -1,0 +1,139 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>a_End day</name>
+   <tag></tag>
+   <elementGuidId>090ff348-bc84-4fd2-b8a9-afc3dee1aaa0</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>CSS</key>
+         <value>a.attendance-widget-endbtn</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//a[@href = '#' and @alt = 'End day' and (text() = ' End day  ' or . = ' End day  ')]</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>a</value>
+      <webElementGuid>913ce0d3-efb9-469e-b7e4-3238c014acd4</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>href</name>
+      <type>Main</type>
+      <value>#</value>
+      <webElementGuid>91427989-e180-4e44-8784-921e8fbf4231</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>onclick</name>
+      <type>Main</type>
+      <value>confirmToEndDayOnHomePage('31/01/2024','1003783','E');return false;</value>
+      <webElementGuid>69ac9180-8e35-4eff-8fb1-b3ce67fec16f</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>alt</name>
+      <type>Main</type>
+      <value>End day</value>
+      <webElementGuid>8592daae-ba0c-4843-aebb-62d7c648b8e8</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>attendance-widget-endbtn</value>
+      <webElementGuid>4a685141-931c-4aa4-8b55-fe4a97ecd5de</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value> End day  </value>
+      <webElementGuid>a9861e17-20ec-4b6b-857b-5f44fb7ba9cf</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;attendance_content&quot;)/a[@class=&quot;attendance-widget-endbtn&quot;]</value>
+      <webElementGuid>a5920120-da32-4245-97f9-17d9c409424b</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>ref_element</name>
+      <type>Main</type>
+      <value>Object Repository/TC04 - Dashboard/04 - Attendance/TC_036_EndAttendance/Page_Home page/iframe_Self services_homePageFrame</value>
+      <webElementGuid>19ca1cd4-f79a-4a99-8669-d88881ffdedf</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:attributes</name>
+      <type>Main</type>
+      <value>//a[@onclick=&quot;confirmToEndDayOnHomePage('31/01/2024','1003783','E');return false;&quot;]</value>
+      <webElementGuid>2f18dc7d-8dcd-4d65-8c71-c7c69499df5c</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='attendance_content']/a[2]</value>
+      <webElementGuid>8f4a5067-bdf2-47ed-909b-929f8e3d4ee0</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Total hours'])[1]/following::a[2]</value>
+      <webElementGuid>19e6b7c4-5be6-4a1f-9cb7-4aeaddf4e8ff</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Leave'])[1]/preceding::a[1]</value>
+      <webElementGuid>0f920101-8efb-4440-bede-db39bd4c5db8</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:href</name>
+      <type>Main</type>
+      <value>(//a[contains(@href, '#')])[12]</value>
+      <webElementGuid>1aa8af6d-5f5a-4b30-8162-5d35e124e175</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//div[3]/div/div[2]/div/a[2]</value>
+      <webElementGuid>701327b3-47bf-498a-91bd-a7882d82a10c</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//a[@href = '#' and @alt = 'End day' and (text() = ' End day  ' or . = ' End day  ')]</value>
+      <webElementGuid>267c3c20-c426-4bc2-87e7-a43015b07414</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

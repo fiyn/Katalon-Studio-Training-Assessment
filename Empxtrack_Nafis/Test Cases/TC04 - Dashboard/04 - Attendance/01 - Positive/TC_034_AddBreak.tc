@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Users successfully trigger break time (Add break)</description>
+   <name>TC_034_AddBreak</name>
+   <tag>positive, add break, attendance</tag>
+   <comment></comment>
+   <testCaseGuid>34f69a51-be5d-4523-85f8-83a277bb3f8c</testCaseGuid>
+</TestCaseEntity>
