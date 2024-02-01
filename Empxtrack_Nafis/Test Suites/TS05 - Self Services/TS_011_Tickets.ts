@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestSuiteEntity>
+   <description></description>
+   <name>TS_011_Tickets</name>
+   <tag></tag>
+   <isRerun>false</isRerun>
+   <mailRecipient></mailRecipient>
+   <numberOfRerun>1</numberOfRerun>
+   <pageLoadTimeout>30</pageLoadTimeout>
+   <pageLoadTimeoutDefault>true</pageLoadTimeoutDefault>
+   <rerunFailedTestCasesOnly>false</rerunFailedTestCasesOnly>
+   <rerunImmediately>true</rerunImmediately>
+   <testSuiteGuid>2a65a0d7-6f7c-42c0-9fd7-5fc947a308c3</testSuiteGuid>
+   <testCaseLink>
+      <guid>d1456130-d584-4c3e-bff7-097005972a32</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/TC05 - Self Services/04 - Tickets/01 - Positive/TC_051_ViewMyTicket</testCaseId>
+      <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>10abb533-9529-4a9f-a2be-7cc506c3fb35</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/TC05 - Self Services/04 - Tickets/01 - Positive/TC_052_ViewMyTicketFullPage</testCaseId>
+      <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>a5c53878-17db-41ed-b5a7-5d3ae2a871e0</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/TC05 - Self Services/04 - Tickets/01 - Positive/TC_053_CreateTicket</testCaseId>
+      <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>9a548b98-ad58-438c-a2ac-92ed29a56112</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>eba96836-2366-4578-9b0f-d13f75c4177d</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>9c966449-55f8-4dd1-86f3-b791834abd10</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>799eda4e-c86a-459d-bc53-3ade0fdb9ff9</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>ddc9b8d7-d774-4bb9-afa0-a049626a1371</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>3fb9926e-c22b-458d-8b40-602176657c64</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>8d9a3468-0c9e-4373-bd37-cbdb7a7eba2f</variableId>
+      </variableLink>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>4e81090f-4dfa-4409-8f2b-008741701668</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/TC05 - Self Services/04 - Tickets/02 - Negative/TC_054_CreateTicketEmptyInfo</testCaseId>
+      <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>2985f490-fb0c-4312-bad2-2c0c4c21cd9d</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/TC05 - Self Services/04 - Tickets/01 - Positive/TC_055_SearchTicketID</testCaseId>
+      <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>5124e117-2c69-432a-833e-8d4fd5fc2af7</variableId>
+      </variableLink>
+   </testCaseLink>
+</TestSuiteEntity>

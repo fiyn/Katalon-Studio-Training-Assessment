@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestSuiteEntity>
+   <description></description>
+   <name>TS_013_User Profile Icon</name>
+   <tag></tag>
+   <isRerun>false</isRerun>
+   <mailRecipient></mailRecipient>
+   <numberOfRerun>1</numberOfRerun>
+   <pageLoadTimeout>30</pageLoadTimeout>
+   <pageLoadTimeoutDefault>true</pageLoadTimeoutDefault>
+   <rerunFailedTestCasesOnly>false</rerunFailedTestCasesOnly>
+   <rerunImmediately>true</rerunImmediately>
+   <testSuiteGuid>a3fdb5d5-fc45-4ffa-b67d-ef20fab49b72</testSuiteGuid>
+   <testCaseLink>
+      <guid>1116ca28-86c6-46de-ada8-d5db21dc38ec</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/TC07 - User Profile Icon/01 - Positive/TC_066_OpenMenuUserProfile</testCaseId>
+      <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>76c24839-373a-4b92-92dc-a20557008548</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/TC07 - User Profile Icon/01 - Positive/TC_067_UpdatePassword</testCaseId>
+      <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>491aa01a-24f3-4da2-99a7-26dc8d1fecfa</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>633439c1-1823-4498-8d2b-abab548d175c</variableId>
+      </variableLink>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>e7100830-85f9-44cc-9fbc-0df299dce622</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/TC07 - User Profile Icon/02 - Negative/TC_068_UpdateBlankPassword</testCaseId>
+      <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>99743ed4-287c-4eb5-bf52-0929811dd6dc</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/TC07 - User Profile Icon/02 - Negative/TC_069_PasswordNotMatching</testCaseId>
+      <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>491aa01a-24f3-4da2-99a7-26dc8d1fecfa</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>633439c1-1823-4498-8d2b-abab548d175c</variableId>
+      </variableLink>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>9694daf3-ffe1-41c6-b02f-383e87db346e</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/TC07 - User Profile Icon/02 - Negative/TC_070_PasswordWrongPolicy</testCaseId>
+      <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>491aa01a-24f3-4da2-99a7-26dc8d1fecfa</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>633439c1-1823-4498-8d2b-abab548d175c</variableId>
+      </variableLink>
+   </testCaseLink>
+</TestSuiteEntity>
