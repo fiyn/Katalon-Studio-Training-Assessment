@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Users successfully view Leave Policy</description>
+   <name>TC_047_ViewLeavePolicy</name>
+   <tag>positive, view leave policy</tag>
+   <comment></comment>
+   <testCaseGuid>a803a22b-0ef6-48dc-bd3c-50415ff4d849</testCaseGuid>
+</TestCaseEntity>

@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>h3_Leave</name>
+   <tag></tag>
+   <elementGuidId>36464547-2fc7-4d59-8f36-c874839f6544</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>CSS</key>
+         <value>div.mgr-right > div > h3</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[@id='drawMyLeaveDashBoards_container']/div/div/h3</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>h3</value>
+      <webElementGuid>8929092f-02dc-48e9-b037-affd6daaf1ee</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>Leave</value>
+      <webElementGuid>2310e0a6-6ead-4c5c-aef9-9d6cc2811bb3</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;drawMyLeaveDashBoards_container&quot;)/div[@class=&quot;mgr-right&quot;]/div[1]/h3[1]</value>
+      <webElementGuid>b6205aff-3882-4fb5-94cb-3f391bb8a1ff</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>ref_element</name>
+      <type>Main</type>
+      <value>Object Repository/TC05 - Self Services/02 - Leave/TC_045_ViewLeave/Page_Home page/iframe_Self services_homePageFrame</value>
+      <webElementGuid>d5052d8b-9b63-48db-b16f-c622900a1b7f</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='drawMyLeaveDashBoards_container']/div/div/h3</value>
+      <webElementGuid>ff9b1b21-3a59-4e46-a7fc-7ba698863972</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='View or Edit Profile'])[1]/following::h3[1]</value>
+      <webElementGuid>376045bb-0cb1-4aee-87b6-7efd7f8d54f4</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Apr'])[1]/preceding::h3[1]</value>
+      <webElementGuid>ad9273ff-3d00-433e-8731-c16fbb752c34</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='May'])[1]/preceding::h3[1]</value>
+      <webElementGuid>4883dd8e-5819-4d47-a505-b0328874bbbf</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//div[2]/div[2]/div/div/div/h3</value>
+      <webElementGuid>63e87316-9963-4a8f-a2fa-e927946e7be3</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//h3[(text() = 'Leave' or . = 'Leave')]</value>
+      <webElementGuid>ca5fcaee-3550-47a5-824d-cc9ff83f5760</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

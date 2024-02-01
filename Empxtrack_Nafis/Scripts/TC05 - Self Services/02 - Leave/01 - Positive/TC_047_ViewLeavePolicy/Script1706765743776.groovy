@@ -17,29 +17,21 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
-WebUI.openBrowser('')
+WebUI.callTestCase(findTestCase('TC01 - Login/01 - Positive/TC_001_Login'), [('urlAddress') : GlobalVariable.urlAddress, ('username') : GlobalVariable.username
+        , ('password') : GlobalVariable.password], FailureHandling.STOP_ON_FAILURE)
 
-WebUI.navigateToUrl(urlAddress)
+WebUI.maximizeWindow()
 
-WebUI.setText(findTestObject('Object Repository/TC01 - Login/Page_Empxtrack logon/input_If checked, login details will not be_5dd927'), 
-    username)
+WebUI.click(findTestObject('TC05 - Self Services/02 - Leave/TC_045_ViewLeave/Page_Home page/div_Self services side bar'))
 
-WebUI.setEncryptedText(findTestObject('Object Repository/TC01 - Login/Page_Empxtrack logon/input_If checked, login details will not be_5c5f06'), 
-    password)
+WebUI.scrollToElement(findTestObject('TC05 - Self Services/02 - Leave/TC_045_ViewLeave/Page_Home page/h3_Leave'), 0)
 
-WebUI.click(findTestObject('Object Repository/TC01 - Login/Page_Empxtrack logon/input_If checked, login details will not be_b1d379'))
+WebUI.verifyElementVisible(findTestObject('TC05 - Self Services/02 - Leave/TC_045_ViewLeave/Page_Home page/h3_Leave'))
 
-WebUI.click(findTestObject('Object Repository/TC01 - Login/Page_Empxtrack logon/input_submit'))
+WebUI.click(findTestObject('TC05 - Self Services/02 - Leave/TC_047_ViewLeavePolicy/Page_Home page/a_View Leave Policy'))
 
-ifPopupVisible = WebUI.waitForElementVisible(findTestObject('TC01 - Login/Page_Home page/span_Close Pop-up'), 0)
+WebUI.waitForElementVisible(findTestObject('TC05 - Self Services/02 - Leave/TC_047_ViewLeavePolicy/Page_Home page/div_Leave policyHelp'), 
+    0)
 
-not_run: if (ifPopupVisible) {
-    WebUI.click(findTestObject('TC01 - Login/Page_Home page/span_Close Pop-up'))
-
-    WebUI.verifyElementVisible(findTestObject('Object Repository/TC01 - Login/Page_Home page/div_Good morningemp,'))
-} else {
-    WebUI.verifyElementVisible(findTestObject('Object Repository/TC01 - Login/Page_Home page/div_Good morningemp,'))
-}
-
-WebUI.verifyElementVisible(findTestObject('Object Repository/TC01 - Login/Page_Home page/div_Good morningemp,'))
+WebUI.verifyElementVisible(findTestObject('TC05 - Self Services/02 - Leave/TC_047_ViewLeavePolicy/Page_Home page/div_Leave policyHelp'))
 

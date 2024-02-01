@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Users successfully cancel a pending leave request</description>
+   <name>TC_046_CancelPendingLeaveReq</name>
+   <tag>positive, cancel leave request</tag>
+   <comment></comment>
+   <testCaseGuid>f4ba4cbd-c333-47c6-b94a-5868c10ef04e</testCaseGuid>
+</TestCaseEntity>
